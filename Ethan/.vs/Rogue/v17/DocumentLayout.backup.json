@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\assets\\scripts\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\rogue\\rogue\\assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\rogue\\rogue\\assets\\scripts\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\assets\\scripts\\igrabbable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\igrabbable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Library\\PackageCache\\com.unity.collab-proxy@1ec4e416a4af\\Editor\\Developer\\UpdateReport\\UpdateReportDialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.collab-proxy@1ec4e416a4af\\Editor\\Developer\\UpdateReport\\UpdateReportDialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EFA203-A611-C8EC-1FC4-BA97FC308C43}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Door.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Door.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\Door.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Door.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T19:41:50.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PressureButton.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\PressureButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PressureButton.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\PressureButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PressureButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T19:39:28.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GrabbableObject.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\GrabbableObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GrabbableObject.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\GrabbableObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GrabbableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:42:37.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGrabbable.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\IGrabbable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IGrabbable.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\IGrabbable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IGrabbable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:42:03.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAD4v9MAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:08:40.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateReportDialog.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Library\\PackageCache\\com.unity.collab-proxy@1ec4e416a4af\\Editor\\Developer\\UpdateReport\\UpdateReportDialog.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.collab-proxy@1ec4e416a4af\\Editor\\Developer\\UpdateReport\\UpdateReportDialog.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Library\\PackageCache\\com.unity.collab-proxy@1ec4e416a4af\\Editor\\Developer\\UpdateReport\\UpdateReportDialog.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.collab-proxy@1ec4e416a4af\\Editor\\Developer\\UpdateReport\\UpdateReportDialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:02:43.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\Camera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\Rogue\\Rogue\\Assets\\Scripts\\Camera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:02:02.275Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
