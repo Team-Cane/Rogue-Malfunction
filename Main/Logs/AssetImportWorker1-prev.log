@@ -1,9 +1,16 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.7f1-2eb0c79396db' branch; Version is '6000.2.7f2 (2b518236b676) revision 2838914'; Using compiler version '194234433'; Build Type 'Release'
+<<<<<<< HEAD
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-Arian" at "2025-12-29T21:08:25.8972931Z"
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 65364 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 Date: 2025-12-29T21:08:25Z
+=======
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Phillip" at "2025-12-29T19:27:59.1332619Z"
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 32679 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-29T19:27:59Z
+>>>>>>> main
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Unity.exe
@@ -13,23 +20,27 @@ C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-E:/School/TFS/Game Jams/Term 4/placeholder/Main
+C:/Users/RX660/Desktop/Fall 2025 TFS Game Jam/placeholder/Main
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 54322
+=======
+55812
+>>>>>>> main
 -licensingIpc
-LicenseClient-Arian
+LicenseClient-Phillip
 -job-worker-count
-7
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: E:/School/TFS/Game Jams/Term 4/placeholder/Main
-E:/School/TFS/Game Jams/Term 4/placeholder/Main
+Successfully changed project path to: C:/Users/RX660/Desktop/Fall 2025 TFS Game Jam/placeholder/Main
+C:/Users/RX660/Desktop/Fall 2025 TFS Game Jam/placeholder/Main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -65,6 +76,7 @@ E:/School/TFS/Game Jams/Term 4/placeholder/Main
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [14448]  Target information:
 
 Player connection [14448]  * "[IP] 192.168.2.17 [Port] 0 [Flags] 2 [Guid] 200883918 [EditorId] 200883918 [Version] 1048832 [Id] WindowsEditor(7,Arian) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -72,19 +84,37 @@ Player connection [14448]  * "[IP] 192.168.2.17 [Port] 0 [Flags] 2 [Guid] 200883
 Player connection [14448] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [14448] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
+=======
+Player connection [34432]  Target information:
+
+Player connection [34432]  * "[IP] 192.168.2.69 [Port] 0 [Flags] 2 [Guid] 4087158180 [EditorId] 4087158180 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3E86C9U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34432] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34432] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+>>>>>>> main
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 27860, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 42148, path: "F:/Programs/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
+<<<<<<< HEAD
   Session Id:              34d9d338833f412d977f98631e1e2e3a
   Correlation Id:          7dabfce97fea3707617a6e1a6c34b1d0
   External correlation Id: 4337010089224757245
   Machine Id:              YX/y6zW7vNmZ47L0EI+KmknLH/Q=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Arian" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-Arian-notifications" at "2025-12-29T21:08:25.947829Z"
+=======
+  Session Id:              fc2b914f83a849ee9e3e1117c033d20d
+  Correlation Id:          976f4ecedd07c62b692d101bfc8eeefe
+  External correlation Id: 138252643176328191
+  Machine Id:              4xBRVfEaEdCD/i/7exWMopZQeww=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Phillip" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Phillip-notifications" at "2025-12-29T19:27:59.1852748Z"
+>>>>>>> main
 [Licensing::Module] Licensing Background thread has ended after 0.05s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -93,33 +123,47 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.7f2 (2b518236b676)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/School/TFS/Game Jams/Term 4/placeholder/Main/Assets
+[Subsystems] Discovering subsystems at path C:/Users/RX660/Desktop/Fall 2025 TFS Game Jam/placeholder/Main/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
-    Vendor:   NVIDIA
-    VRAM:     12084 MB
-    Driver:   32.0.15.9159
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   32.0.21030.2001
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+>>>>>>> main
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 3574319019429-UnityPersXXXX
+  Id: F4-UXBJ-HKKJ-KHXC-GWNW-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6483514-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.004115 seconds.
 - Loaded All Assemblies, in  0.390 seconds
 Native extension for Android target not found
@@ -129,11 +173,23 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.631 seconds
 Domain Reload Profiling: 1016ms
 	BeginReloadAssembly (118ms)
+=======
+Registered in 0.008181 seconds.
+- Loaded All Assemblies, in  0.573 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 581 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.218 seconds
+Domain Reload Profiling: 1785ms
+	BeginReloadAssembly (117ms)
+>>>>>>> main
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (42ms)
 	RebuildNativeTypeToScriptingClass (13ms)
 	initialDomainReloadingComplete (51ms)
@@ -155,6 +211,29 @@ Domain Reload Profiling: 1016ms
 			BeforeProcessingInitializeOnLoad (71ms)
 			ProcessInitializeOnLoadAttributes (114ms)
 			ProcessInitializeOnLoadMethodAttributes (56ms)
+=======
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (321ms)
+		LoadAssemblies (115ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (314ms)
+				TypeCache.ScanAssembly (291ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1218ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1147ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (772ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+>>>>>>> main
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -164,8 +243,23 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.759 seconds
 Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+=======
+[Licensing::Module] License group:
+  Id: F4-UXBJ-HKKJ-KHXC-GWNW-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6483514-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.121 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+>>>>>>> main
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -173,6 +267,7 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.723 seconds
 Domain Reload Profiling: 1477ms
 	BeginReloadAssembly (194ms)
@@ -220,10 +315,60 @@ Received Import Request.
   path: Assets/Prefabs
   artifactKey: Guid(ceebff6029c82d649981fd487a8b9a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs using Guid(ceebff6029c82d649981fd487a8b9a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a454f3a35d7799b1f4c7ce9c26b8fa8') in 0.0036356 seconds
+=======
+- Finished resetting the current domain, in  0.995 seconds
+Domain Reload Profiling: 2105ms
+	BeginReloadAssembly (290ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (700ms)
+		LoadAssemblies (493ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (258ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (995ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (719ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6164 unused Assets / (5.9 MB). Loaded Objects now: 6860.
+Memory consumption went from 130.9 MB to 125.0 MB.
+Total: 11.637500 ms (FindLiveObjects: 1.022700 ms CreateObjectMapping: 0.611600 ms MarkObjects: 6.927800 ms  DeleteObjects: 3.074300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 223540.146221 seconds.
+  path: Assets/EthanScripts/Tutorial/PressureButton.cs
+  artifactKey: Guid(b74238f26c7ce6c4baf043930544a097) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EthanScripts/Tutorial/PressureButton.cs using Guid(b74238f26c7ce6c4baf043930544a097) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e007246db74c1491f5476f213a2e8a7') in 0.2045523 seconds
+>>>>>>> main
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000016 seconds.
   path: Assets/Scenes/Ethan
   artifactKey: Guid(1125769e852090f4c80a85e1f04eb700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -236,18 +381,56 @@ Received Import Request.
   path: Assets/NoFrictionMat.physicMaterial
   artifactKey: Guid(2a8d80705a85e5f47a38b7c54f97321b) Importer(2089858483,192608db42251d675da83286b1cce702)
 Start importing Assets/NoFrictionMat.physicMaterial using Guid(2a8d80705a85e5f47a38b7c54f97321b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc6a928156327d0cea41b4f7d1c489da') in 0.2307548 seconds
+=======
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Tutorial/Bridge.prefab
+  artifactKey: Guid(b0f4ae7ea488e0e4d90e51a8fa73cde9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Tutorial/Bridge.prefab using Guid(b0f4ae7ea488e0e4d90e51a8fa73cde9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57c10094e0631876a3e0578553e7c382') in 0.0928121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bcc7806b4ac523867ca74775dcd0bfb') in 0.0479419 seconds
+>>>>>>> main
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000018 seconds.
   path: Assets/Prefabs/Tutorial/PressureButton.prefab
   artifactKey: Guid(857176e2faf915b409fc5b511068df29) Importer(2089858483,192608db42251d675da83286b1cce702)
 Start importing Assets/Prefabs/Tutorial/PressureButton.prefab using Guid(857176e2faf915b409fc5b511068df29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '769202dca41f7d51720549b55ec3b15d') in 0.0543312 seconds
+=======
+  Time since last request: 0.000034 seconds.
+  path: Assets/EthanScripts/Tutorial/GrabbableObject.cs
+  artifactKey: Guid(ba6541e6c3fb76848b06d9d1761d5312) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EthanScripts/Tutorial/GrabbableObject.cs using Guid(ba6541e6c3fb76848b06d9d1761d5312) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b04cc55688f75ac8699a8b6e7e81442') in 0.0192189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Tutorial/Door.prefab
+  artifactKey: Guid(b4ee1f7acd05c2e44aad71cf3017be1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Tutorial/Door.prefab using Guid(b4ee1f7acd05c2e44aad71cf3017be1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2bde101269ff45ba79a53c9a791af7c') in 0.0286637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Tutorial/PressureButton.prefab
+  artifactKey: Guid(74496fe710fb0e347aac27b38222fa9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Tutorial/PressureButton.prefab using Guid(74496fe710fb0e347aac27b38222fa9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '088f93bdd5f9a433049319087d8ea982') in 0.0297561 seconds
+>>>>>>> main
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000025 seconds.
   path: Assets/EthanScripts/Tutorial/Camera.cs
   artifactKey: Guid(53f9115326271844cae13d5839645fcb) Importer(2089858483,192608db42251d675da83286b1cce702)
@@ -268,10 +451,33 @@ Received Import Request.
   path: Assets/Settings/Mobile_RPAsset.asset
   artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
 Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cbba492e2710dba7a567f629abf35d1') in 0.059514 seconds
+=======
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b1a0281f3b01d7c165f72323d1613be') in 0.0610966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'deaa89ad3b17576ccc91ee42df2eb455') in 0.0183924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b212dbe964e5d8b451a26fe24a8805c') in 0.0185303 seconds
+>>>>>>> main
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000027 seconds.
   path: Assets/Settings/Mobile_Renderer.asset
   artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702)
@@ -364,6 +570,12 @@ Received Import Request.
   path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
   artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
 Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cbd31ab595117d98ee0e1a01003e81a') in 0.0978938 seconds
+=======
+  Time since last request: 0.000025 seconds.
+  path: Assets/EthanScripts/Tutorial/IGrabbable.cs
+  artifactKey: Guid(e17e01319ed31ea4d875dfa61fa472fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EthanScripts/Tutorial/IGrabbable.cs using Guid(e17e01319ed31ea4d875dfa61fa472fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de99bd762be0ca6977205771e27066e8') in 0.0178393 seconds
+>>>>>>> main
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
