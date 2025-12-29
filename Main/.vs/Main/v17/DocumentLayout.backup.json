@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:Assets\\EthanScripts\\GrabbableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\ethanscripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\ethanscripts\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\ethanscripts\\tutorial\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\tutorial\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\ethanscripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\ethanscripts\\tutorial\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\tutorial\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\ethanscripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EthanScripts\\GrabbableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:Assets\\EthanScripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EthanScripts\\Camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EthanScripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EthanScripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PressureButton.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PressureButton.cs",
-              "RelativeDocumentMoniker": "Assets\\EthanScripts\\PressureButton.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PressureButton.cs",
-              "RelativeToolTip": "Assets\\EthanScripts\\PressureButton.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwEgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAwwJ4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T20:14:28.797Z",
+              "WhenOpened": "2025-12-29T21:23:27.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PressureButton.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
+              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
+              "RelativeToolTip": "Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:43:46.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GrabbableObject.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
+              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
+              "RelativeToolTip": "Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:43:23.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Camera.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Camera.cs",
               "RelativeDocumentMoniker": "Assets\\EthanScripts\\Camera.cs",
@@ -55,25 +89,22 @@
               "RelativeToolTip": "Assets\\EthanScripts\\Camera.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAQwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T19:54:17.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T19:54:17.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GrabbableObject.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs",
               "RelativeDocumentMoniker": "Assets\\EthanScripts\\GrabbableObject.cs",
               "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs",
               "RelativeToolTip": "Assets\\EthanScripts\\GrabbableObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T18:46:59.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T18:46:59.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Door.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs",
               "RelativeDocumentMoniker": "Assets\\EthanScripts\\Door.cs",
@@ -85,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\EthanScripts\\PlayerController.cs",
@@ -93,8 +124,7 @@
               "RelativeToolTip": "Assets\\EthanScripts\\PlayerController.cs",
               "ViewState": "AgIAAMMAAAAAAAAAAAAiwOQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T17:19:06.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T17:19:06.184Z"
             }
           ]
         }

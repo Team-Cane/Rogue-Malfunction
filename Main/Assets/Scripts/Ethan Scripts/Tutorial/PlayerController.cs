@@ -63,8 +63,29 @@ public class IsometricPlayerController : MonoBehaviour
     {
         CheckGround();
         HandleMovement();
+        HandleWallSliding(); // add this
         HandleRotation();
         HandleJump();
+    }
+
+    void HandleWallSliding()
+    {
+        if (isGrounded) return;
+
+        RaycastHit hit;
+        float radius = 0.3f; // adjust to player collider
+        Vector3 moveDir = rb.linearVelocity.normalized;
+        float distance = 0.5f;
+
+        if (Physics.SphereCast(transform.position, radius, moveDir, out hit, distance, ~0, QueryTriggerInteraction.Ignore))
+        {
+            if (Vector3.Dot(hit.normal, Vector3.up) < 0.2f)
+            {
+                Vector3 vel = rb.linearVelocity;
+                Vector3 intoWall = Vector3.Project(vel, -hit.normal);
+                rb.linearVelocity = vel - intoWall;
+            }
+        }
     }
 
     // ---------------- INPUT ----------------
@@ -111,6 +132,7 @@ public class IsometricPlayerController : MonoBehaviour
         Vector3 targetVelocity = moveInput * moveSpeed * control;
         Vector3 velocity = rb.linearVelocity;
 
+        // Calculate desired change
         Vector3 velocityChange = new Vector3(
             targetVelocity.x - velocity.x,
             0f,
@@ -118,6 +140,21 @@ public class IsometricPlayerController : MonoBehaviour
         );
 
         velocityChange = Vector3.ClampMagnitude(velocityChange, accel);
+
+        // --- Wall anti-stick ---
+        RaycastHit hit;
+        float radius = 0.3f; // player collider radius approximation
+        float distance = 0.5f;
+
+        if (Physics.SphereCast(transform.position, radius, velocityChange.normalized, out hit, distance, ~0, QueryTriggerInteraction.Ignore))
+        {
+            if (Vector3.Dot(hit.normal, Vector3.up) < 0.2f)
+            {
+                // Project movement along wall plane
+                velocityChange = Vector3.ProjectOnPlane(velocityChange, hit.normal);
+            }
+        }
+
         rb.AddForce(velocityChange, ForceMode.VelocityChange);
     }
 
@@ -251,16 +288,18 @@ public class IsometricPlayerController : MonoBehaviour
     }
 
     // ---------------- WALL ANTI-STICK ----------------
-
     void OnCollisionStay(Collision collision)
     {
-        if (isGrounded) return;
+        if (isGrounded) return; // only apply in air
 
         foreach (ContactPoint contact in collision.contacts)
         {
+            // Only consider mostly vertical surfaces
             if (Vector3.Dot(contact.normal, Vector3.up) < 0.2f)
             {
                 Vector3 vel = rb.linearVelocity;
+
+                // Remove velocity going into the wall
                 Vector3 intoWall = Vector3.Project(vel, -contact.normal);
                 rb.linearVelocity = vel - intoWall;
             }
