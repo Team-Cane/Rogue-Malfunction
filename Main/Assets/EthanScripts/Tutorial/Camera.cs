@@ -18,6 +18,11 @@ public class IsometricCameraController : MonoBehaviour
     public float lookAheadStrength = 2f;
     private Vector3 lastTargetPosition;
 
+    [Header("Collision Settings")]
+    public LayerMask obstacleLayers;      // Walls and obstacles
+    public float collisionPushAmount = 0.5f; // How much to push down/forward on collision
+    public float minCameraHeight = 2f;    // Minimum camera height above target
+
     [Header("Camera Bounds (Optional)")]
     public bool useBounds = false;
     public Vector2 minBounds;
@@ -49,6 +54,18 @@ public class IsometricCameraController : MonoBehaviour
                 0f,
                 movementDelta.z
             ) * lookAheadStrength;
+        }
+
+        // --- Collision Check ---
+        RaycastHit hit;
+        Vector3 directionToTarget = (desiredPosition - target.position).normalized;
+        float distance = Vector3.Distance(desiredPosition, target.position);
+
+        if (Physics.Raycast(target.position, directionToTarget, out hit, distance, obstacleLayers))
+        {
+            // Push camera forward toward player and down slightly
+            desiredPosition = hit.point - directionToTarget * collisionPushAmount;
+            desiredPosition.y = Mathf.Max(desiredPosition.y, target.position.y + minCameraHeight);
         }
 
         // Smooth follow

@@ -8,43 +8,40 @@ public class IsometricPlayerController : MonoBehaviour
     public float acceleration = 15f;
     public float rotationSpeed = 12f;
 
+    [Header("Air Control")]
+    [Range(0f, 1f)] public float airControlPercent = 0.35f;
+    public float airAccelerationMultiplier = 0.5f;
+
     [Header("Jump")]
     public float jumpForce = 6f;
     public Transform groundCheck;
     public float groundCheckRadius = 0.25f;
     public LayerMask groundLayer;
 
-    [Header("Air Control")]
-    [Range(0f, 1f)]
-    public float airControlPercent = 0.35f;
-    public float airAccelerationMultiplier = 0.5f;
-
-
     [Header("Grab")]
     public Transform holdPoint;
     public float grabRange = 1.2f;
-
-    private IGrabbable grabbedObject;
-    private Rigidbody grabbedRb;
 
     [Header("Interaction")]
     public LayerMask interactLayer;
 
     private Rigidbody rb;
     private Vector3 moveInput;
+    private Vector3 smoothMoveInput;
+    private Vector3 lastMoveDirection = Vector3.forward;
+
     private bool isGrounded;
     private bool jumpQueued;
-    private Vector3 lastMoveDirection = Vector3.forward;
-    private Vector3 grabDirection;   // locked direction (world space)
-    private float grabDistance;
-    private Vector3 smoothMoveInput;
-    public float inputSmoothing = 10f;
 
+    private IGrabbable grabbedObject;
+    private Vector3 grabDirection;
+    private float grabDistance;
+
+    public float inputSmoothing = 10f;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
@@ -55,14 +52,10 @@ public class IsometricPlayerController : MonoBehaviour
         ReadInput();
         HandleInteraction();
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        // ❌ no jump buffering, no stacking
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !jumpQueued)
         {
             jumpQueued = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("SPACE PRESSED");
         }
     }
 
@@ -74,7 +67,6 @@ public class IsometricPlayerController : MonoBehaviour
         HandleJump();
     }
 
-
     // ---------------- INPUT ----------------
 
     void ReadInput()
@@ -85,23 +77,27 @@ public class IsometricPlayerController : MonoBehaviour
         Vector3 forward = Camera.main.transform.forward;
         Vector3 right = Camera.main.transform.right;
 
-
         forward.y = 0f;
         right.y = 0f;
-
         forward.Normalize();
         right.Normalize();
 
         Vector3 input = (forward * v + right * h).normalized;
 
-        if (input.sqrMagnitude > 0.01f)
+        smoothMoveInput = Vector3.Lerp(
+            smoothMoveInput,
+            input,
+            inputSmoothing * Time.deltaTime
+        );
+
+        if (smoothMoveInput.sqrMagnitude > 0.01f)
         {
-            moveInput = input;
-            lastMoveDirection = input; // ✅ store facing
+            moveInput = smoothMoveInput;
+            lastMoveDirection = smoothMoveInput;
         }
         else
         {
-            moveInput = Vector3.zero; // no movement, but keep facing
+            moveInput = Vector3.zero;
         }
     }
 
@@ -117,7 +113,7 @@ public class IsometricPlayerController : MonoBehaviour
 
         Vector3 velocityChange = new Vector3(
             targetVelocity.x - velocity.x,
-            0f, // never touch Y here
+            0f,
             targetVelocity.z - velocity.z
         );
 
@@ -146,29 +142,12 @@ public class IsometricPlayerController : MonoBehaviour
 
     void CheckGround()
     {
-        isGrounded = Physics.CheckSphere
-        (
+        isGrounded = Physics.CheckSphere(
             groundCheck.position,
             groundCheckRadius,
             groundLayer,
             QueryTriggerInteraction.Ignore
         );
-    }
-
-    void OnCollisionStay(Collision collision)
-    {
-        if (isGrounded) return;
-
-        foreach (ContactPoint contact in collision.contacts)
-        {
-            // Mostly vertical surface
-            if (Vector3.Dot(contact.normal, Vector3.up) < 0.2f)
-            {
-                Vector3 vel = rb.linearVelocity;
-                Vector3 intoWall = Vector3.Project(vel, -contact.normal);
-                rb.linearVelocity = vel - intoWall;
-            }
-        }
     }
 
     // ---------------- JUMP ----------------
@@ -180,6 +159,13 @@ public class IsometricPlayerController : MonoBehaviour
 
         jumpQueued = false;
 
+        // Cancel grab if jumping
+        if (grabbedObject != null && !isGrounded)
+        {
+            grabbedObject.OnRelease();
+            grabbedObject = null;
+        }
+
         rb.linearVelocity = new Vector3(
             rb.linearVelocity.x,
             0f,
@@ -188,7 +174,6 @@ public class IsometricPlayerController : MonoBehaviour
 
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
-
 
     // ---------------- INTERACTION ----------------
 
@@ -220,9 +205,13 @@ public class IsometricPlayerController : MonoBehaviour
             IGrabbable grabbable = hit.GetComponent<IGrabbable>();
             if (grabbable == null) continue;
 
-            grabbedObject = grabbable;
+            // --- side-only check ---
+            float verticalOffset = Mathf.Abs(hit.transform.position.y - transform.position.y);
+            float maxGrabHeight = 0.5f; // adjust for your character height
+            if (verticalOffset > maxGrabHeight)
+                continue; // too high or low, skip this object
 
-            // Determine world-space grab axis (N/E/S/W)
+            // Determine world-space grab axis (X or Z)
             Vector3 toObject = hit.transform.position - transform.position;
             toObject.y = 0f;
 
@@ -234,6 +223,7 @@ public class IsometricPlayerController : MonoBehaviour
             grabDistance = Mathf.Abs(Vector3.Dot(toObject, grabDirection));
 
             grabbable.OnGrab(holdPoint);
+            grabbedObject = grabbable;
             break;
         }
     }
@@ -243,10 +233,8 @@ public class IsometricPlayerController : MonoBehaviour
         if (grabbedObject == null)
             return;
 
-        // Project player input onto grab axis
         float moveAmount = Vector3.Dot(moveInput, grabDirection);
 
-        // Compute world-space target position
         Vector3 targetPos = transform.position
                             + grabDirection * grabDistance
                             + grabDirection * moveAmount * 0.5f;
@@ -260,5 +248,22 @@ public class IsometricPlayerController : MonoBehaviour
 
         grabbedObject.OnRelease();
         grabbedObject = null;
+    }
+
+    // ---------------- WALL ANTI-STICK ----------------
+
+    void OnCollisionStay(Collision collision)
+    {
+        if (isGrounded) return;
+
+        foreach (ContactPoint contact in collision.contacts)
+        {
+            if (Vector3.Dot(contact.normal, Vector3.up) < 0.2f)
+            {
+                Vector3 vel = rb.linearVelocity;
+                Vector3 intoWall = Vector3.Project(vel, -contact.normal);
+                rb.linearVelocity = vel - intoWall;
+            }
+        }
     }
 }
