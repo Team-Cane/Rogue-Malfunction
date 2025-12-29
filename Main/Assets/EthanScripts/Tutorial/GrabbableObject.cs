@@ -17,15 +17,14 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
         rb = GetComponent<Rigidbody>();
         objectCollider = GetComponent<Collider>();
 
-        // Always kinematic except while grabbed
+        // Always kinematic
         rb.isKinematic = true;
-
-        // Ensure it interacts with triggers
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         rb.constraints = RigidbodyConstraints.FreezeRotation;
 
-        // Always sends trigger events
+        // Detect collisions with triggers
+        rb.detectCollisions = true;
         rb.useGravity = false;
     }
 
@@ -34,14 +33,11 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
     public void OnGrab(Transform holder)
     {
         isGrabbed = true;
-        rb.isKinematic = false;
 
         // Ignore collision with player while grabbed
         playerCollider = holder.GetComponentInParent<Collider>();
         if (playerCollider != null)
-        {
             Physics.IgnoreCollision(objectCollider, playerCollider, true);
-        }
     }
 
     public void MoveTo(Vector3 targetPosition)
@@ -49,24 +45,18 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
         if (!isGrabbed)
             return;
 
-        // Never move vertically
+        // Keep object at same height
         targetPosition.y = rb.position.y;
 
-        Vector3 newPos = Vector3.Lerp(
-            rb.position,
-            targetPosition,
-            Time.fixedDeltaTime * moveSmoothness
-        );
-
+        // Move using MovePosition (kinematic, triggers still fire)
+        Vector3 newPos = Vector3.Lerp(rb.position, targetPosition, Time.fixedDeltaTime * moveSmoothness);
         rb.MovePosition(newPos);
     }
 
     public void OnRelease()
     {
         isGrabbed = false;
-        rb.isKinematic = true;
 
-        // Restore collision
         if (playerCollider != null)
         {
             Physics.IgnoreCollision(objectCollider, playerCollider, false);
