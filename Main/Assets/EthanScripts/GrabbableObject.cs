@@ -17,10 +17,16 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
         rb = GetComponent<Rigidbody>();
         objectCollider = GetComponent<Collider>();
 
+        // Always kinematic except while grabbed
         rb.isKinematic = true;
+
+        // Ensure it interacts with triggers
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         rb.constraints = RigidbodyConstraints.FreezeRotation;
+
+        // Always sends trigger events
+        rb.useGravity = false;
     }
 
     // ---------------- GRAB ----------------
