@@ -7,31 +7,35 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
     public float moveSmoothness = 12f;
 
     private Rigidbody rb;
+    private Collider objectCollider;
+    private Collider playerCollider;
+
     private bool isGrabbed;
-    private Vector3 grabOffset;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        objectCollider = GetComponent<Collider>();
 
-        // ✅ Kinematic by default so player collisions don't move it
         rb.isKinematic = true;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
+        rb.constraints = RigidbodyConstraints.FreezeRotation;
     }
+
+    // ---------------- GRAB ----------------
 
     public void OnGrab(Transform holder)
     {
         isGrabbed = true;
-
-        // Compute grab offset
-        grabOffset = transform.position - holder.position;
-
-        // Freeze rotation while grabbed
-        rb.constraints = RigidbodyConstraints.FreezeRotation;
-
-        // Make kinematic false only for MovePosition-based collision
         rb.isKinematic = false;
+
+        // Ignore collision with player while grabbed
+        playerCollider = holder.GetComponentInParent<Collider>();
+        if (playerCollider != null)
+        {
+            Physics.IgnoreCollision(objectCollider, playerCollider, true);
+        }
     }
 
     public void MoveTo(Vector3 targetPosition)
@@ -39,9 +43,9 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
         if (!isGrabbed)
             return;
 
+        // Never move vertically
         targetPosition.y = rb.position.y;
 
-        // Move the object with collisions respected
         Vector3 newPos = Vector3.Lerp(
             rb.position,
             targetPosition,
@@ -54,11 +58,13 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
     public void OnRelease()
     {
         isGrabbed = false;
-
-        // Make kinematic again to prevent physics pushing
         rb.isKinematic = true;
 
-        // Unlock rotation
-        rb.constraints = RigidbodyConstraints.None;
+        // Restore collision
+        if (playerCollider != null)
+        {
+            Physics.IgnoreCollision(objectCollider, playerCollider, false);
+            playerCollider = null;
+        }
     }
 }
