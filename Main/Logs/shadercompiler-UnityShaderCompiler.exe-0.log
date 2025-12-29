@@ -454,4 +454,3 @@ Cmd: preprocessCompute
 Cmd: preprocessRayTracingShader
   insize=4341 path=Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader ok=1
 
-Cmd: shutdown
