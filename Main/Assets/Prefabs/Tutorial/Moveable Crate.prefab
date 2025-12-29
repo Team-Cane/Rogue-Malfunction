@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8974272491847015969}
   - component: {fileID: 6302016789017153602}
   m_Layer: 7
-  m_Name: Object (1)
+  m_Name: Moveable Crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
