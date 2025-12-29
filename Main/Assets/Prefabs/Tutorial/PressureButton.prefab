@@ -132,13 +132,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4633255386587828530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b74238f26c7ce6c4baf043930544a097, type: 3}
+  m_Script: {fileID: 11500000, guid: 1043b55b07e125643a8de381edd41f8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PressureButton
   boxLayer:
     serializedVersion: 2
-    m_Bits: 128
-  buttonTop: {fileID: 2333152005870008852}
+    m_Bits: 0
+  buttonTop: {fileID: 0}
   pressedHeight: 0.05
   pressSpeed: 8
   connectedDoor: {fileID: 0}
