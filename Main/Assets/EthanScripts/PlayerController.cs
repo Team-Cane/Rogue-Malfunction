@@ -14,6 +14,12 @@ public class IsometricPlayerController : MonoBehaviour
     public float groundCheckRadius = 0.25f;
     public LayerMask groundLayer;
 
+    [Header("Air Control")]
+    [Range(0f, 1f)]
+    public float airControlPercent = 0.35f;
+    public float airAccelerationMultiplier = 0.5f;
+
+
     [Header("Grab")]
     public Transform holdPoint;
     public float grabRange = 1.2f;
@@ -31,31 +37,43 @@ public class IsometricPlayerController : MonoBehaviour
     private Vector3 lastMoveDirection = Vector3.forward;
     private Vector3 grabDirection;   // locked direction (world space)
     private float grabDistance;
-
+    private Vector3 smoothMoveInput;
+    public float inputSmoothing = 10f;
 
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        rb.constraints = RigidbodyConstraints.FreezeRotation;
+
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+        rb.interpolation = RigidbodyInterpolation.Interpolate;
+        rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
     }
 
     void Update()
     {
         ReadInput();
-        HandleRotation();
         HandleInteraction();
 
         if (Input.GetKeyDown(KeyCode.Space))
+        {
             jumpQueued = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("SPACE PRESSED");
+        }
     }
 
     void FixedUpdate()
     {
         CheckGround();
         HandleMovement();
+        HandleRotation();
         HandleJump();
     }
+
 
     // ---------------- INPUT ----------------
 
@@ -66,6 +84,7 @@ public class IsometricPlayerController : MonoBehaviour
 
         Vector3 forward = Camera.main.transform.forward;
         Vector3 right = Camera.main.transform.right;
+
 
         forward.y = 0f;
         right.y = 0f;
@@ -90,16 +109,19 @@ public class IsometricPlayerController : MonoBehaviour
 
     void HandleMovement()
     {
-        Vector3 targetVelocity = moveInput * moveSpeed;
+        float control = isGrounded ? 1f : airControlPercent;
+        float accel = isGrounded ? acceleration : acceleration * airAccelerationMultiplier;
+
+        Vector3 targetVelocity = moveInput * moveSpeed * control;
         Vector3 velocity = rb.linearVelocity;
 
         Vector3 velocityChange = new Vector3(
             targetVelocity.x - velocity.x,
-            0f, // ?? DO NOT TOUCH Y
+            0f, // never touch Y here
             targetVelocity.z - velocity.z
         );
 
-        velocityChange = Vector3.ClampMagnitude(velocityChange, acceleration);
+        velocityChange = Vector3.ClampMagnitude(velocityChange, accel);
         rb.AddForce(velocityChange, ForceMode.VelocityChange);
     }
 
@@ -111,22 +133,42 @@ public class IsometricPlayerController : MonoBehaviour
             return;
 
         Quaternion targetRotation = Quaternion.LookRotation(lastMoveDirection);
-        transform.rotation = Quaternion.Slerp(
-            transform.rotation,
+        Quaternion smoothRotation = Quaternion.Slerp(
+            rb.rotation,
             targetRotation,
-            rotationSpeed * Time.deltaTime
+            rotationSpeed * Time.fixedDeltaTime
         );
+
+        rb.MoveRotation(smoothRotation);
     }
 
     // ---------------- GROUND CHECK ----------------
 
     void CheckGround()
     {
-        isGrounded = Physics.CheckSphere(
+        isGrounded = Physics.CheckSphere
+        (
             groundCheck.position,
             groundCheckRadius,
-            groundLayer
+            groundLayer,
+            QueryTriggerInteraction.Ignore
         );
+    }
+
+    void OnCollisionStay(Collision collision)
+    {
+        if (isGrounded) return;
+
+        foreach (ContactPoint contact in collision.contacts)
+        {
+            // Mostly vertical surface
+            if (Vector3.Dot(contact.normal, Vector3.up) < 0.2f)
+            {
+                Vector3 vel = rb.linearVelocity;
+                Vector3 intoWall = Vector3.Project(vel, -contact.normal);
+                rb.linearVelocity = vel - intoWall;
+            }
+        }
     }
 
     // ---------------- JUMP ----------------
@@ -146,6 +188,7 @@ public class IsometricPlayerController : MonoBehaviour
 
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
+
 
     // ---------------- INTERACTION ----------------
 
