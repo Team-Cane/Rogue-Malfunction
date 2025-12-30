@@ -191,8 +191,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &3452358
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -646,8 +646,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &349958735
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -873,8 +873,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &538514857
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1024,8 +1024,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &582667373
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1241,8 +1241,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &604805124
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1392,8 +1392,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &614650567
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1543,8 +1543,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &652025565
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1694,8 +1694,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &668851179
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1845,8 +1845,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &690940931
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2271,8 +2271,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1015251687
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2516,21 +2516,10 @@ MonoBehaviour:
   - {fileID: 1015251685}
   - {fileID: 668851177}
   - {fileID: 538514855}
+  portalToEnable: {fileID: 1885289450}
   onSolved:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1885289450}
-        m_TargetAssemblyTypeName: RevealOnSolved, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &1061412088
 Transform:
   m_ObjectHideFlags: 0
@@ -2618,8 +2607,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1081837557
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2880,8 +2869,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1211025570
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3031,8 +3020,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1317110686
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3116,7 +3105,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2143352091}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3907679614406300944, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
       propertyPath: m_LocalScale.x
@@ -3132,15 +3121,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3907679614406300944, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.3852897
+      value: 7.47
       objectReference: {fileID: 0}
     - target: {fileID: 3907679614406300944, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.42099997
+      value: 0.471
       objectReference: {fileID: 0}
     - target: {fileID: 3907679614406300944, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.5205
+      value: -4.853
       objectReference: {fileID: 0}
     - target: {fileID: 3907679614406300944, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3301,8 +3290,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1423420493
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3554,8 +3543,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1557859474
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3705,8 +3694,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1585793004
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3856,8 +3845,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1587269420
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4011,8 +4000,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1611438812
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4177,8 +4166,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1617237755
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4328,8 +4317,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1696441462
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4479,8 +4468,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1701190042
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4630,8 +4619,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1703180421
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4892,8 +4881,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1826565377
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4997,11 +4986,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.0591893, y: 2.4618464, z: 0.6516072}
   m_Center: {x: 0.0098518785, y: 0.015516772, z: -0.02916013}
---- !u!4 &1885289454 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3907679614406300944, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
-  m_PrefabInstance: {fileID: 1337804737}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1885289455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5091,8 +5075,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2034623283
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5353,8 +5337,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.4681036, z: 1}
-  m_Center: {x: 0, y: 0.7340517, z: 0}
+  m_Size: {x: 0.7, y: 2.5, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2125453958
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5599,52 +5583,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139532573}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2143352090
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2143352091}
-  - component: {fileID: 2143352092}
-  m_Layer: 0
-  m_Name: Exit Portal Root
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2143352091
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143352090}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.08471, y: 0.05, z: 1.6675}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1885289454}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2143352092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143352090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb27524d2bf351849b6cbf24b5c1311f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RevealOnSolved
-  target: {fileID: 1885289450}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -5660,4 +5598,9 @@ SceneRoots:
   - {fileID: 1544696122}
   - {fileID: 601634575}
   - {fileID: 171772400}
+<<<<<<< Updated upstream:Main/Assets/Scenes/Light Up Tile Puzzle.unity
   - {fileID: 2143352091}
+=======
+  - {fileID: 397425772}
+  - {fileID: 1337804737}
+>>>>>>> Stashed changes:Main/Assets/Scenes/Chikit/Light Up Tile Puzzle.unity

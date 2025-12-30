@@ -3,7 +3,11 @@ using UnityEngine.Events;
 
 public class TilePuzzle : MonoBehaviour
 {
+    [Header("Tiles")]
     [SerializeField] private PuzzleTile[] tiles;
+
+    [Header("Solved")]
+    [SerializeField] private GameObject portalToEnable;
     [SerializeField] private UnityEvent onSolved;
 
     public bool IsSolved { get; private set; }
@@ -13,26 +17,32 @@ public class TilePuzzle : MonoBehaviour
         if (tiles == null || tiles.Length == 0)
             tiles = GetComponentsInChildren<PuzzleTile>(true);
 
-        Evaluate();
+        if (portalToEnable)
+            portalToEnable.SetActive(false);
     }
 
     void Update()
     {
         if (IsSolved) return;
-        Evaluate();
-    }
 
-    void Evaluate()
-    {
         for (int i = 0; i < tiles.Length; i++)
         {
-            var t = tiles[i];
-            if (!t) continue;
-            if (!t.Required) continue;
-            if (!t.IsLit) return;
+            var tile = tiles[i];
+            if (!tile) continue;
+            if (!tile.Required) continue;
+            if (!tile.IsLit) return;
         }
 
+        Solve();
+    }
+
+    void Solve()
+    {
         IsSolved = true;
+
+        if (portalToEnable)
+            portalToEnable.SetActive(true);
+
         onSolved?.Invoke();
     }
 }
