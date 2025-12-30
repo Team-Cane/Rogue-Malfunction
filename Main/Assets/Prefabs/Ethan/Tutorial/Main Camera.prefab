@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53f9115326271844cae13d5839645fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IsometricCameraController
-  target: {fileID: 0}
+  target: {fileID: 8967897761008319152, guid: 54f6d1fa39f49c94fbeafab1f0c48cfa, type: 3}
   isometricOffset: {x: 0, y: 6.75, z: -9}
   isometricRotation: {x: 32, y: 1, z: 0}
   followSmoothTime: 0.25

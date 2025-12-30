@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Main/Assets/ArianScripts.meta
+guid: 5026529132c77ed4392c644e530350d7
+folderAsset: yes
+========
 guid: 22d03c797e810754a82235acca088a97
+>>>>>>>> main:Main/Assets/Scenes/Chikit/Light Up Tile Puzzle.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
