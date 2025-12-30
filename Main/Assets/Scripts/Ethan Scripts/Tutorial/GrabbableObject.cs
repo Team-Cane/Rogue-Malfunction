@@ -5,6 +5,7 @@
 public class GrabbableObject : MonoBehaviour, IGrabbable
 {
     public float moveSmoothness = 12f;
+    public float pushCancelStrength = 15f;
 
     private Rigidbody rb;
     private Collider objectCollider;
@@ -17,27 +18,17 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
         rb = GetComponent<Rigidbody>();
         objectCollider = GetComponent<Collider>();
 
-        // Always kinematic
-        rb.isKinematic = true;
+        rb.isKinematic = false;
+        rb.useGravity = true;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         rb.constraints = RigidbodyConstraints.FreezeRotation;
-
-        // Detect collisions with triggers
-        rb.detectCollisions = true;
-        rb.useGravity = false;
     }
-
-    // ---------------- GRAB ----------------
 
     public void OnGrab(Transform holder)
     {
         isGrabbed = true;
-
-        // Ignore collision with player while grabbed
         playerCollider = holder.GetComponentInParent<Collider>();
-        if (playerCollider != null)
-            Physics.IgnoreCollision(objectCollider, playerCollider, true);
     }
 
     public void MoveTo(Vector3 targetPosition)
@@ -45,22 +36,41 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
         if (!isGrabbed)
             return;
 
-        // Keep object at same height
-        targetPosition.y = rb.position.y;
+        Vector3 desired = new Vector3(
+            targetPosition.x,
+            rb.position.y,
+            targetPosition.z
+        );
 
-        // Move using MovePosition (kinematic, triggers still fire)
-        Vector3 newPos = Vector3.Lerp(rb.position, targetPosition, Time.fixedDeltaTime * moveSmoothness);
+        Vector3 newPos = Vector3.Lerp(
+            rb.position,
+            desired,
+            Time.fixedDeltaTime * moveSmoothness
+        );
+
         rb.MovePosition(newPos);
     }
 
     public void OnRelease()
     {
         isGrabbed = false;
+        playerCollider = null;
+    }
 
-        if (playerCollider != null)
-        {
-            Physics.IgnoreCollision(objectCollider, playerCollider, false);
-            playerCollider = null;
-        }
+    // ---------------- PUSH PREVENTION ----------------
+
+    void OnCollisionStay(Collision collision)
+    {
+        if (playerCollider == null)
+            return;
+
+        if (collision.collider != playerCollider)
+            return;
+
+        // Remove horizontal velocity caused by player push
+        Vector3 vel = rb.linearVelocity;
+        vel.x = Mathf.Lerp(vel.x, 0f, pushCancelStrength * Time.fixedDeltaTime);
+        vel.z = Mathf.Lerp(vel.z, 0f, pushCancelStrength * Time.fixedDeltaTime);
+        rb.linearVelocity = vel;
     }
 }
