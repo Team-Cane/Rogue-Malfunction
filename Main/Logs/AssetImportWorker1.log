@@ -2,10 +2,17 @@
 Built from '6000.2/respin/6000.2.7f1-2eb0c79396db' branch; Version is '6000.2.7f2 (2b518236b676) revision 2838914'; Using compiler version '194234433'; Build Type 'Release'
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-Phillip" at "2025-12-29T19:27:59.1332619Z"
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 32679 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 Date: 2025-12-29T19:27:59Z
+=======
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Phillip" at "2025-12-30T18:39:20.3249879Z"
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 32679 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-30T18:39:20Z
+>>>>>>> Stashed changes
 =======
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-Phillip" at "2025-12-30T18:39:20.3249879Z"
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 32679 MB
@@ -33,7 +40,11 @@ Logs/AssetImportWorker1.log
 -srvPort
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 55812
+=======
+59909
+>>>>>>> Stashed changes
 =======
 59909
 >>>>>>> Stashed changes
@@ -89,6 +100,7 @@ C:/Users/RX660/Desktop/Fall 2025 TFS Game Jam/placeholder/Main
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Player connection [34432]  Target information:
 
 Player connection [34432]  * "[IP] 192.168.2.69 [Port] 0 [Flags] 2 [Guid] 4087158180 [EditorId] 4087158180 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3E86C9U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -111,12 +123,24 @@ Player connection [39340]  * "[IP] 192.168.2.69 [Port] 0 [Flags] 2 [Guid] 700235
 Player connection [39340] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [39340] Host joined alternative multi-casting on [225.0.0.222:34997]...
 >>>>>>> Stashed changes
+=======
+Player connection [39340]  Target information:
+
+Player connection [39340]  * "[IP] 192.168.2.69 [Port] 0 [Flags] 2 [Guid] 70023503 [EditorId] 70023503 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3E86C9U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39340] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39340] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> Stashed changes
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+Library Redirect Path: Library/
+>>>>>>> Stashed changes
 =======
 Library Redirect Path: Library/
 >>>>>>> Stashed changes
@@ -127,6 +151,7 @@ Library Redirect Path: Library/
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   Session Id:              fc2b914f83a849ee9e3e1117c033d20d
@@ -140,6 +165,8 @@ Library Redirect Path: Library/
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   Session Id:              492c71caf73d4538b88ec8db2fc0625e
   Correlation Id:          976f4ecedd07c62b692d101bfc8eeefe
   External correlation Id: 5302297863099321266
@@ -148,6 +175,9 @@ Library Redirect Path: Library/
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-Phillip-notifications" at "2025-12-30T18:39:20.5275447Z"
 [Licensing::Module] Licensing Background thread has ended after 0.20s
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -159,7 +189,11 @@ Library Redirect Path: Library/
 [Physics::Module] Threading Mode: Multi-Threaded
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 163.86 ms, found 3 plugins.
+>>>>>>> Stashed changes
 =======
 Refreshing native plugins compatible for Editor in 163.86 ms, found 3 plugins.
 >>>>>>> Stashed changes
@@ -183,7 +217,11 @@ Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBle
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+>>>>>>> Stashed changes
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
 >>>>>>> Stashed changes
@@ -205,6 +243,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/E
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.008181 seconds.
@@ -238,11 +277,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 12175ms
 	BeginReloadAssembly (8093ms)
 >>>>>>> Stashed changes
+=======
+Registered in 0.340818 seconds.
+- Loaded All Assemblies, in 10.957 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 593 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.221 seconds
+Domain Reload Profiling: 12175ms
+	BeginReloadAssembly (8093ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	RebuildCommonClasses (35ms)
@@ -301,12 +352,33 @@ Domain Reload Profiling: 12175ms
 		SetupLoadedEditorAssemblies (1157ms)
 			LogAssemblyErrors (0ms)
 >>>>>>> Stashed changes
+=======
+	RebuildCommonClasses (515ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (385ms)
+	LoadAllAssembliesAndSetupDomain (1949ms)
+		LoadAssemblies (8096ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1940ms)
+			TypeCache.Refresh (1937ms)
+				TypeCache.ScanAssembly (1477ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1221ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1157ms)
+			LogAssemblyErrors (0ms)
+>>>>>>> Stashed changes
 			InitializePlatformSupportModulesInManaged (739ms)
 			SetLoadedEditorAssemblies (6ms)
 			BeforeProcessingInitializeOnLoad (119ms)
 			ProcessInitializeOnLoadAttributes (202ms)
 			ProcessInitializeOnLoadMethodAttributes (90ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -331,8 +403,13 @@ Begin MonoManager ReloadAssembly
   Expiration: Unlimited
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  1.121 seconds
 Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  7.679 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+>>>>>>> Stashed changes
 =======
 - Loaded All Assemblies, in  7.679 seconds
 Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
@@ -348,6 +425,7 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.995 seconds
@@ -478,6 +556,10 @@ Domain Reload Profiling: 8827ms
 - Finished resetting the current domain, in  1.155 seconds
 Domain Reload Profiling: 8827ms
 	BeginReloadAssembly (182ms)
+=======
+- Finished resetting the current domain, in  1.155 seconds
+Domain Reload Profiling: 8827ms
+	BeginReloadAssembly (182ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
@@ -763,6 +845,168 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.923 seconds
 Domain Reload Profiling: 1786ms
 	BeginReloadAssembly (237ms)
+>>>>>>> Stashed changes
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (7403ms)
+		LoadAssemblies (6940ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (562ms)
+			TypeCache.Refresh (508ms)
+				TypeCache.ScanAssembly (495ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1155ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6172 unused Assets / (6.0 MB). Loaded Objects now: 6872.
+Memory consumption went from 132.6 MB to 126.6 MB.
+Total: 9.450900 ms (FindLiveObjects: 0.905600 ms CreateObjectMapping: 0.833300 ms MarkObjects: 4.578700 ms  DeleteObjects: 3.132600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 307049.192236 seconds.
+  path: Assets/Scripts/Ethan Scripts/Tutorial/GrabbableObject.cs
+  artifactKey: Guid(81c23d2c62cc3c84c958732327727b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ethan Scripts/Tutorial/GrabbableObject.cs using Guid(81c23d2c62cc3c84c958732327727b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ad9bd44f378b5b7274019a294173110') in 0.0042664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+=======
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (528ms)
+		LoadAssemblies (420ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (193ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (924ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (721ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (195ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6170 unused Assets / (4.3 MB). Loaded Objects now: 6893.
+Memory consumption went from 138.0 MB to 133.7 MB.
+Total: 10.484000 ms (FindLiveObjects: 0.863000 ms CreateObjectMapping: 1.334200 ms MarkObjects: 5.382500 ms  DeleteObjects: 2.903200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+>>>>>>> Stashed changes
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.752 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1476ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (368ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (169ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (563ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6170 unused Assets / (5.5 MB). Loaded Objects now: 6890.
+Memory consumption went from 138.0 MB to 132.5 MB.
+Total: 9.704000 ms (FindLiveObjects: 0.757900 ms CreateObjectMapping: 0.678500 ms MarkObjects: 5.224300 ms  DeleteObjects: 3.042400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-UXBJ-HKKJ-KHXC-GWNW-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6483514-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+<<<<<<< Updated upstream
+- Loaded All Assemblies, in  0.867 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.923 seconds
+Domain Reload Profiling: 1786ms
+	BeginReloadAssembly (237ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
@@ -815,6 +1059,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 - Loaded All Assemblies, in  0.919 seconds
@@ -2037,6 +2283,9 @@ Unloading 6170 unused Assets / (4.9 MB). Loaded Objects now: 6956.
 Memory consumption went from 140.8 MB to 135.9 MB.
 Total: 9.346800 ms (FindLiveObjects: 0.656800 ms CreateObjectMapping: 1.099700 ms MarkObjects: 5.091100 ms  DeleteObjects: 2.498400 ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
