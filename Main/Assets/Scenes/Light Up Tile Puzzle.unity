@@ -5599,7 +5599,12 @@ SceneRoots:
   - {fileID: 601634575}
   - {fileID: 171772400}
 <<<<<<< Updated upstream:Main/Assets/Scenes/Light Up Tile Puzzle.unity
+<<<<<<< Updated upstream:Main/Assets/Scenes/Light Up Tile Puzzle.unity
   - {fileID: 2143352091}
+=======
+  - {fileID: 397425772}
+  - {fileID: 1337804737}
+>>>>>>> Stashed changes:Main/Assets/Scenes/Chikit/Light Up Tile Puzzle.unity
 =======
   - {fileID: 397425772}
   - {fileID: 1337804737}

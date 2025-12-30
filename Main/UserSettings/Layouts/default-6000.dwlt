@@ -41,6 +41,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     y: 622
     width: 520
     height: 311
@@ -49,6 +50,16 @@ MonoBehaviour:
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
+=======
+    y: 605
+    width: 1212
+    height: 328
+  m_MinSize: {x: 51, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+>>>>>>> Stashed changes
 =======
     y: 605
     width: 1212
@@ -75,6 +86,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.SplitView
   m_Children:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - {fileID: 10}
   - {fileID: 2}
   m_Position:
@@ -91,12 +103,25 @@ MonoBehaviour:
     y: 0
     width: 1212
 >>>>>>> Stashed changes
+=======
+  - {fileID: 8}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1212
+>>>>>>> Stashed changes
     height: 933
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 774
+=======
+  controlID: 15153
+>>>>>>> Stashed changes
 =======
   controlID: 15153
 >>>>>>> Stashed changes
@@ -161,6 +186,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -188,6 +214,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
@@ -292,6 +320,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1212
+    height: 605
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
@@ -300,15 +355,21 @@ MonoBehaviour:
     x: 1212
     y: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 188
     height: 933
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
 =======
+=======
+>>>>>>> Stashed changes
     width: 191
     height: 933
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_ActualView: {fileID: 16}
   m_Panes:
@@ -317,7 +378,10 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &10
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -344,6 +408,9 @@ MonoBehaviour:
   controlID: 14987
   draggingID: 0
 --- !u!114 &11
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -361,6 +428,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     width: 520
     height: 622
@@ -437,6 +505,18 @@ MonoBehaviour:
   - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
+=======
+    width: 517
+    height: 586
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+>>>>>>> Stashed changes
 --- !u!114 &12
 >>>>>>> Stashed changes
 MonoBehaviour:
@@ -447,6 +527,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -551,6 +632,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.DockArea
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+>>>>>>> Stashed changes
     y: 586
     width: 517
     height: 347
@@ -571,6 +661,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_EditorHideFlags: 0
   m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
@@ -930,6 +1021,8 @@ MonoBehaviour:
   m_Enabled: 1
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   m_EditorHideFlags: 1
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -947,7 +1040,11 @@ MonoBehaviour:
     y: 79
     width: 1211
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     height: 320
+=======
+    height: 579
+>>>>>>> Stashed changes
 =======
     height: 579
 >>>>>>> Stashed changes
@@ -1590,9 +1687,15 @@ MonoBehaviour:
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 5.3056955, y: 7.920082, z: -5.8570085}
     speed: 2
     m_Value: {x: 5.3056955, y: 7.920082, z: -5.8570085}
+=======
+    m_Target: {x: 7.4801936, y: -13.49777, z: 8.415061}
+    speed: 2
+    m_Value: {x: 7.4801936, y: -13.49777, z: 8.415061}
+>>>>>>> Stashed changes
 =======
     m_Target: {x: 7.4801936, y: -13.49777, z: 8.415061}
     speed: 2
@@ -1644,6 +1747,7 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 0.39296713, y: -0.013331017, z: 0.005370649, w: 0.9196506}
     speed: 2
     m_Value: {x: 0.3928911, y: -0.013328439, z: 0.00536961, w: 0.9194727}
@@ -1651,6 +1755,15 @@ MonoBehaviour:
     m_Target: 0.6954865
     speed: 2
     m_Value: 0.6954865
+=======
+    m_Target: {x: -0.47458655, y: -0.13690358, z: 0.073440954, w: -0.86681396}
+    speed: 2
+    m_Value: {x: -0.4757114, y: -0.13674286, z: 0.07361948, w: -0.86578304}
+  m_Size:
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+>>>>>>> Stashed changes
 =======
     m_Target: {x: -0.47458655, y: -0.13690358, z: 0.073440954, w: -0.86681396}
     speed: 2
@@ -1681,7 +1794,11 @@ MonoBehaviour:
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SceneView: {fileID: 19}
+=======
+    m_SceneView: {fileID: 13}
+>>>>>>> Stashed changes
 =======
     m_SceneView: {fileID: 13}
 >>>>>>> Stashed changes
