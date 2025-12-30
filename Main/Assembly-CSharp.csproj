@@ -61,23 +61,48 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EthanScripts\Tutorial\PressureButton.cs" />
-    <Compile Include="Assets\EthanScripts\Tutorial\PlayerController.cs" />
-    <Compile Include="Assets\Phillips Scripts\Portal\Portal.cs" />
-    <Compile Include="Assets\Phillips Scripts\Light Up Puzzle\Tile.cs" />
-    <Compile Include="Assets\Phillips Scripts\Portal\TeleportService.cs" />
-    <Compile Include="Assets\EthanScripts\Tutorial\Camera.cs" />
-    <Compile Include="Assets\Phillips Scripts\Death And Check point\DeathZone.cs" />
-    <Compile Include="Assets\Phillips Scripts\Portal\Scene Portal.cs" />
-    <Compile Include="Assets\Phillips Scripts\Death And Check point\Chackpoint.cs" />
-    <Compile Include="Assets\Phillips Scripts\Light Up Puzzle\Light Up Puzzle Manager.cs" />
-    <Compile Include="Assets\EthanScripts\Tutorial\Door.cs" />
+    <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\PressureButton.cs" />
+    <Compile Include="Assets\Scripts\Phillips Scripts\Portal\TeleportService.cs" />
+    <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\GrabbableObject.cs" />
+    <Compile Include="Assets\Scripts\Phillips Scripts\Portal\Teleportable.cs" />
+    <Compile Include="Assets\Scripts\Phillips Scripts\Light Up Puzzle\RevealOnSolved.cs" />
+    <Compile Include="Assets\Scripts\Phillips Scripts\Portal\Portal.cs" />
+    <Compile Include="Assets\Scripts\Phillips Scripts\Death And Check point\PlayerRespawn.cs" />
+    <Compile Include="Assets\Scripts\Phillips Scripts\Light Up Puzzle\Tile.cs" />
+    <Compile Include="Assets\Scripts\Phillips Scripts\Death And Check point\Chackpoint.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Phillips Scripts\Death And Check point\PlayerRespawn.cs" />
-    <Compile Include="Assets\Phillips Scripts\Light Up Puzzle\RevealOnSolved.cs" />
-    <Compile Include="Assets\EthanScripts\Tutorial\GrabbableObject.cs" />
-    <Compile Include="Assets\EthanScripts\Tutorial\IGrabbable.cs" />
-    <Compile Include="Assets\Phillips Scripts\Portal\Teleportable.cs" />
+    <Compile Include="Assets\Scripts\Phillips Scripts\Portal\Scene Portal.cs" />
+    <Compile Include="Assets\Scripts\Phillips Scripts\Death And Check point\DeathZone.cs" />
+    <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\IGrabbable.cs" />
+    <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Phillips Scripts\Light Up Puzzle\Light Up Puzzle Manager.cs" />
+    <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\Door.cs" />
+    <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\Camera.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

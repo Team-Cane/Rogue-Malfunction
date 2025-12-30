@@ -19,9 +19,15 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Hierarchy
-  m_RootView: {fileID: 4}
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 875, y: 332}
+=======
+  m_Title: Scene
+  m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
+>>>>>>> Ethan
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -32,14 +38,20 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
   m_Name: GameView
+=======
+  m_Name: ConsoleWindow
+>>>>>>> main
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.DockArea
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -81,6 +93,16 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 14}
 >>>>>>> Stashed changes
+=======
+    y: 726.4
+    width: 425.59998
+    height: 278.40002
+  m_MinSize: {x: 52, y: 76}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+>>>>>>> main
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
@@ -103,8 +125,9 @@ MonoBehaviour:
   - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 1400
+    x: 1250.4
     y: 0
+<<<<<<< HEAD
     width: 520
 =======
   - {fileID: 8}
@@ -150,6 +173,14 @@ MonoBehaviour:
 =======
   controlID: 15153
 >>>>>>> Stashed changes
+=======
+    width: 425.59998
+    height: 1004.80005
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 200
+>>>>>>> main
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -159,14 +190,79 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.DockArea
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 466.4
+    width: 372
+    height: 538.4
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.SplitView
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 1676
+    y: 0
+    width: 372
+    height: 1004.80005
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 53
+  draggingID: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+=======
+>>>>>>> Ethan
   m_EditorHideFlags: 1
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+<<<<<<< HEAD
+  - {fileID: 3}
+  - {fileID: 4}
   - {fileID: 5}
+<<<<<<< HEAD
   - {fileID: 7}
   - {fileID: 6}
+=======
+=======
+  - {fileID: 7}
+  - {fileID: 8}
+  - {fileID: 9}
+>>>>>>> Arian
+>>>>>>> main
   m_Position:
     serializedVersion: 2
     x: 0
@@ -179,7 +275,11 @@ MonoBehaviour:
   m_TopViewHeight: 36
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &5
+<<<<<<< HEAD
+--- !u!114 &3
+=======
+--- !u!114 &7
+>>>>>>> Arian
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -201,7 +301,11 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &6
+<<<<<<< HEAD
+--- !u!114 &4
+=======
+--- !u!114 &8
+>>>>>>> Arian
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -217,21 +321,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+<<<<<<< HEAD
+  - {fileID: 6}
+  - {fileID: 7}
   - {fileID: 8}
   - {fileID: 9}
+=======
+  - {fileID: 12}
   - {fileID: 3}
+  - {fileID: 5}
+>>>>>>> Arian
   m_Position:
     serializedVersion: 2
     x: 0
     y: 36
     width: 1920
     height: 933
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 24
+<<<<<<< HEAD
+<<<<<<< HEAD
+  controlID: 67
+=======
+  controlID: 118
+>>>>>>> Ethan
   draggingID: 0
---- !u!114 &7
+--- !u!114 &5
+=======
+  controlID: 52
+  draggingID: 0
+--- !u!114 &9
+>>>>>>> Arian
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -258,6 +379,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -286,6 +408,10 @@ MonoBehaviour:
   controlID: 14986
   draggingID: 0
 --- !u!114 &8
+=======
+<<<<<<< HEAD
+--- !u!114 &6
+>>>>>>> main
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -298,20 +424,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 10}
   - {fileID: 11}
-  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1212
+    width: 1211
     height: 933
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
   controlID: 25
   draggingID: 0
---- !u!114 &9
+--- !u!114 &7
+=======
+--- !u!114 &10
+>>>>>>> Arian
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -407,12 +536,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1212
+<<<<<<< HEAD
+    x: 1211
     y: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     width: 188
+=======
+    width: 192
+>>>>>>> main
     height: 933
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
@@ -437,6 +571,7 @@ MonoBehaviour:
   - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
+<<<<<<< HEAD
 --- !u!114 &10
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -446,6 +581,9 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+--- !u!114 &8
+>>>>>>> main
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -453,6 +591,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -460,10 +599,18 @@ MonoBehaviour:
   m_Children:
   - {fileID: 11}
   - {fileID: 12}
+=======
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+>>>>>>> main
   m_Position:
     serializedVersion: 2
     x: 1403
     y: 0
+<<<<<<< HEAD
     width: 517
     height: 933
   m_MinSize: {x: 100, y: 100}
@@ -479,6 +626,33 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+    width: 212
+    height: 933
+  m_MinSize: {x: 232, y: 276}
+  m_MaxSize: {x: 10002, y: 10026}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &9
+=======
+    x: 0
+    y: 0
+    width: 425.59998
+    height: 726.4
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &11
+>>>>>>> Arian
+>>>>>>> main
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -493,46 +667,43 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 1615
     y: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     width: 520
     height: 622
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 551.19995
+    height: 324
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 16}
+=======
+    width: 305
+    height: 933
+>>>>>>> main
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
+>>>>>>> Ethan
   m_Panes:
   - {fileID: 17}
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1212
-    height: 346
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 19}
-  m_Panes:
-  - {fileID: 19}
   - {fileID: 14}
+=======
+    width: 372
+    height: 466.4
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 16}
+>>>>>>> Arian
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
@@ -545,22 +716,71 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
+<<<<<<< HEAD
+=======
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 346
-    width: 1212
-    height: 587
-  m_MinSize: {x: 51, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 13}
+    y: 0
+<<<<<<< HEAD
+    width: 1211
+    height: 554
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
+  - {fileID: 19}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+>>>>>>> Ethan
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+<<<<<<< HEAD
+    y: 0
+    width: 1292.8
+=======
+    width: 1250.4
+>>>>>>> Arian
+    height: 1004.80005
+  m_MinSize: {x: 201, y: 226}
+=======
+    y: 554
+    width: 1211
+    height: 379
+  m_MinSize: {x: 51, y: 76}
+>>>>>>> Ethan
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+<<<<<<< HEAD
+  - {fileID: 12}
+<<<<<<< HEAD
+  - {fileID: 13}
+=======
+  - {fileID: 20}
+  - {fileID: 15}
+  - {fileID: 14}
+>>>>>>> Arian
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &13
 =======
     width: 517
@@ -607,9 +827,56 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+=======
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.ConsoleWindow
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Console\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1250.4
+    y: 805.60004
+    width: 423.59998
+    height: 252.40002
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+<<<<<<< HEAD
+=======
+  m_Selected: 0
+  m_LastSelected: 0
+>>>>>>> Ethan
+--- !u!114 &12
+=======
+--- !u!114 &14
+>>>>>>> Arian
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+>>>>>>> main
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -623,9 +890,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 425
-    width: 1211
-    height: 561
+<<<<<<< HEAD
+    y: 79.200005
+    width: 1249.4
+    height: 978.80005
+=======
+    y: 633
+    width: 1210
+    height: 353
+>>>>>>> Ethan
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -645,7 +918,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1211, y: 540}
+<<<<<<< HEAD
+  m_TargetSize: {x: 1210, y: 332}
+=======
+  m_TargetSize: {x: 1249.4, y: 957.80005}
+>>>>>>> Arian
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -660,17 +937,24 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -605.5
-    m_HBaseRangeMax: 605.5
-    m_VBaseRangeMin: -270
-    m_VBaseRangeMax: 270
+<<<<<<< HEAD
+    m_HBaseRangeMin: -605
+    m_HBaseRangeMax: 605
+    m_VBaseRangeMin: -166
+    m_VBaseRangeMax: 166
+=======
+    m_HBaseRangeMin: -499.76
+    m_HBaseRangeMax: 499.76
+    m_VBaseRangeMin: -383.12003
+    m_VBaseRangeMax: 383.12003
+>>>>>>> Arian
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -681,29 +965,59 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1211
-      height: 540
-    m_Scale: {x: 1.2863412, y: 1.2863414}
-    m_Translation: {x: 593.9774, y: 265.27493}
+<<<<<<< HEAD
+<<<<<<< HEAD
+      width: 1291.8
+      height: 957.80005
+    m_Scale: {x: 1.25, y: 1.25}
+    m_Translation: {x: 645.9, y: 478.90002}
+=======
+      width: 1210
+      height: 332
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 605, y: 166}
+>>>>>>> Ethan
+=======
+      width: 1249.4
+      height: 957.80005
+    m_Scale: {x: 1.25, y: 1.25}
+    m_Translation: {x: 624.7, y: 478.90002}
+>>>>>>> Arian
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -461.7573
-      y: -206.22435
-      width: 941.4299
-      height: 419.79523
+<<<<<<< HEAD
+<<<<<<< HEAD
+      x: -516.72003
+=======
+      x: -499.76
+>>>>>>> Arian
+      y: -383.12003
+      width: 999.52
+      height: 766.24005
+=======
+      x: -605
+      y: -166
+      width: 1210
+      height: 332
+>>>>>>> Ethan
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1211, y: 561}
+<<<<<<< HEAD
+  m_LastWindowPixelSize: {x: 1210, y: 353}
+=======
+  m_LastWindowPixelSize: {x: 1561.75, y: 1223.5}
+>>>>>>> Arian
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
   m_showToolbar: 1
+<<<<<<< HEAD
 --- !u!114 &14
 =======
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
@@ -744,6 +1058,9 @@ MonoBehaviour:
   m_LastSelected: 1
 --- !u!114 &13
 >>>>>>> Stashed changes
+=======
+--- !u!114 &15
+>>>>>>> main
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -768,9 +1085,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
-    width: 1210
-    height: 438
+    y: 79.200005
+    width: 1249.4
+    height: 978.80005
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -799,7 +1116,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -835,6 +1152,42 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 390, y: 390}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Lighting
+    m_Image: {fileID: -1347227620855488341, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Lighting\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: -520
+    y: 208
+    width: 236
+    height: 907
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -856,10 +1209,24 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1212
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 1293.8
+    y: 24
+    width: 202
+    height: 978.80005
+=======
+    x: 1211
     y: 79
-    width: 186
+    width: 190
     height: 907
+>>>>>>> Ethan
+=======
+    x: 1250.4
+    y: 79.200005
+    width: 423.59998
+    height: 700.4
+>>>>>>> Arian
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -873,10 +1240,21 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0ef3fdffb281feff2a88feffb49bfeffba9cfeffba9dfeff420effff4c0efffff40effff1610ffff1811ffffa0f0ffff06fbffff48d30000
+<<<<<<< HEAD
+      m_ExpandedIDs: 10fbffff
+=======
+      scrollPos: {x: 0, y: 170}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8822feffe850ffff12eb000016eb000056eb000068ec0000
+>>>>>>> Ethan
+=======
+      m_ExpandedIDs: e687feff2cd8feff0ee2feff12e2feff5ae2feff5ee2feff66e2feff8046ffffe247ffff2672ffff5272ffff7072ffff4873ffff3486ffff5ed1ffff06faffffb0b000002ce10000
+>>>>>>> Arian
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -893,7 +1271,11 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 9}
+<<<<<<< HEAD
+        m_ClientGUIView: {fileID: 7}
+=======
+        m_ClientGUIView: {fileID: 12}
+>>>>>>> Arian
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -901,7 +1283,11 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 49d54c219888eb848878ec78d34c99b7
+<<<<<<< HEAD
 --- !u!114 &17
+=======
+--- !u!114 &18
+>>>>>>> Arian
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -922,10 +1308,24 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1400
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 1
+    y: 24
+    width: 550.19995
+    height: 298
+=======
+    x: 1615
     y: 79
-    width: 519
-    height: 596
+    width: 304
+    height: 907
+>>>>>>> Ethan
+=======
+    x: 1676
+    y: 79.200005
+    width: 371
+    height: 440.4
+>>>>>>> Arian
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -944,13 +1344,17 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 108
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &18
+=======
+--- !u!114 &19
+>>>>>>> Arian
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -971,10 +1375,24 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1400
-    y: 701
-    width: 519
-    height: 285
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 1
+    y: 348
+    width: 550.19995
+    height: 654.80005
+=======
+    x: 1403
+    y: 79
+    width: 210
+    height: 907
+>>>>>>> Ethan
+=======
+    x: 1676
+    y: 545.60004
+    width: 371
+    height: 512.4
+>>>>>>> Arian
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -996,8 +1414,12 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
+<<<<<<< HEAD
+    m_Folders: []
+=======
     m_Folders:
-    - Assets/Phillips Scripts/Light Up Puzzle
+    - Assets/Scripts/Phillips Scripts/Death And Check point
+>>>>>>> Ethan
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1008,14 +1430,18 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\RX660\Desktop\Fall 2025 TFS Game Jam\placeholder\Main
+  m_LastProjectPath: E:\School\TFS\Game Jams\Term 4\placeholder\Main
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b0230000
     m_LastClickedID: 9136
-    m_ExpandedIDs: 0000000034ad000036ad0000
+<<<<<<< HEAD
+    m_ExpandedIDs: 0000000022af000024af0000
+=======
+    m_ExpandedIDs: 0000000000ed000002ed000004ed000006ed000008ed0000
+>>>>>>> Ethan
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1041,27 +1467,39 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 28}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000034ad000036ad0000b0ae00001aaf00001eaf00007ab000007eb0000080b0000082b0000084b00000a2b00000a4b00000feb2000004b300000ab30000
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ExpandedIDs: 0000000022af000024af0000
+=======
+    m_ExpandedIDs: ffffffff0000000000ed000002ed000004ed000006ed000008ed00006ced000078ed0000a8010100362901003a290100482901004e290100b6290100
+>>>>>>> Ethan
+=======
+    m_ExpandedIDs: ffffffff0000000022af000024af000074b000007cb0000082b00000ccbb000014c1000068cf0000c8de0000eae20000f4e20000
+>>>>>>> Arian
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DeathZone
-      m_OriginalName: DeathZone
+      m_Name: PlayerRespawn
+      m_OriginalName: PlayerRespawn
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 57984
+      m_UserData: 35888
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 2}
+<<<<<<< HEAD
+      m_ClientGUIView: {fileID: 8}
+=======
+      m_ClientGUIView: {fileID: 4}
+>>>>>>> Arian
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1102,7 +1540,11 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
+<<<<<<< HEAD
 --- !u!114 &19
+=======
+--- !u!114 &20
+>>>>>>> Arian
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1130,7 +1572,18 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 24
+    width: 1291.8
+=======
+    y: 79.200005
+    width: 1249.4
+>>>>>>> Arian
+    height: 978.80005
+=======
     y: 79
+<<<<<<< HEAD
     width: 1211
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1145,6 +1598,11 @@ MonoBehaviour:
 =======
     height: 579
 >>>>>>> Stashed changes
+=======
+    width: 1210
+    height: 528
+>>>>>>> Ethan
+>>>>>>> main
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1783,6 +2241,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1804,6 +2263,23 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 7.4801936, y: -13.49777, z: 8.415061}
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 4.8135467, y: 1.616222, z: -1.4898895}
+=======
+    m_Target: {x: -2.0277205, y: 19.965147, z: -26.378342}
+    speed: 2
+    m_Value: {x: -2.0277207, y: 19.965147, z: -26.378342}
+>>>>>>> Ethan
+=======
+    m_Target: {x: 1.0472958, y: -0.023225278, z: 1.465847}
+    speed: 2
+    m_Value: {x: 1.0472958, y: -0.023225278, z: 1.465847}
+>>>>>>> Arian
+>>>>>>> main
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1836,7 +2312,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0.5, y: 0.5}
+      m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
         m_Target: 0
@@ -1849,24 +2325,43 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     m_Target: {x: 0.39296713, y: -0.013331017, z: 0.005370649, w: 0.9196506}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+=======
+    m_Target: {x: 0.17364323, y: -0.49232617, z: 0.100963786, w: 0.8470719}
+>>>>>>> Arian
+>>>>>>> main
     speed: 2
-    m_Value: {x: 0.3928911, y: -0.013328439, z: 0.00536961, w: 0.9194727}
+    m_Value: {x: 0.17349929, y: -0.49327782, z: 0.101158865, w: 0.8463699}
   m_Size:
-    m_Target: 0.6954865
+    m_Target: 23.537434
     speed: 2
+<<<<<<< HEAD
     m_Value: 0.6954865
 =======
     m_Target: {x: -0.47458655, y: -0.13690358, z: 0.073440954, w: -0.86681396}
     speed: 2
     m_Value: {x: -0.4757114, y: -0.13674286, z: 0.07361948, w: -0.86578304}
+=======
+<<<<<<< HEAD
+    m_Value: 4.4590726
+=======
+    m_Target: {x: -0.45519835, y: -0.2548976, z: 0.13731998, w: -0.8423827}
+    speed: 2
+    m_Value: {x: -0.45484546, y: -0.25607845, z: 0.13795821, w: -0.84172857}
+>>>>>>> main
   m_Size:
     m_Target: 10
     speed: 2
     m_Value: 10
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
     m_Target: {x: -0.47458655, y: -0.13690358, z: 0.073440954, w: -0.86681396}
@@ -1886,6 +2381,12 @@ MonoBehaviour:
     speed: 2
     m_Value: 10
 >>>>>>> Stashed changes
+=======
+>>>>>>> Ethan
+=======
+    m_Value: 22.523859
+>>>>>>> Arian
+>>>>>>> main
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1906,6 +2407,7 @@ MonoBehaviour:
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1919,6 +2421,13 @@ MonoBehaviour:
 =======
     m_SceneView: {fileID: 13}
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+    m_SceneView: {fileID: 19}
+=======
+    m_SceneView: {fileID: 20}
+>>>>>>> Arian
+>>>>>>> main
     m_CameraOverscanSettings:
       m_Opacity: 50
       m_Scale: 1
