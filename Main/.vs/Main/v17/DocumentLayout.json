@@ -1,12 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\",
+  "WorkspaceRootPath": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\ethanscripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\ethanscripts\\tutorial\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\tutorial\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,6 +26,49 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EthanScripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\rx660\\desktop\\fall 2025 tfs game jam\\placeholder\\main\\assets\\phillips scripts\\death and check point\\deathzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\death and check point\\deathzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\rx660\\desktop\\fall 2025 tfs game jam\\placeholder\\main\\assets\\phillips scripts\\death and check point\\chackpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\death and check point\\chackpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\assets\\phillips scripts\\death and check point\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\death and check point\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\assets\\phillips scripts\\light up puzzle\\revealonsolved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\light up puzzle\\revealonsolved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\assets\\phillips scripts\\portal\\scene portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\portal\\scene portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\assets\\phillips scripts\\portal\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\portal\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\assets\\phillips scripts\\portal\\teleportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\portal\\teleportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\assets\\phillips scripts\\portal\\teleportable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\portal\\teleportable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\assets\\phillips scripts\\light up puzzle\\light up puzzle manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\light up puzzle\\light up puzzle manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\assets\\phillips scripts\\light up puzzle\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\light up puzzle\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Chikit
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAwwJ4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T21:23:27.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PressureButton.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
               "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
@@ -68,7 +95,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "GrabbableObject.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
               "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
@@ -77,11 +105,22 @@
               "ViewState": "AgIAABkAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T20:43:23.702Z",
+=======
+              "Title": "DeathZone.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:57:20.051Z",
+>>>>>>> Chikit
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+<<<<<<< HEAD
+              "DocumentIndex": 3,
               "Title": "Camera.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Camera.cs",
               "RelativeDocumentMoniker": "Assets\\EthanScripts\\Camera.cs",
@@ -90,10 +129,23 @@
               "ViewState": "AgIAADIAAAAAAAAAAAAQwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T19:54:17.084Z"
+=======
+              "DocumentIndex": 1,
+              "Title": "Chackpoint.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Death And Check point\\Chackpoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Death And Check point\\Chackpoint.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Death And Check point\\Chackpoint.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Death And Check point\\Chackpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:56:48.068Z",
+              "EditorCaption": ""
+>>>>>>> Chikit
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "GrabbableObject.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs",
               "RelativeDocumentMoniker": "Assets\\EthanScripts\\GrabbableObject.cs",
@@ -101,10 +153,33 @@
               "RelativeToolTip": "Assets\\EthanScripts\\GrabbableObject.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T18:46:59.819Z"
+=======
+              "Title": "PlayerRespawn.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Death And Check point\\PlayerRespawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Death And Check point\\PlayerRespawn.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Death And Check point\\PlayerRespawn.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Death And Check point\\PlayerRespawn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:56:07.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "RevealOnSolved.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\RevealOnSolved.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Light Up Puzzle\\RevealOnSolved.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\RevealOnSolved.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Light Up Puzzle\\RevealOnSolved.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:47:02.241Z"
+>>>>>>> Chikit
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+<<<<<<< HEAD
               "Title": "Door.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs",
               "RelativeDocumentMoniker": "Assets\\EthanScripts\\Door.cs",
@@ -113,16 +188,93 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T18:46:36.807Z"
+=======
+              "Title": "Scene Portal.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Portal\\Scene Portal.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Portal\\Scene Portal.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Portal\\Scene Portal.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Portal\\Scene Portal.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:42:11.762Z"
+>>>>>>> Chikit
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+<<<<<<< HEAD
+=======
+              "Title": "Portal.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Portal\\Portal.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Portal\\Portal.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Portal\\Portal.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Portal\\Portal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:40:27.244Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "TeleportService.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Portal\\TeleportService.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Portal\\TeleportService.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Portal\\TeleportService.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Portal\\TeleportService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:39:57.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Teleportable.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Portal\\Teleportable.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Portal\\Teleportable.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Portal\\Teleportable.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Portal\\Teleportable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:31:03.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Light Up Puzzle Manager.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T19:31:55.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\Tile.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Light Up Puzzle\\Tile.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\Tile.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Light Up Puzzle\\Tile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T19:31:05.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+>>>>>>> Chikit
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\EthanScripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs",
+<<<<<<< HEAD
               "RelativeToolTip": "Assets\\EthanScripts\\PlayerController.cs",
               "ViewState": "AgIAAMMAAAAAAAAAAAAiwOQAAAAFAAAAAAAAAA==",
+=======
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs",
+>>>>>>> Chikit
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T17:19:06.184Z"
             }
