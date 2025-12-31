@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\assets\\scripts\\arians scripts\\puzzle\\doorpuzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|e:\\school\\tfs\\game jams\\term 4\\placeholder\\main\\assets\\scripts\\arians scripts\\player\\ariansplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\player\\ariansplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|e:\\school\\tfs\\game jams\\term 4\\placeholder\\main\\assets\\scripts\\arians scripts\\puzzle\\doorpuzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\puzzle\\doorpuzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AriansPlayerController.cs",
+              "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Player\\AriansPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Player\\AriansPlayerController.cs",
+              "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Player\\AriansPlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Player\\AriansPlayerController.cs",
+              "ViewState": "AgIAAE8BAAAAAAAAAADwv1UBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T19:25:52.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DoorPuzzleController.cs",
               "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
