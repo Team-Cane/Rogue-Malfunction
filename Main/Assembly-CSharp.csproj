@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Arians Scripts\Control Rewire\ControlRewireManager.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Phillips Scripts\Light Up Puzzle\Light Up Puzzle Manager.cs" />
+    <Compile Include="Assets\Scripts\Arians Scripts\Puzzle\SideToSideMover.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\Door.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\Camera.cs" />
   </ItemGroup>

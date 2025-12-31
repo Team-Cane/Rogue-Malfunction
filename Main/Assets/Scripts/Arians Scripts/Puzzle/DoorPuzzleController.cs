@@ -1,6 +1,7 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro; // NEW
 
 public class DoorPuzzleController : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class DoorPuzzleController : MonoBehaviour
     [Tooltip("The required sequence of keys (W/A/S/D) to solve this door.")]
     [SerializeField] private KeyCode[] requiredSequence;
 
-    [Tooltip("Total time (in seconds) allowed to complete the entire sequence.")]
+    [Tooltip("Total time (in seconds) allowed to complete the entire sequence. <= 0 means no time limit.")]
     [SerializeField] private float totalTime = 3f;
 
     [Header("UI References")]
@@ -33,6 +34,13 @@ public class DoorPuzzleController : MonoBehaviour
     [SerializeField] private Color defaultColor = Color.white;
     [SerializeField] private Color correctColor = Color.green;
     [SerializeField] private Color wrongColor = Color.red;
+
+    [Header("Time UI (Optional)")]
+    [Tooltip("Optional: Image used as a time bar (fillAmount goes from 1 → 0).")]
+    [SerializeField] private Image timeBarImage;
+
+    [Tooltip("Optional: TextMeshPro label showing numeric time remaining, e.g. 2.8")]
+    [SerializeField] private TMP_Text timeRemainingText;   // CHANGED
 
     [Header("Fail Feedback")]
     [Tooltip("Full-screen or overlay image to flash red on failure.")]
@@ -72,17 +80,9 @@ public class DoorPuzzleController : MonoBehaviour
             failFlashImage.color = c;
         }
 
-        // Initialize step icons' colors
-        if (stepIcons != null && stepIcons.Length > 0)
-        {
-            for (int i = 0; i < stepIcons.Length; i++)
-            {
-                if (stepIcons[i] != null)
-                    stepIcons[i].color = defaultColor;
-            }
-        }
+        ResetStepIcons();
+        ResetTimeUI();
 
-        // If not assigned, try to auto-assign door collider/visual
         if (doorCollider == null)
             doorCollider = GetComponent<Collider>();
         if (doorVisual == null)
@@ -105,10 +105,8 @@ public class DoorPuzzleController : MonoBehaviour
         if (playerTransform == null || playerController == null)
             return;
 
-        // Click on door collider to start puzzle
         if (Input.GetMouseButtonDown(0))
         {
-            // Raycast from camera to check if we hit THIS door
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit, 100f))
             {
@@ -137,6 +135,7 @@ public class DoorPuzzleController : MonoBehaviour
             puzzlePanel.SetActive(true);
 
         ResetStepIcons();
+        ResetTimeUI();
 
         if (playerController != null)
             playerController.SetInputLocked(true);
@@ -157,16 +156,21 @@ public class DoorPuzzleController : MonoBehaviour
 
     private void UpdatePuzzle()
     {
-        puzzleTimer += Time.deltaTime;
-
-        // Time out
-        if (totalTime > 0f && puzzleTimer > totalTime)
+        // timer
+        if (totalTime > 0f)
         {
-            TriggerFail();
-            return;
+            puzzleTimer += Time.deltaTime;
+            float remaining = Mathf.Max(0f, totalTime - puzzleTimer);
+            UpdateTimeUI(remaining);
+
+            if (remaining <= 0f)
+            {
+                TriggerFail();
+                return;
+            }
         }
 
-        // Allow cancel (Esc or Right Mouse)
+        // cancel
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1))
         {
             ClosePuzzle();
@@ -184,7 +188,7 @@ public class DoorPuzzleController : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.D)) pressed = KeyCode.D;
 
         if (pressed == KeyCode.None)
-            return; // ignore keys we don't care about
+            return;
 
         CheckInput(pressed);
     }
@@ -202,7 +206,6 @@ public class DoorPuzzleController : MonoBehaviour
 
         bool correct = (pressed == requiredSequence[currentIndex]);
 
-        // Visual feedback on that step
         if (stepIcons != null && currentIndex < stepIcons.Length && stepIcons[currentIndex] != null)
         {
             stepIcons[currentIndex].color = correct ? correctColor : wrongColor;
@@ -238,7 +241,6 @@ public class DoorPuzzleController : MonoBehaviour
 
         if (failFlashImage != null)
         {
-            // Fade in red
             Color c = failFlashImage.color;
             c.a = 0.8f;
             failFlashImage.color = c;
@@ -266,17 +268,54 @@ public class DoorPuzzleController : MonoBehaviour
         currentIndex = 0;
         puzzleTimer = 0f;
         ResetStepIcons();
+        ResetTimeUI();
     }
 
     private void ResetStepIcons()
     {
-        if (stepIcons != null && stepIcons.Length > 0)
+        if (stepIcons == null || stepIcons.Length == 0)
+            return;
+
+        for (int i = 0; i < stepIcons.Length; i++)
         {
-            for (int i = 0; i < stepIcons.Length; i++)
-            {
-                if (stepIcons[i] != null)
-                    stepIcons[i].color = defaultColor;
-            }
+            if (stepIcons[i] != null)
+                stepIcons[i].color = defaultColor;
+        }
+    }
+
+    private void ResetTimeUI()
+    {
+        if (timeBarImage != null)
+        {
+            if (totalTime > 0f)
+                timeBarImage.fillAmount = 1f;
+            else
+                timeBarImage.fillAmount = 0f;
+        }
+
+        if (timeRemainingText != null)
+        {
+            if (totalTime > 0f)
+                timeRemainingText.text = totalTime.ToString("0.0");
+            else
+                timeRemainingText.text = string.Empty;
+        }
+    }
+
+    private void UpdateTimeUI(float timeRemaining)
+    {
+        if (timeBarImage != null && totalTime > 0f)
+        {
+            float t = Mathf.Clamp01(timeRemaining / totalTime);
+            timeBarImage.fillAmount = t;
+        }
+
+        if (timeRemainingText != null)
+        {
+            if (totalTime > 0f)
+                timeRemainingText.text = Mathf.Max(0f, timeRemaining).ToString("0.0");
+            else
+                timeRemainingText.text = string.Empty;
         }
     }
 
@@ -291,18 +330,15 @@ public class DoorPuzzleController : MonoBehaviour
         if (playerController != null)
             playerController.SetInputLocked(false);
 
-        // Open the door
         if (doorCollider != null)
             doorCollider.enabled = false;
 
         if (doorVisual != null)
             doorVisual.SetActive(false);
 
-        // Enable portal if assigned (for final door, etc.)
         if (portalToEnable != null)
             portalToEnable.SetActive(true);
 
-        // Apply control change for Door 1 / Door 2
         ApplyControlChange();
     }
 
