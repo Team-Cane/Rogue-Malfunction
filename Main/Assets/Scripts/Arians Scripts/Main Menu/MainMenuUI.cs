@@ -6,63 +6,74 @@ using TMPro;
 public class MainMenuUI : MonoBehaviour
 {
     [Header("Scene")]
-    [Tooltip("Name of the scene to load when Play is pressed.")]
-    [SerializeField] private string playSceneName = "GameScene"; // Set this in Inspector
+    [SerializeField] private string playSceneName = "GameScene";
 
     [Header("Panels")]
     [SerializeField] private GameObject mainPanel;
     [SerializeField] private GameObject settingsPanel;
+    [SerializeField] private GameObject creditsPanel;
 
-    [Header("Audio Settings")]
+    [Header("Audio Settings UI")]
     [SerializeField] private Slider masterVolumeSlider;
-    [SerializeField] private TMP_Text volumeLabel; // optional
-
-    private const string MasterVolumeKey = "MasterVolume";
+    [SerializeField] private TMP_Text volumeLabel;
 
     private void Awake()
     {
-        // Make sure panels start in correct state
         if (mainPanel != null) mainPanel.SetActive(true);
         if (settingsPanel != null) settingsPanel.SetActive(false);
+        if (creditsPanel != null) creditsPanel.SetActive(false);
 
-        // Load saved volume or default to 1
-        float savedVolume = PlayerPrefs.GetFloat(MasterVolumeKey, 1f);
+        float initialVolume = 1f;
 
-        if (masterVolumeSlider != null)
+        if (AudioManager.Instance != null)
         {
-            masterVolumeSlider.value = savedVolume;
-            UpdateMasterVolume(savedVolume);
+            AudioManager.Instance.PlayMainMenuMusic();
+            initialVolume = AudioManager.Instance.MasterVolume;
         }
         else
         {
-            AudioListener.volume = savedVolume;
+            initialVolume = AudioListener.volume;
         }
+
+        if (masterVolumeSlider != null)
+        {
+            masterVolumeSlider.value = initialVolume;
+        }
+
+        UpdateVolumeLabel(initialVolume);
     }
 
-    // ---------------- BUTTON HOOKS ----------------
+    // -------- Buttons: Main --------
 
     public void OnPlayClicked()
     {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayGameMusic();
+        }
+
         if (!string.IsNullOrEmpty(playSceneName))
         {
             SceneManager.LoadScene(playSceneName);
         }
         else
         {
-            Debug.LogWarning("MainMenuUI: Play scene name is not set.");
+            Debug.LogWarning("MainMenuUI: playSceneName is not set.");
         }
     }
 
     public void OnSettingsClicked()
     {
         if (mainPanel != null) mainPanel.SetActive(false);
+        if (creditsPanel != null) creditsPanel.SetActive(false);
         if (settingsPanel != null) settingsPanel.SetActive(true);
     }
 
-    public void OnBackFromSettingsClicked()
+    public void OnCreditsClicked()
     {
+        if (mainPanel != null) mainPanel.SetActive(false);
         if (settingsPanel != null) settingsPanel.SetActive(false);
-        if (mainPanel != null) mainPanel.SetActive(true);
+        if (creditsPanel != null) creditsPanel.SetActive(true);
     }
 
     public void OnQuitClicked()
@@ -76,23 +87,43 @@ public class MainMenuUI : MonoBehaviour
 #endif
     }
 
-    // ---------------- AUDIO ----------------
+    // -------- Buttons: Settings / Credits --------
+
+    public void OnBackFromSettingsClicked()
+    {
+        if (settingsPanel != null) settingsPanel.SetActive(false);
+        if (creditsPanel != null) creditsPanel.SetActive(false);
+        if (mainPanel != null) mainPanel.SetActive(true);
+    }
+
+    public void OnBackFromCreditsClicked()
+    {
+        if (creditsPanel != null) creditsPanel.SetActive(false);
+        if (settingsPanel != null) settingsPanel.SetActive(false);
+        if (mainPanel != null) mainPanel.SetActive(true);
+    }
+
+    // -------- Audio UI --------
 
     public void OnMasterVolumeSliderChanged(float value)
     {
-        UpdateMasterVolume(value);
-        PlayerPrefs.SetFloat(MasterVolumeKey, value);
-        PlayerPrefs.Save();
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.SetMasterVolume(value);
+        }
+        else
+        {
+            AudioListener.volume = Mathf.Clamp01(value);
+        }
+
+        UpdateVolumeLabel(value);
     }
 
-    private void UpdateMasterVolume(float value)
+    private void UpdateVolumeLabel(float value)
     {
-        AudioListener.volume = value;
+        if (volumeLabel == null) return;
 
-        if (volumeLabel != null)
-        {
-            int percent = Mathf.RoundToInt(value * 100f);
-            volumeLabel.text = percent + "%";
-        }
+        int percent = Mathf.RoundToInt(Mathf.Clamp01(value) * 100f);
+        volumeLabel.text = percent + "%";
     }
 }
