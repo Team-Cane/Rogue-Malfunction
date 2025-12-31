@@ -647,9 +647,6 @@ MonoBehaviour:
   pressedHeight: 0.1
   pressSpeed: 8
   connectedDoors:
-  - {fileID: 1246214806}
-  - {fileID: 1792740107}
-  - {fileID: 244749255}
   - {fileID: 2026288926}
 --- !u!64 &121840240
 MeshCollider:
@@ -1912,8 +1909,7 @@ MonoBehaviour:
   buttonTop: {fileID: 1423585576}
   pressedHeight: 0.1
   pressSpeed: 8
-  connectedDoors:
-  - {fileID: 893497358}
+  connectedDoors: []
 --- !u!64 &254584467
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2638,8 +2634,7 @@ MonoBehaviour:
   buttonTop: {fileID: 620419534}
   pressedHeight: 0.1
   pressSpeed: 8
-  connectedDoors:
-  - {fileID: 2021837998}
+  connectedDoors: []
 --- !u!64 &355057807
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3261,7 +3256,7 @@ MonoBehaviour:
   pressedHeight: 0.1
   pressSpeed: 8
   connectedDoors:
-  - {fileID: 623707246}
+  - {fileID: 1792740107}
 --- !u!64 &433709204
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3771,8 +3766,7 @@ MonoBehaviour:
   buttonTop: {fileID: 1888947060}
   pressedHeight: 0.1
   pressSpeed: 8
-  connectedDoors:
-  - {fileID: 1438017600}
+  connectedDoors: []
 --- !u!64 &639414427
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4907,7 +4901,7 @@ Transform:
   m_GameObject: {fileID: 769976482}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.17, y: -0.032, z: 4.4077997}
+  m_LocalPosition: {x: -14.17, y: 0.094, z: 4.4077997}
   m_LocalScale: {x: 1.688542, y: 0.09032363, z: 1.7047462}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5026,7 +5020,7 @@ MonoBehaviour:
   pressedHeight: 0.1
   pressSpeed: 8
   connectedDoors:
-  - {fileID: 294836447}
+  - {fileID: 1246214806}
 --- !u!64 &782501874
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7870,7 +7864,7 @@ MonoBehaviour:
   pressedHeight: 0.25
   pressSpeed: 8
   connectedDoors:
-  - {fileID: 411280193}
+  - {fileID: 345563956}
 --- !u!64 &1114261912
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12748,7 +12742,6 @@ MonoBehaviour:
   pressSpeed: 8
   connectedDoors:
   - {fileID: 1199044633}
-  - {fileID: 345563956}
 --- !u!64 &1957081150
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13613,8 +13606,7 @@ MonoBehaviour:
   buttonTop: {fileID: 1057429617}
   pressedHeight: 0.1
   pressSpeed: 8
-  connectedDoors:
-  - {fileID: 165677629}
+  connectedDoors: []
 --- !u!64 &2092475894
 MeshCollider:
   m_ObjectHideFlags: 0
