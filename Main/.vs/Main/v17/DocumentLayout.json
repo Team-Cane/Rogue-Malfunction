@@ -1,57 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\",
+  "WorkspaceRootPath": "C:\\Users\\RX660\\Desktop\\Main\\Main\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\rx660\\desktop\\fall 2025 tfs game jam\\placeholder\\main\\assets\\scripts\\phillips scripts\\light up puzzle\\light up puzzle manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\phillips scripts\\light up puzzle\\light up puzzle manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\rx660\\desktop\\main\\main\\assets\\phillips scripts\\chikitsplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\chikitsplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\rx660\\desktop\\main\\main\\assets\\phillips scripts\\audio\\audio manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\audio\\audio manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\rx660\\desktop\\main\\main\\assets\\phillips scripts\\sokoban\\sokoban plates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\sokoban\\sokoban plates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\sokoban\\plate manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\sokoban\\plate manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\ethanscripts\\tutorial\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\tutorial\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Sokoban\\V2 playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Phillips Scripts\\Sokoban\\V2 playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\sokoban\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\sokoban\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\light up puzzle\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\light up puzzle\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\light up puzzle\\light up puzzle manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\light up puzzle\\light up puzzle manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\ethanscripts\\tutorial\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\tutorial\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RX660\\Desktop\\Main\\Main\\Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\death and check point\\deathzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\death and check point\\deathzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\death and check point\\chackpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\death and check point\\chackpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\death and check point\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\death and check point\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\light up puzzle\\revealonsolved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\light up puzzle\\revealonsolved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\portal\\scene portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\portal\\scene portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\portal\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\portal\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\portal\\teleportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\portal\\teleportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Main\\Main\\assets\\phillips scripts\\portal\\teleportable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\portal\\teleportable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\ethanscripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\ethanscripts\\tutorial\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\tutorial\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\ethanscripts\\tutorial\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\ethanscripts\\tutorial\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EthanScripts\\GrabbableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EthanScripts\\Camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EthanScripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EthanScripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> main
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\EthanScripts\\Tutorial\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EthanScripts\\Tutorial\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,163 +98,254 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< HEAD
-              "Title": "Light Up Puzzle Manager.cs",
-              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Scripts\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
-              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Scripts\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswDAAAAAAAAAAAAAAAA==",
+              "Title": "ChikitsPlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\ChikitsPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\ChikitsPlayerController.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\ChikitsPlayerController.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\ChikitsPlayerController.cs",
+              "ViewState": "AgIAABwBAAAAAAAAAAAkwEgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T21:47:33.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PressureButton.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T21:47:33.617Z",
+              "WhenOpened": "2025-12-31T03:41:12.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GrabbableObject.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
+              "Title": "Audio Manager.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Audio\\Audio Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Audio\\Audio Manager.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Audio\\Audio Manager.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Audio\\Audio Manager.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAkwOMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T21:47:33.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Camera.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Camera.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Camera.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Camera.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Camera.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAQwFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T19:54:17.084Z",
-=======
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAwwJ4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T21:23:27.654Z",
->>>>>>> main
+              "WhenOpened": "2025-12-31T03:29:30.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-<<<<<<< HEAD
-              "Title": "GrabbableObject.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs",
+              "Title": "Sokoban plates.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Sokoban\\Sokoban plates.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Sokoban\\Sokoban plates.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Sokoban\\Sokoban plates.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Sokoban\\Sokoban plates.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T18:46:59.819Z",
-=======
-              "Title": "PressureButton.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
-              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
-              "RelativeToolTip": "Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T20:43:46.62Z",
+              "WhenOpened": "2025-12-31T02:30:48.055Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GrabbableObject.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
-              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
-              "RelativeToolTip": "Assets\\EthanScripts\\Tutorial\\GrabbableObject.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T20:43:23.702Z",
->>>>>>> main
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-<<<<<<< HEAD
-              "Title": "Door.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T18:46:36.807Z",
-              "EditorCaption": ""
-=======
-              "Title": "Camera.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Camera.cs",
-              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Camera.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Camera.cs",
-              "RelativeToolTip": "Assets\\EthanScripts\\Camera.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAQwFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T19:54:17.084Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GrabbableObject.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs",
-              "RelativeDocumentMoniker": "Assets\\EthanScripts\\GrabbableObject.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\GrabbableObject.cs",
-              "RelativeToolTip": "Assets\\EthanScripts\\GrabbableObject.cs",
+              "Title": "Plate Manager.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Sokoban\\Plate Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Sokoban\\Plate Manager.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Sokoban\\Plate Manager.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Sokoban\\Plate Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T18:46:59.819Z"
->>>>>>> main
+              "WhenOpened": "2025-12-31T02:29:40.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PressureButton.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
+              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
+              "RelativeToolTip": "Assets\\EthanScripts\\Tutorial\\PressureButton.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T02:25:48.458Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-<<<<<<< HEAD
-=======
-              "Title": "Door.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs",
-              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Door.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\Door.cs",
-              "RelativeToolTip": "Assets\\EthanScripts\\Door.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Title": "V2 playercontroller.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Sokoban\\V2 playercontroller.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Sokoban\\V2 playercontroller.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Sokoban\\V2 playercontroller.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Sokoban\\V2 playercontroller.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwJsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T18:46:36.807Z"
+              "WhenOpened": "2025-12-31T01:47:43.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\EthanScripts\\Tutorial\\PlayerController.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAkwCoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T01:36:55.762Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
->>>>>>> main
+              "Title": "Box.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Sokoban\\Box.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Sokoban\\Box.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Sokoban\\Box.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Sokoban\\Box.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAA7wJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T23:00:33.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\EthanScripts\\Tutorial\\Camera.cs",
+              "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\Camera.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\EthanScripts\\Tutorial\\Camera.cs",
+              "RelativeToolTip": "Assets\\EthanScripts\\Tutorial\\Camera.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T22:10:10.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@ba467ec059b9\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-12-30T21:56:58.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeathZone.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:57:20.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Chackpoint.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Death And Check point\\Chackpoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Death And Check point\\Chackpoint.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Death And Check point\\Chackpoint.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Death And Check point\\Chackpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:56:48.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerRespawn.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Death And Check point\\PlayerRespawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Death And Check point\\PlayerRespawn.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Death And Check point\\PlayerRespawn.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Death And Check point\\PlayerRespawn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:56:07.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RevealOnSolved.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\RevealOnSolved.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Light Up Puzzle\\RevealOnSolved.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\RevealOnSolved.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Light Up Puzzle\\RevealOnSolved.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:47:02.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Scene Portal.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Portal\\Scene Portal.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Portal\\Scene Portal.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Portal\\Scene Portal.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Portal\\Scene Portal.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:42:11.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Portal.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Portal\\Portal.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Portal\\Portal.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Portal\\Portal.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Portal\\Portal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:40:27.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TeleportService.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Portal\\TeleportService.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Portal\\TeleportService.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Portal\\TeleportService.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Portal\\TeleportService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:39:57.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Teleportable.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Portal\\Teleportable.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Portal\\Teleportable.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Portal\\Teleportable.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Portal\\Teleportable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T20:31:03.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Light Up Puzzle Manager.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Light Up Puzzle\\Light Up Puzzle Manager.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T19:31:55.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\Tile.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Light Up Puzzle\\Tile.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Main\\Main\\Assets\\Phillips Scripts\\Light Up Puzzle\\Tile.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Light Up Puzzle\\Tile.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T19:31:05.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\EthanScripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs",
-<<<<<<< HEAD
-              "RelativeToolTip": "..\\..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs",
-=======
-              "RelativeToolTip": "Assets\\EthanScripts\\PlayerController.cs",
->>>>>>> main
-              "ViewState": "AgIAAMMAAAAAAAAAAAAiwOQAAAAFAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\EthanScripts\\PlayerController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T17:19:06.184Z"
             }
