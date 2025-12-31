@@ -90,6 +90,10 @@
     <Compile Include="Assets\EthanScripts\Tutorial\GrabbableObject.cs" />
     <Compile Include="Assets\EthanScripts\Tutorial\IGrabbable.cs" />
     <Compile Include="Assets\Phillips Scripts\Sokoban\Sokoban plates.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\Scripts\IGrabMoveable.cs" />
+>>>>>>> Chikit
     <Compile Include="Assets\Scripts\Arians Scripts\Puzzle\SideToSideMover.cs" />
     <Compile Include="Assets\Phillips Scripts\Portal\Teleportable.cs" />
     <Compile Include="Assets\EthanScripts\Tutorial\PlayerGroundedChecker.cs" />

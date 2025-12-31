@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class IsometricPlayerController : MonoBehaviour
+public class ChikitsPlayerController : MonoBehaviour
 {
     public enum ControlScheme
     {
@@ -16,8 +16,8 @@ public class IsometricPlayerController : MonoBehaviour
 
     [Header("Controls")]
     [SerializeField] private ControlScheme controlScheme = ControlScheme.Normal;
-    [SerializeField] private bool invertHorizontal = false;
-    [SerializeField] private bool invertVertical = false;
+    [SerializeField] private bool invertHorizontal;
+    [SerializeField] private bool invertVertical;
 
     [Header("Jump")]
     public float jumpForce = 6f;
@@ -32,41 +32,33 @@ public class IsometricPlayerController : MonoBehaviour
 
     [Header("Grab")]
     public Transform holdPoint;
+    public Transform grabOrigin;
     public float grabRange = 1.2f;
-    [SerializeField] private Transform grabOrigin;
-    [SerializeField] private float grabMaxAngle = 55f;
-    [SerializeField] private LayerMask grabBlockerMask;
-    [SerializeField] private bool requireLineOfSight = true;
-
-    [Header("Interaction")]
+    public float grabMaxAngle = 55f;
+    public LayerMask grabBlockerMask;
     public LayerMask interactLayer;
+    public bool requireLineOfSight = true;
 
-    private IGrabbable grabbedObject;
+    [Header("Grab Move")]
+    [SerializeField] private float grabMoveStrength = 0.5f;
 
     private Rigidbody rb;
     private Vector3 moveInput;
-<<<<<<< HEAD:Main/Assets/Scripts/Ethan Scripts/Tutorial/PlayerController.cs
-    private Vector3 smoothMoveInput;
     private Vector3 lastMoveDirection = Vector3.forward;
     private Vector3 grabOffsetLocal;
 
-=======
->>>>>>> Chikit:Main/Assets/Phillips Scripts/ChikitsPlayerController.cs
     private bool isGrounded;
     private bool jumpQueued;
-    private Vector3 lastMoveDirection = Vector3.forward;
 
-<<<<<<< HEAD:Main/Assets/Scripts/Ethan Scripts/Tutorial/PlayerController.cs
     private IGrabbable grabbedObject;
-=======
+    private IGrabMoveable grabbedMover;
+
     private Vector3 grabDirection;
     private float grabDistance;
->>>>>>> Chikit:Main/Assets/Phillips Scripts/ChikitsPlayerController.cs
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
@@ -88,14 +80,13 @@ public class IsometricPlayerController : MonoBehaviour
         HandleRotation();
         HandleJump();
     }
+
     void LateUpdate()
     {
-        if (grabbedObject == null)
+        if (grabbedObject == null || holdPoint == null)
             return;
 
-        // Hold point stays in front of player
-        holdPoint.position =
-        transform.position + transform.rotation * grabOffsetLocal;
+        holdPoint.position = transform.position + (transform.rotation * grabOffsetLocal);
     }
 
     void ReadInput()
@@ -103,20 +94,25 @@ public class IsometricPlayerController : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
 
-<<<<<<< HEAD:Main/Assets/Scripts/Ethan Scripts/Tutorial/PlayerController.cs
-        PlayerControlRandomizer randomizer = GetComponent<PlayerControlRandomizer>();
-        if (randomizer != null)
-        {
-            Vector2 modified = randomizer.ProcessMovementInput(h, v);
-            h = modified.x;
-            v = modified.y;
-        }
-=======
-        ApplyControlScheme(ref h, ref v);
->>>>>>> Chikit:Main/Assets/Phillips Scripts/ChikitsPlayerController.cs
+        if (invertHorizontal) h = -h;
+        if (invertVertical) v = -v;
 
-        Vector3 forward = Camera.main.transform.forward;
-        Vector3 right = Camera.main.transform.right;
+        if (controlScheme == ControlScheme.SwapWASD)
+        {
+            float temp = h;
+            h = v;
+            v = temp;
+        }
+
+        Camera cam = Camera.main;
+        if (!cam)
+        {
+            moveInput = Vector3.zero;
+            return;
+        }
+
+        Vector3 forward = cam.transform.forward;
+        Vector3 right = cam.transform.right;
 
         forward.y = 0f;
         right.y = 0f;
@@ -137,20 +133,6 @@ public class IsometricPlayerController : MonoBehaviour
         }
     }
 
-    void ApplyControlScheme(ref float h, ref float v)
-    {
-        if (invertHorizontal) h = -h;
-        if (invertVertical) v = -v;
-
-        if (controlScheme == ControlScheme.SwapWASD)
-        {
-            // Swap axes: W/S become horizontal, A/D become vertical
-            float oldH = h;
-            h = v;
-            v = oldH;
-        }
-    }
-
     void HandleMovement()
     {
         float control = isGrounded ? 1f : airControlPercent;
@@ -159,14 +141,14 @@ public class IsometricPlayerController : MonoBehaviour
         Vector3 targetVelocity = moveInput * moveSpeed * control;
         Vector3 velocity = rb.linearVelocity;
 
-        Vector3 velocityChange = new Vector3(
+        Vector3 change = new Vector3(
             targetVelocity.x - velocity.x,
             0f,
             targetVelocity.z - velocity.z
         );
 
-        velocityChange = Vector3.ClampMagnitude(velocityChange, accel);
-        rb.AddForce(velocityChange, ForceMode.VelocityChange);
+        change = Vector3.ClampMagnitude(change, accel);
+        rb.AddForce(change, ForceMode.VelocityChange);
     }
 
     void HandleRotation()
@@ -174,39 +156,24 @@ public class IsometricPlayerController : MonoBehaviour
         if (lastMoveDirection.sqrMagnitude < 0.01f)
             return;
 
-        Quaternion targetRotation = Quaternion.LookRotation(lastMoveDirection);
-        Quaternion smoothRotation = Quaternion.Slerp(
-            rb.rotation,
-            targetRotation,
-            rotationSpeed * Time.fixedDeltaTime
-        );
-
-        rb.MoveRotation(smoothRotation);
+        Quaternion target = Quaternion.LookRotation(lastMoveDirection);
+        rb.MoveRotation(Quaternion.Slerp(rb.rotation, target, rotationSpeed * Time.fixedDeltaTime));
     }
 
     void CheckGround()
     {
+        if (!groundCheck)
+        {
+            isGrounded = false;
+            return;
+        }
+
         isGrounded = Physics.CheckSphere(
             groundCheck.position,
             groundCheckRadius,
             groundLayer,
             QueryTriggerInteraction.Ignore
         );
-    }
-
-    void OnCollisionStay(Collision collision)
-    {
-        if (isGrounded) return;
-
-        foreach (ContactPoint contact in collision.contacts)
-        {
-            if (Vector3.Dot(contact.normal, Vector3.up) < 0.2f)
-            {
-                Vector3 vel = rb.linearVelocity;
-                Vector3 intoWall = Vector3.Project(vel, -contact.normal);
-                rb.linearVelocity = vel - intoWall;
-            }
-        }
     }
 
     void HandleJump()
@@ -216,22 +183,10 @@ public class IsometricPlayerController : MonoBehaviour
 
         jumpQueued = false;
 
-<<<<<<< HEAD:Main/Assets/Scripts/Ethan Scripts/Tutorial/PlayerController.cs
-        // Cancel grab if jumping
         if (grabbedObject != null)
-        {
-            grabbedObject.OnRelease();
-            grabbedObject = null;
-        }
+            ReleaseObject();
 
-=======
->>>>>>> Chikit:Main/Assets/Phillips Scripts/ChikitsPlayerController.cs
-        rb.linearVelocity = new Vector3(
-            rb.linearVelocity.x,
-            0f,
-            rb.linearVelocity.z
-        );
-
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
 
@@ -241,6 +196,8 @@ public class IsometricPlayerController : MonoBehaviour
         {
             if (grabbedObject == null)
                 TryGrabObject();
+            else if (grabbedMover != null)
+                MoveGrabbedObject();
         }
         else
         {
@@ -252,15 +209,8 @@ public class IsometricPlayerController : MonoBehaviour
     {
         Vector3 origin = grabOrigin ? grabOrigin.position : transform.position;
 
-        Collider[] hits = Physics.OverlapSphere(
-            origin,
-            grabRange,
-            interactLayer,
-            QueryTriggerInteraction.Ignore
-        );
-
-        if (hits == null || hits.Length == 0)
-            return;
+        Collider[] hits = Physics.OverlapSphere(origin, grabRange, interactLayer, QueryTriggerInteraction.Ignore);
+        if (hits == null || hits.Length == 0) return;
 
         Vector3 facing = lastMoveDirection.sqrMagnitude > 0.01f ? lastMoveDirection : transform.forward;
         facing.y = 0f;
@@ -268,72 +218,54 @@ public class IsometricPlayerController : MonoBehaviour
 
         float cosLimit = Mathf.Cos(grabMaxAngle * Mathf.Deg2Rad);
 
-        float bestScore = float.NegativeInfinity;
-        Collider bestCol = null;
+        float bestScore = float.MinValue;
         IGrabbable bestGrab = null;
+        Collider bestCol = null;
 
-        for (int i = 0; i < hits.Length; i++)
+        foreach (Collider c in hits)
         {
-            Collider c = hits[i];
             if (!c) continue;
 
-<<<<<<< HEAD:Main/Assets/Scripts/Ethan Scripts/Tutorial/PlayerController.cs
-            // No height gating — allows grabbing while touching
-            // Store initial grab offset in player-local space
-            Vector3 worldOffset = hit.transform.position - transform.position;
-            worldOffset.y = 0f;
-
-            grabOffsetLocal = Quaternion.Inverse(transform.rotation) * worldOffset.normalized * 0.9f;
-=======
-            IGrabbable g = c.GetComponentInParent<IGrabbable>();
-            if (g == null) continue;
+            IGrabbable grab = c.GetComponentInParent<IGrabbable>();
+            if (grab == null) continue;
 
             Vector3 to = c.bounds.center - origin;
             to.y = 0f;
 
             float dist = to.magnitude;
-            if (dist <= 0.0001f) continue;
+            if (dist < 0.01f) continue;
 
             Vector3 dir = to / dist;
-            float facingDot = Vector3.Dot(facing, dir);
->>>>>>> Chikit:Main/Assets/Phillips Scripts/ChikitsPlayerController.cs
+            float dot = Vector3.Dot(facing, dir);
 
-            if (facingDot < cosLimit)
-                continue;
+            if (dot < cosLimit) continue;
 
             if (requireLineOfSight)
             {
-                Vector3 rayFrom = origin;
-                Vector3 rayTo = c.bounds.center;
-                Vector3 rayDir = rayTo - rayFrom;
-                float rayDist = rayDir.magnitude;
-
-                if (rayDist > 0.0001f)
+                if (Physics.Raycast(origin, dir, out RaycastHit hit, dist, grabBlockerMask, QueryTriggerInteraction.Ignore))
                 {
-                    rayDir /= rayDist;
-
-                    if (Physics.Raycast(rayFrom, rayDir, out RaycastHit hit, rayDist, grabBlockerMask, QueryTriggerInteraction.Ignore))
-                    {
-                        var hitGrabbable = hit.collider ? hit.collider.GetComponentInParent<IGrabbable>() : null;
-                        if (hitGrabbable != g)
-                            continue;
-                    }
+                    IGrabbable hitGrab = hit.collider ? hit.collider.GetComponentInParent<IGrabbable>() : null;
+                    if (hitGrab != grab)
+                        continue;
                 }
             }
 
-            float score = (facingDot * 2f) - dist;
+            float score = dot * 2f - dist;
             if (score > bestScore)
             {
                 bestScore = score;
+                bestGrab = grab;
                 bestCol = c;
-                bestGrab = g;
             }
         }
 
-        if (bestGrab == null || bestCol == null)
-            return;
+        if (bestGrab == null || bestCol == null || holdPoint == null) return;
 
         grabbedObject = bestGrab;
+        grabbedMover = bestGrab as IGrabMoveable;
+
+        Vector3 offsetWorld = facing * Vector3.Distance(transform.position, holdPoint.position);
+        grabOffsetLocal = Quaternion.Inverse(transform.rotation) * offsetWorld;
 
         Vector3 toObject = bestCol.transform.position - transform.position;
         toObject.y = 0f;
@@ -348,15 +280,35 @@ public class IsometricPlayerController : MonoBehaviour
         grabbedObject.OnGrab(holdPoint);
     }
 
+    void MoveGrabbedObject()
+    {
+        if (grabbedMover == null)
+            return;
+
+        float moveAmount = Vector3.Dot(moveInput, grabDirection);
+
+        Vector3 targetPos = transform.position
+                            + grabDirection * grabDistance
+                            + grabDirection * (moveAmount * grabMoveStrength);
+
+        grabbedMover.MoveTo(targetPos);
+    }
+
     void ReleaseObject()
     {
         if (grabbedObject == null) return;
 
         grabbedObject.OnRelease();
         grabbedObject = null;
+        grabbedMover = null;
+
         grabOffsetLocal = Vector3.zero;
+        grabDirection = Vector3.zero;
+        grabDistance = 0f;
     }
 
-    // Optional: call this from your puzzle manager at runtime when the game swaps inputs
-    public void SetControlScheme(ControlScheme scheme) => controlScheme = scheme;
+    public void SetControlScheme(ControlScheme scheme)
+    {
+        controlScheme = scheme;
+    }
 }
