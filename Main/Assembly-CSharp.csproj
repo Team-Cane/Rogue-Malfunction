@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Phillips Scripts\Portal\TeleportService.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\GrabbableObject.cs" />
     <Compile Include="Assets\Scripts\Phillips Scripts\Portal\Teleportable.cs" />
+    <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\PlayerGroundedChecker.cs" />
     <Compile Include="Assets\Scripts\Phillips Scripts\Light Up Puzzle\RevealOnSolved.cs" />
     <Compile Include="Assets\Scripts\Phillips Scripts\Portal\Portal.cs" />
     <Compile Include="Assets\Scripts\Phillips Scripts\Death And Check point\PlayerRespawn.cs" />

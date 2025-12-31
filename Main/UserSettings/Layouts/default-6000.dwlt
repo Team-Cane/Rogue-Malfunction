@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 118
+  controlID: 130
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -275,8 +275,8 @@ MonoBehaviour:
     y: 554
     width: 1211
     height: 379
-  m_MinSize: {x: 51, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -548,10 +548,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 170}
+      scrollPos: {x: 0, y: 506}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8822feffe850ffff12eb000016eb000056eb000068ec0000
+      m_ExpandedIDs: 9a25ffff08fb00000cfb00007cfb0000c0fb00002afd0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -671,8 +671,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Scripts/Phillips Scripts/Death And Check point
+    m_Folders: []
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -690,7 +689,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b0230000
     m_LastClickedID: 9136
-    m_ExpandedIDs: 0000000000ed000002ed000004ed000006ed000008ed0000
+    m_ExpandedIDs: 00000000e4fd0000e6fd0000e8fd0000eafd0000ecfd0000eefd0000f0fd0000f2fd0000f4fd0000f6fd0000f8fd0000fafd0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -719,18 +718,18 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000000ed000002ed000004ed000006ed000008ed00006ced000078ed0000a8010100362901003a290100482901004e290100b6290100
+    m_ExpandedIDs: ffffffff00000000e4fd0000e6fd0000e8fd0000eafd0000ecfd0000eefd0000f0fd0000f2fd0000f4fd0000f6fd0000f8fd0000fafd0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PlayerRespawn
-      m_OriginalName: PlayerRespawn
+      m_Name: PlayerGroundedChecker
+      m_OriginalName: PlayerGroundedChecker
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 35888
+      m_UserData: 80268
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1440,9 +1439,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -2.0277205, y: 19.965147, z: -26.378342}
+    m_Target: {x: 3.0326564, y: 38.51925, z: -2.4098368}
     speed: 2
-    m_Value: {x: -2.0277207, y: 19.965147, z: -26.378342}
+    m_Value: {x: 3.0326564, y: 38.51925, z: -2.4098368}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1488,9 +1487,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.45519835, y: -0.2548976, z: 0.13731998, w: -0.8423827}
+    m_Target: {x: -0.52988607, y: 0.05398188, z: -0.039703656, w: -0.8461583}
     speed: 2
-    m_Value: {x: -0.45484546, y: -0.25607845, z: 0.13795821, w: -0.84172857}
+    m_Value: {x: -0.53076184, y: 0.055155534, z: -0.04055606, w: -0.84475136}
   m_Size:
     m_Target: 10
     speed: 2
