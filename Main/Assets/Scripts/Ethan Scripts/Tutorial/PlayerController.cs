@@ -29,13 +29,12 @@ public class IsometricPlayerController : MonoBehaviour
     private Vector3 moveInput;
     private Vector3 smoothMoveInput;
     private Vector3 lastMoveDirection = Vector3.forward;
+    private Vector3 grabOffsetLocal;
 
     private bool isGrounded;
     private bool jumpQueued;
 
     private IGrabbable grabbedObject;
-    private Vector3 grabDirection;
-    private float grabDistance;
 
     public float inputSmoothing = 10f;
 
@@ -67,6 +66,15 @@ public class IsometricPlayerController : MonoBehaviour
         HandleRotation();
         HandleJump();
     }
+    void LateUpdate()
+    {
+        if (grabbedObject == null)
+            return;
+
+        // Hold point stays in front of player
+        holdPoint.position =
+        transform.position + transform.rotation * grabOffsetLocal;
+    }
 
     void HandleWallSliding()
     {
@@ -94,6 +102,14 @@ public class IsometricPlayerController : MonoBehaviour
     {
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
+
+        PlayerControlRandomizer randomizer = GetComponent<PlayerControlRandomizer>();
+        if (randomizer != null)
+        {
+            Vector2 modified = randomizer.ProcessMovementInput(h, v);
+            h = modified.x;
+            v = modified.y;
+        }
 
         Vector3 forward = Camera.main.transform.forward;
         Vector3 right = Camera.main.transform.right;
@@ -197,7 +213,7 @@ public class IsometricPlayerController : MonoBehaviour
         jumpQueued = false;
 
         // Cancel grab if jumping
-        if (grabbedObject != null && !isGrounded)
+        if (grabbedObject != null)
         {
             grabbedObject.OnRelease();
             grabbedObject = null;
@@ -225,8 +241,6 @@ public class IsometricPlayerController : MonoBehaviour
         {
             ReleaseObject();
         }
-
-        MoveGrabbedObject();
     }
 
     void TryGrabObject()
@@ -234,7 +248,8 @@ public class IsometricPlayerController : MonoBehaviour
         Collider[] hits = Physics.OverlapSphere(
             transform.position,
             grabRange,
-            interactLayer
+            interactLayer,
+            QueryTriggerInteraction.Ignore
         );
 
         foreach (Collider hit in hits)
@@ -242,41 +257,17 @@ public class IsometricPlayerController : MonoBehaviour
             IGrabbable grabbable = hit.GetComponent<IGrabbable>();
             if (grabbable == null) continue;
 
-            // --- side-only check ---
-            float verticalOffset = Mathf.Abs(hit.transform.position.y - transform.position.y);
-            float maxGrabHeight = 0.5f; // adjust for your character height
-            if (verticalOffset > maxGrabHeight)
-                continue; // too high or low, skip this object
+            // No height gating — allows grabbing while touching
+            // Store initial grab offset in player-local space
+            Vector3 worldOffset = hit.transform.position - transform.position;
+            worldOffset.y = 0f;
 
-            // Determine world-space grab axis (X or Z)
-            Vector3 toObject = hit.transform.position - transform.position;
-            toObject.y = 0f;
-
-            if (Mathf.Abs(toObject.x) > Mathf.Abs(toObject.z))
-                grabDirection = new Vector3(Mathf.Sign(toObject.x), 0f, 0f);
-            else
-                grabDirection = new Vector3(0f, 0f, Mathf.Sign(toObject.z));
-
-            grabDistance = Mathf.Abs(Vector3.Dot(toObject, grabDirection));
+            grabOffsetLocal = Quaternion.Inverse(transform.rotation) * worldOffset.normalized * 0.9f;
 
             grabbable.OnGrab(holdPoint);
             grabbedObject = grabbable;
             break;
         }
-    }
-
-    void MoveGrabbedObject()
-    {
-        if (grabbedObject == null)
-            return;
-
-        float moveAmount = Vector3.Dot(moveInput, grabDirection);
-
-        Vector3 targetPos = transform.position
-                            + grabDirection * grabDistance
-                            + grabDirection * moveAmount * 0.5f;
-
-        grabbedObject.MoveTo(targetPos);
     }
 
     void ReleaseObject()
@@ -285,6 +276,7 @@ public class IsometricPlayerController : MonoBehaviour
 
         grabbedObject.OnRelease();
         grabbedObject = null;
+        grabOffsetLocal = Vector3.zero;
     }
 
     // ---------------- WALL ANTI-STICK ----------------

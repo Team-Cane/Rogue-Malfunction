@@ -40,7 +40,6 @@ public class AriansPlayerController : MonoBehaviour
     private Vector3 grabDirection;
     private float grabDistance;
 
-    // NEW: for freezing input during door puzzles, etc.
     private bool inputLocked = false;
 
     void Awake()
@@ -55,7 +54,6 @@ public class AriansPlayerController : MonoBehaviour
     {
         if (inputLocked)
         {
-            // When locked: no movement, no interaction, no jump queue
             moveInput = Vector3.zero;
             smoothMoveInput = Vector3.zero;
             jumpQueued = false;
@@ -65,7 +63,6 @@ public class AriansPlayerController : MonoBehaviour
         ReadInput();
         HandleInteraction();
 
-        // jump queue (no buffering / stacking)
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !jumpQueued)
         {
             jumpQueued = true;
@@ -88,7 +85,6 @@ public class AriansPlayerController : MonoBehaviour
         float h = 0f;
         float v = 0f;
 
-        // If we have a ControlRewireManager, use its mapping (WASD remap)
         if (ControlRewireManager.Instance != null)
         {
             KeyCode upKey = ControlRewireManager.Instance.UpKey;
@@ -103,7 +99,6 @@ public class AriansPlayerController : MonoBehaviour
         }
         else
         {
-            // Fallback: default Unity axes if no manager is present
             h = Input.GetAxisRaw("Horizontal");
             v = Input.GetAxisRaw("Vertical");
         }
@@ -118,7 +113,6 @@ public class AriansPlayerController : MonoBehaviour
 
         Vector3 input = (forward * v + right * h).normalized;
 
-        // Smooth towards the new input direction
         smoothMoveInput = Vector3.Lerp(
             smoothMoveInput,
             input,
@@ -146,7 +140,6 @@ public class AriansPlayerController : MonoBehaviour
         Vector3 targetVelocity = moveInput * moveSpeed * control;
         Vector3 velocity = rb.linearVelocity;
 
-        // Calculate desired change
         Vector3 velocityChange = new Vector3(
             targetVelocity.x - velocity.x,
             0f,
@@ -155,9 +148,8 @@ public class AriansPlayerController : MonoBehaviour
 
         velocityChange = Vector3.ClampMagnitude(velocityChange, accel);
 
-        // --- Wall anti-stick ---
         RaycastHit hit;
-        float radius = 0.3f; // player collider radius approximation
+        float radius = 0.3f;
         float distance = 0.5f;
 
         if (velocityChange.sqrMagnitude > 0.0001f &&
@@ -165,7 +157,6 @@ public class AriansPlayerController : MonoBehaviour
         {
             if (Vector3.Dot(hit.normal, Vector3.up) < 0.2f)
             {
-                // Project movement along wall plane
                 velocityChange = Vector3.ProjectOnPlane(velocityChange, hit.normal);
             }
         }
@@ -217,7 +208,6 @@ public class AriansPlayerController : MonoBehaviour
 
         jumpQueued = false;
 
-        // Cancel grab if jumping
         if (grabbedObject != null && !isGrounded)
         {
             grabbedObject.OnRelease();
@@ -250,7 +240,7 @@ public class AriansPlayerController : MonoBehaviour
             ReleaseObject();
         }
 
-        MoveGrabbedObject();
+        // NOTE: MoveGrabbedObject() intentionally removed
     }
 
     void TryGrabObject()
@@ -266,13 +256,11 @@ public class AriansPlayerController : MonoBehaviour
             IGrabbable grabbable = hit.GetComponent<IGrabbable>();
             if (grabbable == null) continue;
 
-            // --- side-only check ---
             float verticalOffset = Mathf.Abs(hit.transform.position.y - transform.position.y);
-            float maxGrabHeight = 0.5f; // adjust for your character height
+            float maxGrabHeight = 0.5f;
             if (verticalOffset > maxGrabHeight)
-                continue; // too high or low, skip this object
+                continue;
 
-            // Determine world-space grab axis (X or Z)
             Vector3 toObject = hit.transform.position - transform.position;
             toObject.y = 0f;
 
@@ -287,20 +275,6 @@ public class AriansPlayerController : MonoBehaviour
             grabbedObject = grabbable;
             break;
         }
-    }
-
-    void MoveGrabbedObject()
-    {
-        if (grabbedObject == null)
-            return;
-
-        float moveAmount = Vector3.Dot(moveInput, grabDirection);
-
-        Vector3 targetPos = transform.position
-                            + grabDirection * grabDistance
-                            + grabDirection * moveAmount * 0.5f;
-
-        grabbedObject.MoveTo(targetPos);
     }
 
     void ReleaseObject()
@@ -318,7 +292,7 @@ public class AriansPlayerController : MonoBehaviour
         if (isGrounded) return;
 
         RaycastHit hit;
-        float radius = 0.3f; // adjust to player collider
+        float radius = 0.3f;
         Vector3 moveDir = rb.linearVelocity.normalized;
         float distance = 0.5f;
 
@@ -338,16 +312,13 @@ public class AriansPlayerController : MonoBehaviour
 
     void OnCollisionStay(Collision collision)
     {
-        if (isGrounded) return; // only apply in air
+        if (isGrounded) return;
 
         foreach (ContactPoint contact in collision.contacts)
         {
-            // Only consider mostly vertical surfaces
             if (Vector3.Dot(contact.normal, Vector3.up) < 0.2f)
             {
                 Vector3 vel = rb.linearVelocity;
-
-                // Remove velocity going into the wall
                 Vector3 intoWall = Vector3.Project(vel, -contact.normal);
                 rb.linearVelocity = vel - intoWall;
             }
@@ -356,9 +327,6 @@ public class AriansPlayerController : MonoBehaviour
 
     // ---------------- EXTERNAL CONTROL ----------------
 
-    /// <summary>
-    /// Called by your door/puzzle system to freeze/unfreeze player movement & interaction.
-    /// </summary>
     public void SetInputLocked(bool locked)
     {
         inputLocked = locked;
