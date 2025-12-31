@@ -3,49 +3,8 @@
   "WorkspaceRootPath": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\scripts\\ethan scripts\\tutorial\\controlrandomizervolume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\controlrandomizervolume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\scripts\\ethan scripts\\tutorial\\playerinputrandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\playerinputrandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\assets\\scripts\\ethan scripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\assets\\scripts\\ethan scripts\\tutorial\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\assets\\scripts\\ethan scripts\\tutorial\\playergroundedchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\playergroundedchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\assets\\scripts\\ethan scripts\\tutorial\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\assets\\scripts\\ethan scripts\\tutorial\\igrabbable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\igrabbable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|e:\\school\\tfs\\game jams\\term 4\\placeholder\\main\\assets\\scripts\\arians scripts\\puzzle\\checkpointtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\puzzle\\checkpointtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|e:\\school\\tfs\\game jams\\term 4\\placeholder\\main\\assets\\scripts\\arians scripts\\puzzle\\hazardkillzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\puzzle\\hazardkillzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\assets\\scripts\\arians scripts\\puzzle\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\puzzle\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\assets\\scripts\\arians scripts\\puzzle\\doorpuzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\puzzle\\doorpuzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Arian
     }
   ],
   "DocumentGroupContainers": [
@@ -55,130 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-<<<<<<< HEAD
-              "Title": "PlayerInputRandomizer.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerInputRandomizer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerInputRandomizer.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerInputRandomizer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerInputRandomizer.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T18:16:21.456Z",
-=======
-              "Title": "HazardKillZone.cs",
-              "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\HazardKillZone.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Puzzle\\HazardKillZone.cs",
-              "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\HazardKillZone.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Puzzle\\HazardKillZone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T17:47:32.695Z",
->>>>>>> Arian
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< HEAD
-              "Title": "ControlRandomizerVolume.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\ControlRandomizerVolume.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\ControlRandomizerVolume.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\ControlRandomizerVolume.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\ControlRandomizerVolume.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T18:16:15.44Z",
-=======
-              "Title": "CheckpointTrigger.cs",
-              "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\CheckpointTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Puzzle\\CheckpointTrigger.cs",
-              "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\CheckpointTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Puzzle\\CheckpointTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T17:47:01.439Z",
->>>>>>> Arian
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 4,
-              "Title": "PlayerGroundedChecker.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerGroundedChecker.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerGroundedChecker.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerGroundedChecker.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerGroundedChecker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T06:12:16.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PressureButton.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PressureButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PressureButton.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PressureButton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PressureButton.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T06:02:20.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAkwG8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T05:04:27.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IGrabbable.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\IGrabbable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\IGrabbable.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\IGrabbable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\IGrabbable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T05:02:49.276Z"
-=======
-              "DocumentIndex": 2,
-              "Title": "PlayerRespawn.cs",
-              "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\PlayerRespawn.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Puzzle\\PlayerRespawn.cs",
-              "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\PlayerRespawn.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Puzzle\\PlayerRespawn.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T17:44:50.372Z"
->>>>>>> Arian
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-<<<<<<< HEAD
-              "Title": "GrabbableObject.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\GrabbableObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\GrabbableObject.cs",
-              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\GrabbableObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\GrabbableObject.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAIwHMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T04:30:02.769Z"
-=======
               "Title": "DoorPuzzleController.cs",
               "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
@@ -186,8 +26,8 @@
               "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
               "ViewState": "AgIAAEsBAAAAAAAAAAAswG4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T23:45:20.957Z"
->>>>>>> Arian
+              "WhenOpened": "2025-12-30T23:45:20.957Z",
+              "EditorCaption": ""
             }
           ]
         }
