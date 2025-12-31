@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\ControlRandomizerVolume.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\PressureButton.cs" />
     <Compile Include="Assets\Scripts\Phillips Scripts\Portal\TeleportService.cs" />
@@ -113,6 +114,29 @@
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+=======
+    <Compile Include="Assets\EthanScripts\Tutorial\PressureButton.cs" />
+    <Compile Include="Assets\Phillips Scripts\Portal\Portal.cs" />
+    <Compile Include="Assets\Phillips Scripts\Sokoban\Box.cs" />
+    <Compile Include="Assets\Phillips Scripts\Audio\Audio Manager.cs" />
+    <Compile Include="Assets\Phillips Scripts\Light Up Puzzle\Tile.cs" />
+    <Compile Include="Assets\Phillips Scripts\Portal\TeleportService.cs" />
+    <Compile Include="Assets\EthanScripts\Tutorial\Camera.cs" />
+    <Compile Include="Assets\Phillips Scripts\Death And Check point\DeathZone.cs" />
+    <Compile Include="Assets\Phillips Scripts\ChikitsPlayerController.cs" />
+    <Compile Include="Assets\Phillips Scripts\Portal\Scene Portal.cs" />
+    <Compile Include="Assets\Phillips Scripts\Death And Check point\Chackpoint.cs" />
+    <Compile Include="Assets\Phillips Scripts\Light Up Puzzle\Light Up Puzzle Manager.cs" />
+    <Compile Include="Assets\EthanScripts\Tutorial\Door.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Phillips Scripts\Death And Check point\PlayerRespawn.cs" />
+    <Compile Include="Assets\Phillips Scripts\Sokoban\Plate Manager.cs" />
+    <Compile Include="Assets\Phillips Scripts\Light Up Puzzle\RevealOnSolved.cs" />
+    <Compile Include="Assets\EthanScripts\Tutorial\GrabbableObject.cs" />
+    <Compile Include="Assets\EthanScripts\Tutorial\IGrabbable.cs" />
+    <Compile Include="Assets\Phillips Scripts\Sokoban\Sokoban plates.cs" />
+    <Compile Include="Assets\Phillips Scripts\Portal\Teleportable.cs" />
+>>>>>>> Chikit
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

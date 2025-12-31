@@ -14,8 +14,13 @@ TagManager:
   - Ground
   - Interact
   - Wall
+<<<<<<< HEAD
   - Button
   - HeldObject
+=======
+  - Obstacle
+  - 
+>>>>>>> Chikit
   - 
   - 
   - 
