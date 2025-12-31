@@ -859,10 +859,10 @@ MonoBehaviour:
   sfxGroup: {fileID: 0}
   mainMenuSceneName: Main Menu
   mainMenuMusic: {fileID: 8300000, guid: c210f4352bd3d8d448a2333db32724ce, type: 3}
-  mainMenuMusicVolume: 0.8
+  mainMenuMusicVolume: 0.35
   mainMenuMusicPitch: 1
   globalGameMusic: {fileID: 8300000, guid: bd2ac021845a6ed41813ecc4a8fd7bbc, type: 3}
-  globalGameMusicVolume: 0.8
+  globalGameMusicVolume: 0.35
   globalGameMusicPitch: 1
   scenes:
   - sceneName: The 3 B's
@@ -870,7 +870,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 78d237319299788458d89f3fbf16213e, type: 3}
     - {fileID: 8300000, guid: 30b65e9982de8ba42a86bfc44317d643, type: 3}
     - {fileID: 8300000, guid: f3505367bcaff474fbe0b6d0b358f49e, type: 3}
-    loopVolume: 0.5
+    loopVolume: 1
     loopPitchRange: {x: 1, y: 1}
     gapBetweenClipsSeconds: 30
     delayFirst: 0
@@ -888,7 +888,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: e8545594a5e1f4942b7625cf1ca69b77, type: 3}
     - {fileID: 8300000, guid: 02ae990000d31974e8fc65c61a1f3fbd, type: 3}
     - {fileID: 8300000, guid: 0ca5130426b34e645abe61d46e0974d3, type: 3}
-    loopVolume: 0.5
+    loopVolume: 1
     loopPitchRange: {x: 1, y: 1}
     gapBetweenClipsSeconds: 30
     delayFirst: 0
@@ -898,7 +898,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: aae33092a267b9b4d9a0b2350587f434, type: 3}
     - {fileID: 8300000, guid: fa0b0d0d162d1ea44a31929e1f006906, type: 3}
     - {fileID: 8300000, guid: cde047220f86e4a449c9123c13d4a2f7, type: 3}
-    loopVolume: 0.5
+    loopVolume: 1
     loopPitchRange: {x: 1, y: 1}
     gapBetweenClipsSeconds: 30
     delayFirst: 1
@@ -910,9 +910,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7c1a02acface2664e8d2b89a92287e0b, type: 3}
   deathVolume: 1
   deathPitchRange: {x: 1, y: 1}
+  sceneLoopBoost: 1
+  deathBoost: 1
   masterVolume: 1
-  musicVolume: 1
-  sfxVolume: 1
 --- !u!4 &344865212
 Transform:
   m_ObjectHideFlags: 0

@@ -88,7 +88,6 @@
     <Compile Include="Assets\Scripts\Arians Scripts\Puzzle\SideToSideMover.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\Door.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\Camera.cs" />
-    <Compile Include="Assets\Scripts\Arians Scripts\Main Menu\SceneAudioController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

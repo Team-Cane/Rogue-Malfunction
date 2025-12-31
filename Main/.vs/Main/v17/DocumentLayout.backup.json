@@ -3,17 +3,26 @@
   "WorkspaceRootPath": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\",
   "Documents": [
     {
-<<<<<<< HEAD
-=======
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|e:\\school\\tfs\\game jams\\term 4\\placeholder\\main\\assets\\scripts\\arians scripts\\main menu\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\assets\\scripts\\arians scripts\\main menu\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\main menu\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|e:\\school\\tfs\\game jams\\term 4\\placeholder\\main\\assets\\scripts\\arians scripts\\main menu\\sceneaudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\main menu\\sceneaudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\assets\\scripts\\phillips scripts\\death and check point\\deathzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\phillips scripts\\death and check point\\deathzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\assets\\scripts\\arians scripts\\main menu\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\main menu\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|e:\\school\\tfs\\game jams\\term 4\\placeholder\\main\\assets\\scripts\\arians scripts\\player\\ariansplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\assets\\scripts\\arians scripts\\player\\ariansplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\player\\ariansplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
->>>>>>> Arian
       "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\assets\\scripts\\arians scripts\\puzzle\\doorpuzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\puzzle\\doorpuzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -25,26 +34,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeathZone.cs",
+              "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T20:49:24.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneAudioController.cs",
+              "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Main Menu\\SceneAudioController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Main Menu\\SceneAudioController.cs",
+              "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Main Menu\\SceneAudioController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Main Menu\\SceneAudioController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T20:47:33.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< HEAD
-=======
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Main Menu\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Main Menu\\AudioManager.cs",
+              "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Main Menu\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Main Menu\\AudioManager.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAswOoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T20:10:05.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainMenuUI.cs",
               "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Main Menu\\MainMenuUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Main Menu\\MainMenuUI.cs",
               "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Main Menu\\MainMenuUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Main Menu\\MainMenuUI.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAiwIEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T19:59:08.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T19:59:08.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AriansPlayerController.cs",
               "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Player\\AriansPlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Player\\AriansPlayerController.cs",
@@ -52,13 +96,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Player\\AriansPlayerController.cs",
               "ViewState": "AgIAAE8BAAAAAAAAAADwv1UBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T19:25:52.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T19:25:52.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
->>>>>>> Arian
+              "DocumentIndex": 5,
               "Title": "DoorPuzzleController.cs",
               "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
@@ -66,12 +108,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
               "ViewState": "AgIAAEsBAAAAAAAAAAAswG4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
-              "WhenOpened": "2025-12-30T23:45:20.957Z",
-              "EditorCaption": ""
-=======
               "WhenOpened": "2025-12-30T23:45:20.957Z"
->>>>>>> Arian
             }
           ]
         }
