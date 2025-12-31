@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|e:\\school\\tfs\\game jams\\term 4\\placeholder\\main\\assets\\scripts\\arians scripts\\puzzle\\doorpuzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|e:\\school\\tfs\\game jams\\term 4\\placeholder\\main\\assets\\scripts\\arians scripts\\puzzle\\checkpointtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\puzzle\\checkpointtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|e:\\school\\tfs\\game jams\\term 4\\placeholder\\main\\assets\\scripts\\arians scripts\\puzzle\\hazardkillzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\puzzle\\hazardkillzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\assets\\scripts\\arians scripts\\puzzle\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\puzzle\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\assets\\scripts\\arians scripts\\puzzle\\doorpuzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arians scripts\\puzzle\\doorpuzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HazardKillZone.cs",
+              "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\HazardKillZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Puzzle\\HazardKillZone.cs",
+              "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\HazardKillZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Puzzle\\HazardKillZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T17:47:32.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CheckpointTrigger.cs",
+              "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\CheckpointTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Puzzle\\CheckpointTrigger.cs",
+              "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\CheckpointTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Puzzle\\CheckpointTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T17:47:01.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerRespawn.cs",
+              "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\PlayerRespawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Puzzle\\PlayerRespawn.cs",
+              "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\PlayerRespawn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Puzzle\\PlayerRespawn.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T17:44:50.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DoorPuzzleController.cs",
               "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
               "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
-              "ViewState": "AgIAACcBAAAAAAAAAAAswEoBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEsBAAAAAAAAAAAswG4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T23:45:20.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T23:45:20.957Z"
             }
           ]
         }
