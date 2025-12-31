@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
+using Arians.MainMenu;
 
 public class MainMenuUI : MonoBehaviour
 {
@@ -25,10 +26,10 @@ public class MainMenuUI : MonoBehaviour
 
         float initialVolume = 1f;
 
-        if (AudioManager.Instance != null)
+        if (Arians.MainMenu.AudioManager.Instance != null)
         {
-            AudioManager.Instance.PlayMainMenuMusic();
-            initialVolume = AudioManager.Instance.MasterVolume;
+            Arians.MainMenu.AudioManager.Instance.PlayMainMenuMusic();
+            initialVolume = Arians.MainMenu.AudioManager.Instance.MasterVolume;
         }
         else
         {
@@ -36,30 +37,20 @@ public class MainMenuUI : MonoBehaviour
         }
 
         if (masterVolumeSlider != null)
-        {
             masterVolumeSlider.value = initialVolume;
-        }
 
         UpdateVolumeLabel(initialVolume);
     }
 
-    // -------- Buttons: Main --------
-
     public void OnPlayClicked()
     {
-        if (AudioManager.Instance != null)
-        {
-            AudioManager.Instance.PlayGameMusic();
-        }
+        if (Arians.MainMenu.AudioManager.Instance != null)
+            Arians.MainMenu.AudioManager.Instance.PlayGameMusic();
 
         if (!string.IsNullOrEmpty(playSceneName))
-        {
             SceneManager.LoadScene(playSceneName);
-        }
         else
-        {
             Debug.LogWarning("MainMenuUI: playSceneName is not set.");
-        }
     }
 
     public void OnSettingsClicked()
@@ -87,8 +78,6 @@ public class MainMenuUI : MonoBehaviour
 #endif
     }
 
-    // -------- Buttons: Settings / Credits --------
-
     public void OnBackFromSettingsClicked()
     {
         if (settingsPanel != null) settingsPanel.SetActive(false);
@@ -103,18 +92,12 @@ public class MainMenuUI : MonoBehaviour
         if (mainPanel != null) mainPanel.SetActive(true);
     }
 
-    // -------- Audio UI --------
-
     public void OnMasterVolumeSliderChanged(float value)
     {
-        if (AudioManager.Instance != null)
-        {
-            AudioManager.Instance.SetMasterVolume(value);
-        }
+        if (Arians.MainMenu.AudioManager.Instance != null)
+            Arians.MainMenu.AudioManager.Instance.SetMasterVolume(value);
         else
-        {
             AudioListener.volume = Mathf.Clamp01(value);
-        }
 
         UpdateVolumeLabel(value);
     }
