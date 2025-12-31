@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\PlayerGroundedChecker.cs" />
     <Compile Include="Assets\Scripts\Phillips Scripts\Light Up Puzzle\RevealOnSolved.cs" />
     <Compile Include="Assets\Scripts\Arians Scripts\Control Rewire\ControlRewireDebugTester.cs" />
+    <Compile Include="Assets\Scripts\Arians Scripts\Main Menu\MainMenuUI.cs" />
     <Compile Include="Assets\Scripts\Phillips Scripts\Portal\Portal.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\PlayerInputRandomizer.cs" />
     <Compile Include="Assets\Scripts\Phillips Scripts\Death And Check point\PlayerRespawn.cs" />
@@ -81,11 +82,13 @@
     <Compile Include="Assets\Scripts\Phillips Scripts\Death And Check point\DeathZone.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\IGrabbable.cs" />
     <Compile Include="Assets\Scripts\Arians Scripts\Control Rewire\ControlRewireManager.cs" />
+    <Compile Include="Assets\Scripts\Arians Scripts\Main Menu\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Phillips Scripts\Light Up Puzzle\Light Up Puzzle Manager.cs" />
     <Compile Include="Assets\Scripts\Arians Scripts\Puzzle\SideToSideMover.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\Door.cs" />
     <Compile Include="Assets\Scripts\Ethan Scripts\Tutorial\Camera.cs" />
+    <Compile Include="Assets\Scripts\Arians Scripts\Main Menu\SceneAudioController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
