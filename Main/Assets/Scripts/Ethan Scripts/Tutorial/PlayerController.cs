@@ -103,6 +103,14 @@ public class IsometricPlayerController : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
 
+        PlayerControlRandomizer randomizer = GetComponent<PlayerControlRandomizer>();
+        if (randomizer != null)
+        {
+            Vector2 modified = randomizer.ProcessMovementInput(h, v);
+            h = modified.x;
+            v = modified.y;
+        }
+
         Vector3 forward = Camera.main.transform.forward;
         Vector3 right = Camera.main.transform.right;
 

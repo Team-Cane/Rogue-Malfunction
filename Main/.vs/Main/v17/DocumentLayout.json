@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\scripts\\ethan scripts\\tutorial\\controlrandomizervolume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\controlrandomizervolume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\scripts\\ethan scripts\\tutorial\\playerinputrandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\playerinputrandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\assets\\scripts\\ethan scripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\assets\\scripts\\ethan scripts\\tutorial\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\grabbableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\ethan\\desktop\\unity projects\\placeholder\\placeholder\\main\\assets\\scripts\\ethan scripts\\tutorial\\playergroundedchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\assets\\scripts\\ethan scripts\\tutorial\\playergroundedchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\playergroundedchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\assets\\scripts\\ethan scripts\\tutorial\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\pressurebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\assets\\scripts\\ethan scripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ethan scripts\\tutorial\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\assets\\scripts\\ethan scripts\\tutorial\\igrabbable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayerInputRandomizer.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerInputRandomizer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerInputRandomizer.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerInputRandomizer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerInputRandomizer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T18:16:21.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ControlRandomizerVolume.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\ControlRandomizerVolume.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\ControlRandomizerVolume.cs",
+              "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\ControlRandomizerVolume.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\ControlRandomizerVolume.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T18:16:15.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PlayerGroundedChecker.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerGroundedChecker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerGroundedChecker.cs",
@@ -42,12 +76,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerGroundedChecker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T06:12:16.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T06:12:16.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PressureButton.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PressureButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PressureButton.cs",
@@ -55,24 +88,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PressureButton.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAowE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T06:02:20.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T06:02:20.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerController.cs",
               "ToolTip": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4BAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwG8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T05:04:27.421Z"
+              "WhenOpened": "2025-12-31T05:04:27.421Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IGrabbable.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\IGrabbable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\IGrabbable.cs",
@@ -84,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GrabbableObject.cs",
               "DocumentMoniker": "C:\\Users\\ethan\\Desktop\\Unity Projects\\placeholder\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\GrabbableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\GrabbableObject.cs",
@@ -92,8 +125,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\GrabbableObject.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAIwHMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T04:30:02.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T04:30:02.769Z"
             }
           ]
         }

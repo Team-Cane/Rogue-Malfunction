@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.7f1-2eb0c79396db' branch; Version is '6000.2.7f2 (2b518236b676) revision 2838914'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan" at "2025-12-31T06:11:32.4632047Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan" at "2025-12-31T17:20:31.9549028Z"
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32486 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-31T06:11:32Z
+Date: 2025-12-31T17:20:31Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/ethan/Desktop/Unity Projects/placeholder/placeholder/Main
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55273
+49346
 -job-worker-count
 11
 -background-job-worker-count
@@ -63,26 +63,26 @@ C:/Users/ethan/Desktop/Unity Projects/placeholder/placeholder/Main
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28916]  Target information:
+Player connection [33836]  Target information:
 
-Player connection [28916]  * "[IP] 10.0.0.228 [Port] 0 [Flags] 2 [Guid] 1823963002 [EditorId] 1823963002 [Version] 1048832 [Id] WindowsEditor(7,Ulysses) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [33836]  * "[IP] 10.0.0.228 [Port] 0 [Flags] 2 [Guid] 1561952400 [EditorId] 1561952400 [Version] 1048832 [Id] WindowsEditor(7,Ulysses) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28916] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [28916] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [33836] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33836] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3844, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18984, path: "C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              5e08e2f7759e4087bfc6a90089ace3cf
-  Correlation Id:          1a8a8aeef3b667d3bd9440a2caa749c6
-  External correlation Id: 4092942378430066731
+  Version:                 1.17.2+ff71f16
+  Session Id:              0e38f269ced14df88e2d4a58f7748688
+  Correlation Id:          e669350a432e211d7feec097e6cd4cee
+  External correlation Id: 5805136325126664159
   Machine Id:              9Ao7CA4QDYh7Y6Jbs4ZRvmB07PY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ethan" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan-notifications" at "2025-12-31T06:11:32.4933713Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ethan" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ethan-notifications" at "2025-12-31T17:20:31.9809317Z"
 [Licensing::Module] Licensing Background thread has ended after 0.03s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -91,7 +91,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.7f2 (2b518236b676)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Resources/UnitySubsystems
@@ -107,7 +107,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -118,41 +118,41 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/E
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004314 seconds.
-- Loaded All Assemblies, in  0.324 seconds
+Registered in 0.004378 seconds.
+- Loaded All Assemblies, in  0.348 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 210 ms
+Android Extension - Scanning For ADB Devices 206 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.533 seconds
-Domain Reload Profiling: 855ms
-	BeginReloadAssembly (107ms)
+- Finished resetting the current domain, in  0.539 seconds
+Domain Reload Profiling: 885ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (105ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (109ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (117ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (130ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (533ms)
+	FinalizeReload (540ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (498ms)
+		SetupLoadedEditorAssemblies (499ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (302ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (96ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -162,8 +162,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.657 seconds
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.710 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -171,967 +171,94 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.644 seconds
-Domain Reload Profiling: 1297ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  0.730 seconds
+Domain Reload Profiling: 1436ms
+	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (430ms)
-		LoadAssemblies (302ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (327ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (209ms)
-			TypeCache.Refresh (154ms)
-				TypeCache.ScanAssembly (140ms)
-			BuildScriptInfoCaches (42ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (645ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (149ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (731ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (467ms)
+		SetupLoadedEditorAssemblies (507ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (304ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6171 unused Assets / (4.7 MB). Loaded Objects now: 6894.
-Memory consumption went from 144.2 MB to 139.5 MB.
-Total: 6.697200 ms (FindLiveObjects: 0.518700 ms CreateObjectMapping: 0.547400 ms MarkObjects: 3.571200 ms  DeleteObjects: 2.058700 ms)
+Unloading 6172 unused Assets / (4.5 MB). Loaded Objects now: 6895.
+Memory consumption went from 146.1 MB to 141.7 MB.
+Total: 6.513800 ms (FindLiveObjects: 0.503600 ms CreateObjectMapping: 0.483200 ms MarkObjects: 3.613800 ms  DeleteObjects: 1.911100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42197.644473 seconds.
-  path: Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Textures/prototype_512x512_magenta.png
-  artifactKey: Guid(81c078e07a3828a42885510e3d5369a9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Textures/prototype_512x512_magenta.png using Guid(81c078e07a3828a42885510e3d5369a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c07fd7053499c3e240ca3ad9791eec45') in 0.2307548 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Wall Blue R.fbx
-  artifactKey: Guid(3dbd284b04985d04598c01041ae79e4a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Wall Blue R.fbx using Guid(3dbd284b04985d04598c01041ae79e4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9318536e7326bf9010079aeced6c157') in 0.0745393 seconds
+  Time since last request: 2660.326515 seconds.
+  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Grey 2nd Floor.fbx
+  artifactKey: Guid(6ace4bc34ed19ee44a33f332e2d29785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Grey 2nd Floor.fbx using Guid(6ace4bc34ed19ee44a33f332e2d29785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb63ba7bfbe8b5c3e430db66b7ffa9e4') in 0.5794729 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Orrery Tall.fbx
-  artifactKey: Guid(ff7585d5661312f40a2e1b7f8426df85) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Orrery Tall.fbx using Guid(ff7585d5661312f40a2e1b7f8426df85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a81f5e1667b44c6d3aaee51f0a5a176a') in 0.0313854 seconds
+  Time since last request: 0.771771 seconds.
+  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Wall Grey L.fbx
+  artifactKey: Guid(30f6a645d062a8b40aaf6c93de79e6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Wall Grey L.fbx using Guid(30f6a645d062a8b40aaf6c93de79e6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f90da0bb9cfda21f38ccd62ad6bd5ecd') in 0.0379886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073055 seconds.
+  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Orange.fbx
+  artifactKey: Guid(c5fdd7b30575b284cb5a763f70a4eb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Orange.fbx using Guid(c5fdd7b30575b284cb5a763f70a4eb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2397fad1e36987e2f63de29c0779972b') in 0.0628433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013891 seconds.
+  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Orrery.fbx
+  artifactKey: Guid(0ea5b7d676a294849b262451ddb99071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Orrery.fbx using Guid(0ea5b7d676a294849b262451ddb99071) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20a712a063c5c11765c57ccf5b79044e') in 3.9207623 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Corridor Large.fbx
-  artifactKey: Guid(366fd663737227546b8456a44b8c254e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Corridor Large.fbx using Guid(366fd663737227546b8456a44b8c254e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04f29d01fff2186ba25fd537fa803619') in 0.0208431 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imports/Phillips Assets/Magic effects pack/Textures/Gradient.png
-  artifactKey: Guid(878972c3151f97940b2c53535a0d1ce5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Phillips Assets/Magic effects pack/Textures/Gradient.png using Guid(878972c3151f97940b2c53535a0d1ce5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10caf49588834557bff50cb7e60890ed') in 0.0250409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Cyan.mat
-  artifactKey: Guid(3d9914e92c1db3f4caed885c92e0b7e9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Cyan.mat using Guid(3d9914e92c1db3f4caed885c92e0b7e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd254e2ba882c6b52756813634b322f42') in 0.0173478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Cryo Tube ON.fbx
-  artifactKey: Guid(82c9155939d28044a8b67d964aca5377) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Cryo Tube ON.fbx using Guid(82c9155939d28044a8b67d964aca5377) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '495e06f349861bc5ecba5435964c4aa8') in 0.0253751 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Textures
-  artifactKey: Guid(c40ab282904050149a8f559c4a28bc5d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Textures using Guid(c40ab282904050149a8f559c4a28bc5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66e394968dc5455df9ca21e352d24860') in 0.0127602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scripts/Ethan Scripts/Tutorial/PressureButton.cs
-  artifactKey: Guid(1043b55b07e125643a8de381edd41f8b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/Ethan Scripts/Tutorial/PressureButton.cs using Guid(1043b55b07e125643a8de381edd41f8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bc494bf4fbbc4b07d6c3b4785519c63') in 0.0145974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Resources
-  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '544e670553b1af2710fd7dba56239323') in 0.0124764 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imports/Phillips Assets/Magic effects pack/Materials/Heart.mat
-  artifactKey: Guid(e97a79db1dd66ad4d8f70932abe94b73) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Phillips Assets/Magic effects pack/Materials/Heart.mat using Guid(e97a79db1dd66ad4d8f70932abe94b73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd08d2dca3c7882df5422e4a7a56e9274') in 0.0168804 seconds
+  Time since last request: 6.170051 seconds.
+  path: Assets/Imports/Phillips Assets/Magic effects pack/Materials/Trail67.mat
+  artifactKey: Guid(228fc1317f61ac4408d84a68ea9822d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Phillips Assets/Magic effects pack/Materials/Trail67.mat using Guid(228fc1317f61ac4408d84a68ea9822d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41cdb1d5dee99f5a154a3f18f8d0546e') in 0.0211416 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Space Mayo.fbx
-  artifactKey: Guid(3dab467b80505ee42b6157bd6c99a000) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Space Mayo.fbx using Guid(3dab467b80505ee42b6157bd6c99a000) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '361b06c1f8eed40cd44db8face119bd0') in 0.0238775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall with Door Blue.fbx
-  artifactKey: Guid(1b7d4123916e29046a9161b6df3f31a4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall with Door Blue.fbx using Guid(1b7d4123916e29046a9161b6df3f31a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76b6698a2c65972154421c539328dcc2') in 0.0197652 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
-  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c93d988a774aa093f6d443ae2a117bf') in 0.0327385 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Bed Purple.fbx
-  artifactKey: Guid(4c2a291d794d5384788c6d6b3164fbce) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Bed Purple.fbx using Guid(4c2a291d794d5384788c6d6b3164fbce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80abd19a7ec8349c5e7061b9502b6f69') in 0.0176193 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Deck Height.fbx
-  artifactKey: Guid(bd081575d5a938c4b88e7954597d9b7d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Deck Height.fbx using Guid(bd081575d5a938c4b88e7954597d9b7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfb27f91029c83f824bc309a72ad4a35') in 0.0220529 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Resources/Style Sheets
-  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59415f4d0298196a01e8fbc8b77fc08b') in 0.0121594 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack
-  artifactKey: Guid(133c5a40aac44bf46a2a0a45105f0f68) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack using Guid(133c5a40aac44bf46a2a0a45105f0f68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a67d1a2c29de49533b7b6ca2bfec0ca') in 0.0129827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/Textures + Materials/Unity Materials/Materials/Gradient Texture Atlas by Imphenzia.mat
-  artifactKey: Guid(e39ce6ce968a75b4e93ce4d1753577d3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/Textures + Materials/Unity Materials/Materials/Gradient Texture Atlas by Imphenzia.mat using Guid(e39ce6ce968a75b4e93ce4d1753577d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63c4b9c41f73670fc046032d9e03a7f6') in 0.0166805 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Textures/prototype_512x512_olive.png
-  artifactKey: Guid(9895b9b639c999f488492b5182e2242c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Textures/prototype_512x512_olive.png using Guid(9895b9b639c999f488492b5182e2242c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9aaa24d210f28fb39e84ff428890fd6') in 0.0190679 seconds
+  path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/White.mat
+  artifactKey: Guid(f96821bbefeea864b9b418af4b8615ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/White.mat using Guid(f96821bbefeea864b9b418af4b8615ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfbd35234dfcccf3158605cc10021b4f') in 0.0161176 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Floor Tiled Carpet Red.fbx
-  artifactKey: Guid(434a05de957a0f04ab820848204e164c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Floor Tiled Carpet Red.fbx using Guid(434a05de957a0f04ab820848204e164c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54a6888cec54c26119e501cfc6b63ae4') in 0.0224283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Light White.fbx
-  artifactKey: Guid(d2eb97572f14937488e95b73afb15cc1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Light White.fbx using Guid(d2eb97572f14937488e95b73afb15cc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d5c3cdc9c6b4ee03a5f81a8c2387561') in 0.0199676 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Railing Ramp.fbx
-  artifactKey: Guid(6123f7e1cb6787549ad1e6ae506bc82a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Railing Ramp.fbx using Guid(6123f7e1cb6787549ad1e6ae506bc82a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c4975397edd33a2ae6128f3de9bf5f9') in 0.0195049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Floor Mid Path Corner 2.fbx
-  artifactKey: Guid(41a02a46f14260448803cde206e09787) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Floor Mid Path Corner 2.fbx using Guid(41a02a46f14260448803cde206e09787) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9281bf50c84f9f1161ac465b811c42d1') in 0.0202999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Wall Orange L.fbx
-  artifactKey: Guid(bdf6f0868b0f5a94f82068969ae2556f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Wall Orange L.fbx using Guid(bdf6f0868b0f5a94f82068969ae2556f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '994f6f144bb5c1d1bb1b2d46e48e7832') in 0.0226779 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Floor Tiled Carpet Blue.fbx
-  artifactKey: Guid(35f914dd9862a214982e19593ac0e1f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Floor Tiled Carpet Blue.fbx using Guid(35f914dd9862a214982e19593ac0e1f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78ceb0fa60a41555ad66fa9bbeb2f37f') in 0.0189179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Red.fbx
-  artifactKey: Guid(d770b2eaa7e62bc42826298c0662b466) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Red.fbx using Guid(d770b2eaa7e62bc42826298c0662b466) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18fb68b1d3ab948776369f4e059299e5') in 0.0225077 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Red 2nd Floor.fbx
-  artifactKey: Guid(3e6e66e35e88cec4c8972a75e5f18b9c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Red 2nd Floor.fbx using Guid(3e6e66e35e88cec4c8972a75e5f18b9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '010b959f7b2a15b1c00682d8a4c765e1') in 0.0201969 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Shaders
-  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '943c8f0abba584d4918f3c818243b3c5') in 0.0104578 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Battery Red.fbx
-  artifactKey: Guid(df63e59aa2bce1241af3edf2251d1e70) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Battery Red.fbx using Guid(df63e59aa2bce1241af3edf2251d1e70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '433441a2f735f7524420ca6f3f84a8ed') in 0.0270539 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Floor Tiled Carpet Orange.fbx
-  artifactKey: Guid(945e3abb75cd27143a7b649d6d360b32) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Floor Tiled Carpet Orange.fbx using Guid(945e3abb75cd27143a7b649d6d360b32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccc4792107079478bee3b17fa1082542') in 0.0263206 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/BioMonitor Blue.fbx
-  artifactKey: Guid(3994792308c3b9b439c29e0c47d41cbd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/BioMonitor Blue.fbx using Guid(3994792308c3b9b439c29e0c47d41cbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cc14b1bee14523833fc7984527362e4') in 0.0253664 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/Textures + Materials
-  artifactKey: Guid(4fbaae4d2f5fe0e41a6e8e461be3fadc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/Textures + Materials using Guid(4fbaae4d2f5fe0e41a6e8e461be3fadc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0110085c21bc852fa9db5279d9631ef6') in 0.0121644 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Battery Grey.fbx
-  artifactKey: Guid(044b19e958ed01f4d8ac544048681768) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Battery Grey.fbx using Guid(044b19e958ed01f4d8ac544048681768) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2fad7a07df6c988320b4b618f0d6558f') in 0.0231523 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/Textures + Materials/Unity Materials/MB Atlas Metallic.mat
-  artifactKey: Guid(cedbe9f4594709a43834d560f25d61b4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/Textures + Materials/Unity Materials/MB Atlas Metallic.mat using Guid(cedbe9f4594709a43834d560f25d61b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '962c6c2e3fdb50dd4ea71a615dabe2b8') in 0.0158499 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Wall Orange R.fbx
-  artifactKey: Guid(3433b697985f58a4bad9c6d1cfa179b7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Wall Orange R.fbx using Guid(3433b697985f58a4bad9c6d1cfa179b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb13c728e701d7fa9a550e51bfb7d549') in 0.0197744 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Grey.fbx
-  artifactKey: Guid(a40580746bb92614e975c68bc2684081) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Ramp Grey.fbx using Guid(a40580746bb92614e975c68bc2684081) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92c18f728d0f011da78bc5dc054ac38b') in 0.0216378 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Ethan
-  artifactKey: Guid(851c174932daa80419f42b2d2601a1b4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Prefabs/Ethan using Guid(851c174932daa80419f42b2d2601a1b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4d390d832bc2fefdf39c156ae167093') in 0.0124884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Grey.fbx
-  artifactKey: Guid(52677c5a4dd32aa48ab1dbeb0aadd20f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Grey.fbx using Guid(52677c5a4dd32aa48ab1dbeb0aadd20f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91781cab080652943b8d6530555b86b0') in 0.0206458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/BioMonitor Red.fbx
-  artifactKey: Guid(295f9af8603f5334780696869587ed7a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/BioMonitor Red.fbx using Guid(295f9af8603f5334780696869587ed7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c66b20cf1df3f6b5d514a5b251ea9e76') in 0.0206831 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imports/Phillips Assets/Magic effects pack/Textures/Concrete slab.png
-  artifactKey: Guid(1b13dc101cf2ac7418019fd776161658) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Phillips Assets/Magic effects pack/Textures/Concrete slab.png using Guid(1b13dc101cf2ac7418019fd776161658) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae77a3185f60a4e3d5e800d045a7d910') in 0.0158024 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91824b58a9fb2049f87309cb9a713c7e') in 0.0213188 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73ef0c70780fcc55d4f5dc7c982b117d') in 0.028391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Floor Metal Circles.fbx
-  artifactKey: Guid(59a88c4c5760b6d42abfeb10e8cf040d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Floor Metal Circles.fbx using Guid(59a88c4c5760b6d42abfeb10e8cf040d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3631ac5bcdc98ad0793dec3e3fdd502a') in 0.0192234 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Display Red.fbx
-  artifactKey: Guid(cc5d0edf4e7a9ac4fb63995da64a2c87) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Display Red.fbx using Guid(cc5d0edf4e7a9ac4fb63995da64a2c87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0cf13e5dcb822548dc92922ae1ae45c') in 0.0164664 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
-  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7198c24a0b98ca7db7600c3aabaf29e0') in 0.0239397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Fonts
-  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7203c5ab20f6ab5d0cd8e96d24571cef') in 0.009464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
-  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63d3b8cae005c6ff5f7e56f5f3c30170') in 0.0117284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Bed Red.fbx
-  artifactKey: Guid(553db43d159a5b44abf5a057a05aabef) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Bed Red.fbx using Guid(553db43d159a5b44abf5a057a05aabef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '502e9607b6b18a25b14f626ebdcfa44b') in 0.0195037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '148e0d8fd46e28c149adbf6ebafcdfc4') in 0.0161266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87030cce50b3dec643f498fcc8ae5785') in 0.0154023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Light Orange.fbx
-  artifactKey: Guid(56a18ab0392e8bf4885779f625e1d543) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Light Orange.fbx using Guid(56a18ab0392e8bf4885779f625e1d543) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c43c9b7d65ba679bb54f89ae3bb52850') in 0.0266641 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall with Door Red.fbx
-  artifactKey: Guid(ef9ae612398bbe149a397f78b9ccd29a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall with Door Red.fbx using Guid(ef9ae612398bbe149a397f78b9ccd29a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f9743bb4e1325a470a29cc1620e227d') in 0.02411 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imports/Phillips Assets/Magic effects pack/Textures/Arrow1.png
-  artifactKey: Guid(cd95337217b49a143a851ed79a626632) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Phillips Assets/Magic effects pack/Textures/Arrow1.png using Guid(cd95337217b49a143a851ed79a626632) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '465335c27e7c5c5b8448d3c588b464c5') in 0.0188085 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imports/Phillips Assets/Materials/Base Tile.mat
-  artifactKey: Guid(cb7a0aaa84a06e047a03bc7efd883f86) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Phillips Assets/Materials/Base Tile.mat using Guid(cb7a0aaa84a06e047a03bc7efd883f86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1159e60d12242768f38206ee3bec028c') in 0.0105267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Bed Green.fbx
-  artifactKey: Guid(e777ae4a6d52e4c409ef3fe76f1d63c5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Bed Green.fbx using Guid(e777ae4a6d52e4c409ef3fe76f1d63c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c3877849fd6fa95c01a036cc54e5ba3') in 0.0195773 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Scenes/Arian/New Scene.unity
-  artifactKey: Guid(ccb7c7c7197e14942ba889f61d8e6e04) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/Arian/New Scene.unity using Guid(ccb7c7c7197e14942ba889f61d8e6e04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7dc4c4c87c204c8f664c54edbb02ccb2') in 0.011378 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Imports/Phillips Assets/Magic effects pack/Prefabs/Portals/Portal green.prefab
-  artifactKey: Guid(13c990b8270c70b4c9f196019286028c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Phillips Assets/Magic effects pack/Prefabs/Portals/Portal green.prefab using Guid(13c990b8270c70b4c9f196019286028c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddc62261a1681bb9c653785e9d3a8c29') in 0.0684166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Scripts/Ethan Scripts
-  artifactKey: Guid(addc46e3b21d9a446b61fcdf1ada6f92) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/Ethan Scripts using Guid(addc46e3b21d9a446b61fcdf1ada6f92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0fc954ccbff313357db158812e1980e1') in 0.0110023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Command.fbx
-  artifactKey: Guid(5ad8b4cb7f2fc434ea23462e54775f6b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Wall Command.fbx using Guid(5ad8b4cb7f2fc434ea23462e54775f6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff0436a5daab2d4c29d3322a4f76d0a4') in 0.0185843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Prefabs/Ethan/Tutorial/Moveable Crate.prefab
-  artifactKey: Guid(f91d9922a5eaa4d4c9c8d2354a25ba78) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Prefabs/Ethan/Tutorial/Moveable Crate.prefab using Guid(f91d9922a5eaa4d4c9c8d2354a25ba78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f61dcdf8274fedda5600c175b6be37ae') in 0.0225031 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Large Monitor Off.fbx
-  artifactKey: Guid(01103bef3eb2bed4fb2080b56500e245) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Large Monitor Off.fbx using Guid(01103bef3eb2bed4fb2080b56500e245) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55269ed682ba55596882f38553bad71a') in 0.0179898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Bunk Bed Green.fbx
-  artifactKey: Guid(8d4d3aabb2f85b745b61580198f5a9b0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Bunk Bed Green.fbx using Guid(8d4d3aabb2f85b745b61580198f5a9b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c8c600a2f3adbe8961589bf1c676e50') in 0.0206923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Cafeteria Table Plain.fbx
-  artifactKey: Guid(0ac9792293cdda44abea94d172350932) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imports/Alices Assets/Sci-fi pack/Assets/fbx/Cafeteria Table Plain.fbx using Guid(0ac9792293cdda44abea94d172350932) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4f06f87645776219302be746eb181bd') in 0.0219732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6166 unused Assets / (4.6 MB). Loaded Objects now: 6899.
-Memory consumption went from 144.3 MB to 139.7 MB.
-Total: 6.716600 ms (FindLiveObjects: 0.467200 ms CreateObjectMapping: 0.425700 ms MarkObjects: 4.017800 ms  DeleteObjects: 1.804700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6164 unused Assets / (4.6 MB). Loaded Objects now: 6899.
-Memory consumption went from 144.3 MB to 139.7 MB.
-Total: 6.814300 ms (FindLiveObjects: 0.476500 ms CreateObjectMapping: 0.457900 ms MarkObjects: 3.923000 ms  DeleteObjects: 1.955700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6164 unused Assets / (4.5 MB). Loaded Objects now: 6899.
-Memory consumption went from 144.3 MB to 139.8 MB.
-Total: 6.732500 ms (FindLiveObjects: 0.510100 ms CreateObjectMapping: 0.491500 ms MarkObjects: 3.882500 ms  DeleteObjects: 1.846800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 31.034672 seconds.
-  path: Assets/Scripts/Ethan Scripts/Tutorial/PlayerGroundedChecker.cs
-  artifactKey: Guid(f1521f63f49158c48bc82c601944bf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Ethan Scripts/Tutorial/PlayerGroundedChecker.cs using Guid(f1521f63f49158c48bc82c601944bf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0237aad8f2a1d80d4c1ea362936fbeed') in 0.013337 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6164 unused Assets / (4.1 MB). Loaded Objects now: 6899.
-Memory consumption went from 144.3 MB to 140.2 MB.
-Total: 8.055400 ms (FindLiveObjects: 0.917800 ms CreateObjectMapping: 0.663400 ms MarkObjects: 4.501800 ms  DeleteObjects: 1.970900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.652 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.632 seconds
-Domain Reload Profiling: 1285ms
-	BeginReloadAssembly (189ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (399ms)
-		LoadAssemblies (314ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (162ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (139ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (632ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (465ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (286ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6171 unused Assets / (4.5 MB). Loaded Objects now: 6915.
-Memory consumption went from 149.9 MB to 145.4 MB.
-Total: 7.030300 ms (FindLiveObjects: 0.473000 ms CreateObjectMapping: 0.453200 ms MarkObjects: 3.857900 ms  DeleteObjects: 2.244800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 18.887889 seconds.
-  path: Assets/Scripts/Ethan Scripts/Tutorial/PlayerGroundedChecker.cs
-  artifactKey: Guid(f1521f63f49158c48bc82c601944bf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Ethan Scripts/Tutorial/PlayerGroundedChecker.cs using Guid(f1521f63f49158c48bc82c601944bf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79f2fa9ded20c1beaa089ccd09dc1aef') in 0.0108147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.571 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.576 seconds
-Domain Reload Profiling: 1147ms
-	BeginReloadAssembly (170ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (342ms)
-		LoadAssemblies (272ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (123ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (577ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (440ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (282ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6171 unused Assets / (4.2 MB). Loaded Objects now: 6918.
-Memory consumption went from 149.9 MB to 145.7 MB.
-Total: 6.232500 ms (FindLiveObjects: 0.474000 ms CreateObjectMapping: 0.442100 ms MarkObjects: 3.619100 ms  DeleteObjects: 1.695400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6164 unused Assets / (4.2 MB). Loaded Objects now: 6918.
-Memory consumption went from 150.1 MB to 145.9 MB.
-Total: 8.878700 ms (FindLiveObjects: 0.872600 ms CreateObjectMapping: 0.612900 ms MarkObjects: 5.367000 ms  DeleteObjects: 2.024700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.656 seconds
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.559 seconds
-Domain Reload Profiling: 1216ms
-	BeginReloadAssembly (199ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (383ms)
-		LoadAssemblies (331ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (148ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (128ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (560ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (422ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (266ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6171 unused Assets / (4.7 MB). Loaded Objects now: 6921.
-Memory consumption went from 149.9 MB to 145.2 MB.
-Total: 6.505600 ms (FindLiveObjects: 0.456100 ms CreateObjectMapping: 0.512000 ms MarkObjects: 3.472700 ms  DeleteObjects: 2.064100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.560 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.527 seconds
-Domain Reload Profiling: 1087ms
-	BeginReloadAssembly (157ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (343ms)
-		LoadAssemblies (271ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (128ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (528ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (395ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (253ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6171 unused Assets / (4.5 MB). Loaded Objects now: 6924.
-Memory consumption went from 150.0 MB to 145.5 MB.
-Total: 6.798300 ms (FindLiveObjects: 0.480500 ms CreateObjectMapping: 0.475900 ms MarkObjects: 3.803600 ms  DeleteObjects: 2.037100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.578 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.554 seconds
-Domain Reload Profiling: 1130ms
-	BeginReloadAssembly (176ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (341ms)
-		LoadAssemblies (269ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (127ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (554ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (423ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (268ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (4ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6171 unused Assets / (4.6 MB). Loaded Objects now: 6927.
-Memory consumption went from 150.0 MB to 145.4 MB.
-Total: 6.635200 ms (FindLiveObjects: 0.533600 ms CreateObjectMapping: 0.470600 ms MarkObjects: 3.554200 ms  DeleteObjects: 2.075600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 803.967923 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
-  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33d412c469812bb9c3717a3a42a0e160') in 2.5506855 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
-  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6283c9c8e6a5e37b83d4cd041f9f12eb') in 0.0153935 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
-  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23ad3ccdb98c7ba41a2d7f3bbc257db8') in 0.0069297 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
-  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cea308acc9d2f3a24117c7955b6a24cd') in 0.0151662 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.499629 seconds.
-  path: Assets/Imports/Phillips Assets/Magic effects pack/Materials/Slash.mat
-  artifactKey: Guid(8b3cc142b0783eb40be02cde5b31ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Phillips Assets/Magic effects pack/Materials/Slash.mat using Guid(8b3cc142b0783eb40be02cde5b31ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5698e2a197b046e6ea62197320c4a97e') in 0.0252119 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
-  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cd6693f6585c74cfc27b336eec27063') in 0.0067777 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Imports/Phillips Assets/Magic effects pack/Materials/Smoke26.mat
-  artifactKey: Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Phillips Assets/Magic effects pack/Materials/Smoke26.mat using Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46d4fc155f81cf0caf4347caa70d2801') in 0.0158218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.116745 seconds.
-  path: Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Purple.mat
-  artifactKey: Guid(68d9464d0cd4fbf48a81abf378167c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Purple.mat using Guid(68d9464d0cd4fbf48a81abf378167c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1de60d5abeef3087f213cd097e8a1b77') in 0.0618885 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Yellow.mat
-  artifactKey: Guid(d76d5dba59c8a824a8170635648a356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Yellow.mat using Guid(d76d5dba59c8a824a8170635648a356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66c23b84f623b97ce592d6e2a989644d') in 0.0187205 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_White.mat
-  artifactKey: Guid(2ab8149ec4775284bada96c1b85b4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Phillips Assets/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_White.mat using Guid(2ab8149ec4775284bada96c1b85b4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0621131889c37b2fabfaa6972254d413') in 0.0161274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
