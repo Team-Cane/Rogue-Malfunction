@@ -14,12 +14,22 @@ Material:
   m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
+<<<<<<< Updated upstream:Main/Assets/Phillips Assets/Magic effects pack/Materials/MagicCircle2.mat
   m_DoubleSidedGI: 0
+=======
+  m_DoubleSidedGI: 1
+>>>>>>> Stashed changes:Rogue Malfunction/Assets/Imports/Phillips Assets/Magic effects pack/Materials/MagicCircle2.mat
   m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
   - GRABPASS
+<<<<<<< Updated upstream:Main/Assets/Phillips Assets/Magic effects pack/Materials/MagicCircle2.mat
+=======
+  - DepthOnly
+  - SHADOWCASTER
+  m_LockedProperties: 
+>>>>>>> Stashed changes:Rogue Malfunction/Assets/Imports/Phillips Assets/Magic effects pack/Materials/MagicCircle2.mat
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -75,6 +85,10 @@ Material:
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0
     - _DstBlend: 10
+<<<<<<< Updated upstream:Main/Assets/Phillips Assets/Magic effects pack/Materials/MagicCircle2.mat
+=======
+    - _DstBlendAlpha: 10
+>>>>>>> Stashed changes:Rogue Malfunction/Assets/Imports/Phillips Assets/Magic effects pack/Materials/MagicCircle2.mat
     - _EmissionEnabled: 0
     - _FlipbookMode: 0
     - _GlossMapScale: 1
@@ -91,6 +105,11 @@ Material:
     - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
+<<<<<<< Updated upstream:Main/Assets/Phillips Assets/Magic effects pack/Materials/MagicCircle2.mat
+=======
+    - _SrcBlendAlpha: 1
+    - _Surface: 1
+>>>>>>> Stashed changes:Rogue Malfunction/Assets/Imports/Phillips Assets/Magic effects pack/Materials/MagicCircle2.mat
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:

@@ -12,17 +12,30 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+<<<<<<< Updated upstream:Main/Assets/Phillips Assets/Magic effects pack/Materials/FlashFree2.mat
+=======
+  - _FADING_ON
+  - _SOFTPARTICLES_ON
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords:
+>>>>>>> Stashed changes:Rogue Malfunction/Assets/Imports/Phillips Assets/Magic effects pack/Materials/Heart.mat
   - _ALPHABLEND_ON
   - _FADING_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
+<<<<<<< Updated upstream:Main/Assets/Phillips Assets/Magic effects pack/Materials/FlashFree2.mat
   m_DoubleSidedGI: 0
+=======
+  m_DoubleSidedGI: 1
+>>>>>>> Stashed changes:Rogue Malfunction/Assets/Imports/Phillips Assets/Magic effects pack/Materials/Heart.mat
   m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
   - GRABPASS
+  - DepthOnly
+  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -79,6 +92,10 @@ Material:
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0
     - _DstBlend: 10
+<<<<<<< Updated upstream:Main/Assets/Phillips Assets/Magic effects pack/Materials/FlashFree2.mat
+=======
+    - _DstBlendAlpha: 10
+>>>>>>> Stashed changes:Rogue Malfunction/Assets/Imports/Phillips Assets/Magic effects pack/Materials/Heart.mat
     - _EmissionEnabled: 0
     - _FlipbookMode: 0
     - _GlossMapScale: 1
@@ -95,11 +112,16 @@ Material:
     - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
+<<<<<<< Updated upstream:Main/Assets/Phillips Assets/Magic effects pack/Materials/FlashFree2.mat
+=======
+    - _SrcBlendAlpha: 1
+    - _Surface: 1
+>>>>>>> Stashed changes:Rogue Malfunction/Assets/Imports/Phillips Assets/Magic effects pack/Materials/Heart.mat
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 4.754718, g: 4.754718, b: 4.754718, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 1, b: 0, a: 0}
