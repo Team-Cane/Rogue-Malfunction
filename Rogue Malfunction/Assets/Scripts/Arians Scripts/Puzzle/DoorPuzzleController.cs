@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro; // NEW
+using TMPro;
 
 public class DoorPuzzleController : MonoBehaviour
 {
@@ -40,7 +40,7 @@ public class DoorPuzzleController : MonoBehaviour
     [SerializeField] private Image timeBarImage;
 
     [Tooltip("Optional: TextMeshPro label showing numeric time remaining, e.g. 2.8")]
-    [SerializeField] private TMP_Text timeRemainingText;   // CHANGED
+    [SerializeField] private TMP_Text timeRemainingText;
 
     [Header("Fail Feedback")]
     [Tooltip("Full-screen or overlay image to flash red on failure.")]
@@ -105,6 +105,10 @@ public class DoorPuzzleController : MonoBehaviour
         if (playerTransform == null || playerController == null)
             return;
 
+        // Don't open door puzzle if another modal is open (pause menu, etc.)
+        if (UIModalLock.IsLocked)
+            return;
+
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -131,6 +135,9 @@ public class DoorPuzzleController : MonoBehaviour
         puzzleTimer = 0f;
         currentIndex = 0;
 
+        // Take modal lock so pause can't open on top
+        UIModalLock.Lock();
+
         if (puzzlePanel != null)
             puzzlePanel.SetActive(true);
 
@@ -152,6 +159,9 @@ public class DoorPuzzleController : MonoBehaviour
             playerController.SetInputLocked(false);
 
         ResetSequence();
+
+        // Release modal lock
+        UIModalLock.Unlock();
     }
 
     private void UpdatePuzzle()
@@ -340,6 +350,9 @@ public class DoorPuzzleController : MonoBehaviour
             portalToEnable.SetActive(true);
 
         ApplyControlChange();
+
+        // Release modal lock (puzzle is finished)
+        UIModalLock.Unlock();
     }
 
     private void ApplyControlChange()

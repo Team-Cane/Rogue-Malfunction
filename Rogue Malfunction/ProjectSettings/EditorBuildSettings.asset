@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Arian/Main Menu.unity
     guid: 125235b50dc46474395da3ac9019b3ed
   - enabled: 1
-    path: Assets/Scenes/Ethan/The 3 B's.unity
-    guid: 915d48006c5a0a84cbb3cbc6f95fa62e
-  - enabled: 1
     path: Assets/Scenes/Arian/Sequencer Puzzle.unity
     guid: ccb7c7c7197e14942ba889f61d8e6e04
   m_configObjects:
