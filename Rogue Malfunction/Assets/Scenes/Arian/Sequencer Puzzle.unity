@@ -1966,7 +1966,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (24)
@@ -3078,7 +3078,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (31)
@@ -3244,7 +3244,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (46)
@@ -4391,7 +4391,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (41)
@@ -7559,7 +7559,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (44)
@@ -10147,7 +10147,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (11)
@@ -10370,7 +10370,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (8)
@@ -11422,7 +11422,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (27)
@@ -12931,7 +12931,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (50)
@@ -16865,7 +16865,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (43)
@@ -17459,7 +17459,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: 4b79c7f20643baf46added8c393e4c40, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (35)
@@ -18524,7 +18524,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 0.30485532, g: 0.93962264, b: 0, a: 1}
+  m_Color: {r: 0.9411765, g: 0, b: 0.054833356, a: 1}
   m_Intensity: 5
   m_Range: 9.4
   m_SpotAngle: 179
@@ -18971,7 +18971,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (68)
@@ -19953,7 +19953,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (65)
@@ -20619,7 +20619,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 0.30485532, g: 0.93962264, b: 0, a: 1}
+  m_Color: {r: 0.9411765, g: 0, b: 0.054833356, a: 1}
   m_Intensity: 5
   m_Range: 9.4
   m_SpotAngle: 179
@@ -21172,7 +21172,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 0, g: 0.9411765, b: 0, a: 1}
+  m_Color: {r: 0.9411765, g: 0, b: 0.005645303, a: 1}
   m_Intensity: 5
   m_Range: 9
   m_SpotAngle: 179
@@ -23674,7 +23674,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 0, g: 0.9411765, b: 0, a: 1}
+  m_Color: {r: 0.9411765, g: 0, b: 0.005645303, a: 1}
   m_Intensity: 5
   m_Range: 9
   m_SpotAngle: 179
@@ -24836,44 +24836,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3992058561654064293, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
   m_PrefabInstance: {fileID: 1853818514}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &684114752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684114751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 705da0c770e00a341878f953c3c3b9b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScenePortal
-  sceneName: Main Menu
-  triggerGateSeconds: 0.75
-  validLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!65 &684114753
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684114751}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.4790008, y: 1.8464985, z: 0.75709534}
-  m_Center: {x: 0.057234168, y: 0.042291325, z: 0.09925079}
 --- !u!4 &685638278 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: afa5b6dc8474a554681679cff7c28236, type: 3}
@@ -25255,7 +25217,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 474c5f530a23d8f4cb47a4589f9e707c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
+      objectReference: {fileID: 2100000, guid: 1d3bd39fceb44604c9c983f6b1c95dff, type: 2}
     - target: {fileID: 919132149155446097, guid: 474c5f530a23d8f4cb47a4589f9e707c, type: 3}
       propertyPath: m_Name
       value: Floor Hazard 1 (1)
@@ -27018,7 +26980,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (28)
@@ -27416,7 +27378,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (30)
@@ -29602,7 +29564,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (64)
@@ -31414,7 +31376,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (29)
@@ -34063,7 +34025,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (47)
@@ -35291,7 +35253,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (66)
@@ -37285,7 +37247,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 0.30485532, g: 0.93962264, b: 0, a: 1}
+  m_Color: {r: 0.9411765, g: 0, b: 0.054833356, a: 1}
   m_Intensity: 5
   m_Range: 9.4
   m_SpotAngle: 179
@@ -37901,7 +37863,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 0.30485532, g: 0.93962264, b: 0, a: 1}
+  m_Color: {r: 0.9411765, g: 0, b: 0.054833356, a: 1}
   m_Intensity: 5
   m_Range: 9.4
   m_SpotAngle: 179
@@ -38985,7 +38947,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (12)
@@ -40446,7 +40408,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (15)
@@ -41411,7 +41373,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (23)
@@ -45410,7 +45372,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (42)
@@ -47087,11 +47049,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3b9ba367deb32d54b92ad890cf1f0655, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: 1d3bd39fceb44604c9c983f6b1c95dff, type: 2}
     - target: {fileID: -7511558181221131132, guid: 3b9ba367deb32d54b92ad890cf1f0655, type: 3}
       propertyPath: 'm_Materials.Array.data[2]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1d3bd39fceb44604c9c983f6b1c95dff, type: 2}
+      objectReference: {fileID: 2100000, guid: 4b79c7f20643baf46added8c393e4c40, type: 2}
     - target: {fileID: 919132149155446097, guid: 3b9ba367deb32d54b92ad890cf1f0655, type: 3}
       propertyPath: m_Name
       value: Floor Command Large (5)
@@ -47867,7 +47829,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (63)
@@ -48222,7 +48184,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (32)
@@ -49625,7 +49587,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 0, g: 0.9411765, b: 0, a: 1}
+  m_Color: {r: 0.9411765, g: 0, b: 0.005645303, a: 1}
   m_Intensity: 5
   m_Range: 9
   m_SpotAngle: 179
@@ -52381,7 +52343,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (17)
@@ -54327,7 +54289,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (67)
@@ -54886,11 +54848,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3b9ba367deb32d54b92ad890cf1f0655, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: 1d3bd39fceb44604c9c983f6b1c95dff, type: 2}
     - target: {fileID: -7511558181221131132, guid: 3b9ba367deb32d54b92ad890cf1f0655, type: 3}
       propertyPath: 'm_Materials.Array.data[2]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1d3bd39fceb44604c9c983f6b1c95dff, type: 2}
+      objectReference: {fileID: 2100000, guid: 4b79c7f20643baf46added8c393e4c40, type: 2}
     - target: {fileID: 919132149155446097, guid: 3b9ba367deb32d54b92ad890cf1f0655, type: 3}
       propertyPath: m_Name
       value: Floor Command Large (4)
@@ -56365,7 +56327,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (26)
@@ -57021,7 +56983,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (10)
@@ -60176,7 +60138,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 474c5f530a23d8f4cb47a4589f9e707c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
+      objectReference: {fileID: 2100000, guid: 1d3bd39fceb44604c9c983f6b1c95dff, type: 2}
     - target: {fileID: 919132149155446097, guid: 474c5f530a23d8f4cb47a4589f9e707c, type: 3}
       propertyPath: m_Name
       value: Floor Hazard 1
@@ -65308,7 +65270,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (9)
@@ -65761,7 +65723,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (61)
@@ -67644,7 +67606,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (59)
@@ -67789,7 +67751,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (49)
@@ -67871,7 +67833,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 0, g: 0.9411765, b: 0, a: 1}
+  m_Color: {r: 0.9411765, g: 0, b: 0.005645303, a: 1}
   m_Intensity: 5
   m_Range: 9
   m_SpotAngle: 179
@@ -68834,7 +68796,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (45)
@@ -68899,7 +68861,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 474c5f530a23d8f4cb47a4589f9e707c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
+      objectReference: {fileID: 2100000, guid: 1d3bd39fceb44604c9c983f6b1c95dff, type: 2}
     - target: {fileID: 919132149155446097, guid: 474c5f530a23d8f4cb47a4589f9e707c, type: 3}
       propertyPath: m_Name
       value: Floor Hazard 1 (3)
@@ -71688,7 +71650,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (14)
@@ -72130,14 +72092,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3907679614406300944, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3907679614406300944, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3907679614406300944, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -72184,13 +72138,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3992058561654064293, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 684114753}
-    - targetCorrespondingSourceObject: {fileID: 3992058561654064293, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 684114752}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
 --- !u!4 &1856238492 stripped
 Transform:
@@ -73606,7 +73554,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (48)
@@ -74471,7 +74419,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 474c5f530a23d8f4cb47a4589f9e707c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
+      objectReference: {fileID: 2100000, guid: 1d3bd39fceb44604c9c983f6b1c95dff, type: 2}
     - target: {fileID: 919132149155446097, guid: 474c5f530a23d8f4cb47a4589f9e707c, type: 3}
       propertyPath: m_Name
       value: Floor Hazard 1 (2)
@@ -75894,7 +75842,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (13)
@@ -76841,7 +76789,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: afa5b6dc8474a554681679cff7c28236, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1d3bd39fceb44604c9c983f6b1c95dff, type: 2}
+      objectReference: {fileID: 2100000, guid: 4b79c7f20643baf46added8c393e4c40, type: 2}
     - target: {fileID: 919132149155446097, guid: afa5b6dc8474a554681679cff7c28236, type: 3}
       propertyPath: m_Name
       value: Generator (3)
@@ -80710,7 +80658,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e39ce6ce968a75b4e93ce4d1753577d3, type: 2}
+      objectReference: {fileID: 2100000, guid: cedbe9f4594709a43834d560f25d61b4, type: 2}
     - target: {fileID: 919132149155446097, guid: bd081575d5a938c4b88e7954597d9b7d, type: 3}
       propertyPath: m_Name
       value: Deck Height (25)
@@ -83191,37 +83139,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5502843845620612372, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5502843845620612372, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5502843845620612372, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8607368511180921065, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8607368511180921065, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8753699524493468770, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
       propertyPath: m_Name
       value: PauseMenuCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 8842271387733235434, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8852438025249092841, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
-      propertyPath: m_Transition
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8900671683736538497, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
       propertyPath: m_Pivot.x
@@ -83302,10 +83222,6 @@ PrefabInstance:
     - target: {fileID: 8900671683736538497, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9104607487264153542, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
