@@ -19,6 +19,15 @@ public class MainMenuUI : MonoBehaviour
 
     private void Awake()
     {
+        // Safety: never let menu load while paused
+        Time.timeScale = 1f;
+
+        // IMPORTANT: reset remapped controls whenever we hit the main menu
+        if (ControlRewireManager.Instance != null)
+        {
+            ControlRewireManager.Instance.ResetToDefault();
+        }
+
         if (mainPanel != null) mainPanel.SetActive(true);
         if (settingsPanel != null) settingsPanel.SetActive(false);
         if (creditsPanel != null) creditsPanel.SetActive(false);

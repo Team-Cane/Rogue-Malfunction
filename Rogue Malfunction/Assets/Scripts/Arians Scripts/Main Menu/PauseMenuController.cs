@@ -19,6 +19,7 @@ public class PauseMenuController : MonoBehaviour
     [Header("Panels")]
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private GameObject settingsPanel;
+    [SerializeField] private GameObject controlsPanel; // NEW
 
     [Header("Settings UI (Master only)")]
     [SerializeField] private Slider masterVolumeSlider;
@@ -46,8 +47,8 @@ public class PauseMenuController : MonoBehaviour
 
         // UI defaults
         if (rootCanvas != null) rootCanvas.enabled = true;
-        if (pausePanel != null) pausePanel.SetActive(false);
-        if (settingsPanel != null) settingsPanel.SetActive(false);
+
+        HideAllPanels();
 
         // Start unpaused (important if you drop this prefab into a random scene)
         ForceUnpause();
@@ -130,15 +131,31 @@ public class PauseMenuController : MonoBehaviour
     {
         if (!isAllowedInThisScene) return;
 
-        if (pausePanel != null) pausePanel.SetActive(false);
+        HideAllPanels();
         if (settingsPanel != null) settingsPanel.SetActive(true);
+    }
+
+    public void OnControlsClicked() // NEW
+    {
+        if (!isAllowedInThisScene) return;
+
+        HideAllPanels();
+        if (controlsPanel != null) controlsPanel.SetActive(true);
     }
 
     public void OnBackFromSettingsClicked()
     {
         if (!isAllowedInThisScene) return;
 
-        if (settingsPanel != null) settingsPanel.SetActive(false);
+        HideAllPanels();
+        if (pausePanel != null) pausePanel.SetActive(true);
+    }
+
+    public void OnBackFromControlsClicked() // NEW
+    {
+        if (!isAllowedInThisScene) return;
+
+        HideAllPanels();
         if (pausePanel != null) pausePanel.SetActive(true);
     }
 
@@ -188,7 +205,7 @@ public class PauseMenuController : MonoBehaviour
 
         Time.timeScale = 0f;
 
-        if (settingsPanel != null) settingsPanel.SetActive(false);
+        HideAllPanels();
         if (pausePanel != null) pausePanel.SetActive(true);
     }
 
@@ -227,6 +244,7 @@ public class PauseMenuController : MonoBehaviour
     {
         if (pausePanel != null) pausePanel.SetActive(false);
         if (settingsPanel != null) settingsPanel.SetActive(false);
+        if (controlsPanel != null) controlsPanel.SetActive(false); // NEW
     }
 
     // ---------------- Cursor Helpers ----------------
