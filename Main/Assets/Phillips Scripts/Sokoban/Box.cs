@@ -2,7 +2,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
 [RequireComponent(typeof(Rigidbody))]
-public class SokobanGrabbable : MonoBehaviour, IGrabbable
+public class SokobanGrabbable : MonoBehaviour, IGrabbable, IGrabMoveable
 {
     [Header("Grid Step")]
     [SerializeField] private float cellSize = 1f;
@@ -12,6 +12,9 @@ public class SokobanGrabbable : MonoBehaviour, IGrabbable
     [Header("Blocking")]
     [SerializeField] private LayerMask blockingMask;
     [SerializeField] private float boundsPadding = 0.02f;
+
+    [Header("Debug")]
+    [SerializeField] private bool debugBox;
 
     private Rigidbody body;
     private Collider col;
@@ -40,7 +43,6 @@ public class SokobanGrabbable : MonoBehaviour, IGrabbable
     public void OnGrab(Transform holder)
     {
         grabbed = true;
-
         stepping = false;
         stepT = 0f;
 
@@ -48,6 +50,8 @@ public class SokobanGrabbable : MonoBehaviour, IGrabbable
         body.linearVelocity = Vector3.zero;
         body.angularVelocity = Vector3.zero;
         body.isKinematic = true;
+
+        if (debugBox) Debug.Log($"[BOX] Grabbed: {name}");
     }
 
     public void MoveTo(Vector3 targetPosition)
@@ -72,12 +76,18 @@ public class SokobanGrabbable : MonoBehaviour, IGrabbable
         Vector3 desired = current + dir * cellSize;
         desired.y = current.y;
 
-        if (IsBlocked(desired)) return;
+        if (IsBlocked(desired))
+        {
+            if (debugBox) Debug.Log($"[BOX] Blocked step at {desired} ({name}) mask={blockingMask.value}");
+            return;
+        }
 
         stepping = true;
         stepFrom = current;
         stepTo = desired;
         stepT = 0f;
+
+        if (debugBox) Debug.Log($"[BOX] Step {name}: {stepFrom} -> {stepTo}");
     }
 
     public void OnRelease()
@@ -89,6 +99,8 @@ public class SokobanGrabbable : MonoBehaviour, IGrabbable
         body.linearVelocity = Vector3.zero;
         body.angularVelocity = Vector3.zero;
         body.isKinematic = true;
+
+        if (debugBox) Debug.Log($"[BOX] Released: {name}");
     }
 
     private void FixedUpdate()
@@ -98,8 +110,7 @@ public class SokobanGrabbable : MonoBehaviour, IGrabbable
         stepT += Time.fixedDeltaTime / Mathf.Max(0.0001f, stepTime);
         float t = Mathf.Clamp01(stepT);
 
-        Vector3 next = Vector3.Lerp(stepFrom, stepTo, t);
-        body.MovePosition(next);
+        body.MovePosition(Vector3.Lerp(stepFrom, stepTo, t));
 
         if (t >= 1f)
         {

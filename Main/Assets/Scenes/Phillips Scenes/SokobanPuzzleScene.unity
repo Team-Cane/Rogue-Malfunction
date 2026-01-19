@@ -157,8 +157,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1346502
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -380,8 +381,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &46326754
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -543,7 +545,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1895456595352146633, guid: e826dc54fd85fbf418c3048165484fc0, type: 3}
       propertyPath: interactLayer.m_Bits
-      value: 0
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895456595352146633, guid: e826dc54fd85fbf418c3048165484fc0, type: 3}
+      propertyPath: grabBlockerMask.m_Bits
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 8967897761008319152, guid: e826dc54fd85fbf418c3048165484fc0, type: 3}
       propertyPath: m_LocalScale.x
@@ -674,6 +680,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6527053617692738899, guid: 74496fe710fb0e347aac27b38222fa9b, type: 3}
+      propertyPath: boxLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -730,8 +740,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &158598025
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1106,8 +1117,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &280551477
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1265,8 +1277,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &315942814
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1458,6 +1471,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6527053617692738899, guid: 74496fe710fb0e347aac27b38222fa9b, type: 3}
+      propertyPath: boxLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1552,8 +1569,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &354578050
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1711,8 +1729,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &369955168
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1870,8 +1889,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &430860259
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2122,7 +2142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 612319195}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2219,8 +2239,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &738927179
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2383,8 +2404,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &798328208
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2542,8 +2564,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &816569248
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2768,8 +2791,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &877013817
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3031,8 +3055,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &939291061
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3214,7 +3239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a5e6fb64023be3f46a1d16174a3ddd92, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 56561e22aa953c848bef8100668cbfb2, type: 3}
       propertyPath: m_LocalScale.y
@@ -3429,7 +3454,7 @@ MonoBehaviour:
   maxZoomMultiplier: 1.8
   obstacleLayers:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   collisionPushAmount: 0.5
   minCameraHeight: 2
   useBounds: 0
@@ -3502,7 +3527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a5e6fb64023be3f46a1d16174a3ddd92, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 56561e22aa953c848bef8100668cbfb2, type: 3}
       propertyPath: m_LocalScale.y
@@ -3594,8 +3619,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &987087329
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3739,7 +3765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PressurePlate
   validBoxLayers:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
   plateTop: {fileID: 0}
   pressDepth: 0.05
   pressLerpSpeed: 8
@@ -3855,8 +3881,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1041562712
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4019,8 +4046,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1151168764
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4244,6 +4272,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6527053617692738899, guid: 74496fe710fb0e347aac27b38222fa9b, type: 3}
+      propertyPath: boxLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4290,8 +4322,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1235253855
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4449,8 +4482,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1238569245
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4699,7 +4733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a5e6fb64023be3f46a1d16174a3ddd92, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 56561e22aa953c848bef8100668cbfb2, type: 3}
       propertyPath: m_LocalScale.y
@@ -4759,8 +4793,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1347410293
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4918,8 +4953,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1359540237
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5125,7 +5161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PressurePlate
   validBoxLayers:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
   plateTop: {fileID: 0}
   pressDepth: 0.05
   pressLerpSpeed: 8
@@ -5196,7 +5232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a5e6fb64023be3f46a1d16174a3ddd92, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 56561e22aa953c848bef8100668cbfb2, type: 3}
       propertyPath: m_LocalScale.y
@@ -5256,8 +5292,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1492381194
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5415,8 +5452,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1523923572
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5574,8 +5612,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1555424082
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5809,8 +5848,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1606944796
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6045,8 +6085,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1627778899
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6190,7 +6231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PressurePlate
   validBoxLayers:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
   plateTop: {fileID: 0}
   pressDepth: 0.05
   pressLerpSpeed: 8
@@ -6233,8 +6274,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1629572955
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6392,8 +6434,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1679082225
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6551,8 +6594,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1742146982
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6710,8 +6754,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1780117402
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6869,8 +6914,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1794291945
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7078,7 +7124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PressurePlate
   validBoxLayers:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
   plateTop: {fileID: 0}
   pressDepth: 0.05
   pressLerpSpeed: 8
@@ -7158,8 +7204,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1882735124
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7317,8 +7364,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1887283643
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7476,8 +7524,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1887754254
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7635,8 +7684,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1923034614
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7799,8 +7849,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1952765799
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7958,8 +8009,9 @@ MonoBehaviour:
   pushThreshold: 0.35
   blockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 192
   boundsPadding: 0.02
+  debugBox: 0
 --- !u!54 &1988592876
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8141,7 +8193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a5e6fb64023be3f46a1d16174a3ddd92, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 56561e22aa953c848bef8100668cbfb2, type: 3}
       propertyPath: m_LocalScale.y
@@ -8288,6 +8340,10 @@ PrefabInstance:
     - target: {fileID: 6527053617692738899, guid: 74496fe710fb0e347aac27b38222fa9b, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527053617692738899, guid: 74496fe710fb0e347aac27b38222fa9b, type: 3}
+      propertyPath: boxLayer.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

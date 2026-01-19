@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\rx660\\desktop\\fall 2025 tfs game jam\\placeholder\\main\\assets\\phillips scripts\\sokoban\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\sokoban\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\rx660\\desktop\\fall 2025 tfs game jam\\placeholder\\main\\assets\\scripts\\igrabmoveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\igrabmoveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\rx660\\desktop\\fall 2025 tfs game jam\\placeholder\\main\\assets\\phillips scripts\\chikitsplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\chikitsplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -44,11 +52,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Box.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Sokoban\\Box.cs",
+              "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Sokoban\\Box.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Sokoban\\Box.cs",
+              "RelativeToolTip": "Assets\\Phillips Scripts\\Sokoban\\Box.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T22:57:00.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IGrabMoveable.cs",
+              "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Scripts\\IGrabMoveable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IGrabMoveable.cs",
+              "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Scripts\\IGrabMoveable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IGrabMoveable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T22:56:22.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IGrabbable.cs",
               "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\EthanScripts\\Tutorial\\IGrabbable.cs",
               "RelativeDocumentMoniker": "Assets\\EthanScripts\\Tutorial\\IGrabbable.cs",
@@ -60,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GrabbableObject.cs",
               "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Scripts\\Ethan Scripts\\Tutorial\\GrabbableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ethan Scripts\\Tutorial\\GrabbableObject.cs",
@@ -72,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ChikitsPlayerController.cs",
               "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\ChikitsPlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\ChikitsPlayerController.cs",
@@ -85,18 +119,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DeathZone.cs",
               "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
               "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Phillips Scripts\\Death And Check point\\DeathZone.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T22:30:49.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T22:30:49.254Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "SceneAudioController.cs",
               "DocumentMoniker": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Main Menu\\SceneAudioController.cs",
               "ToolTip": "E:\\School\\TFS\\Game Jams\\Term 4\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Main Menu\\SceneAudioController.cs",
@@ -106,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Main Menu\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Main Menu\\AudioManager.cs",
@@ -118,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainMenuUI.cs",
               "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Main Menu\\MainMenuUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Main Menu\\MainMenuUI.cs",
@@ -130,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AriansPlayerController.cs",
               "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Player\\AriansPlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Player\\AriansPlayerController.cs",
@@ -142,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "DoorPuzzleController.cs",
               "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arians Scripts\\Puzzle\\DoorPuzzleController.cs",

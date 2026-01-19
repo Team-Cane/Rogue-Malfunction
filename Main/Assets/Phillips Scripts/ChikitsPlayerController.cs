@@ -3,11 +3,7 @@
 [RequireComponent(typeof(Rigidbody))]
 public class ChikitsPlayerController : MonoBehaviour
 {
-    public enum ControlScheme
-    {
-        Normal,
-        SwapWASD
-    }
+    public enum ControlScheme { Normal, SwapWASD }
 
     [Header("Movement")]
     public float moveSpeed = 6f;
@@ -26,8 +22,7 @@ public class ChikitsPlayerController : MonoBehaviour
     public LayerMask groundLayer;
 
     [Header("Air Control")]
-    [Range(0f, 1f)]
-    public float airControlPercent = 0.35f;
+    [Range(0f, 1f)] public float airControlPercent = 0.35f;
     public float airAccelerationMultiplier = 0.5f;
 
     [Header("Grab")]
@@ -41,6 +36,9 @@ public class ChikitsPlayerController : MonoBehaviour
 
     [Header("Grab Move")]
     [SerializeField] private float grabMoveStrength = 0.5f;
+
+    [Header("Debug")]
+    [SerializeField] private bool debugGrab;
 
     private Rigidbody rb;
     private Vector3 moveInput;
@@ -196,7 +194,7 @@ public class ChikitsPlayerController : MonoBehaviour
         {
             if (grabbedObject == null)
                 TryGrabObject();
-            else if (grabbedMover != null)
+            else
                 MoveGrabbedObject();
         }
         else
@@ -210,6 +208,10 @@ public class ChikitsPlayerController : MonoBehaviour
         Vector3 origin = grabOrigin ? grabOrigin.position : transform.position;
 
         Collider[] hits = Physics.OverlapSphere(origin, grabRange, interactLayer, QueryTriggerInteraction.Ignore);
+
+        if (debugGrab)
+            Debug.Log($"[GRAB] Overlap hits: {(hits == null ? 0 : hits.Length)} (layerMask: {interactLayer.value})");
+
         if (hits == null || hits.Length == 0) return;
 
         Vector3 facing = lastMoveDirection.sqrMagnitude > 0.01f ? lastMoveDirection : transform.forward;
@@ -219,7 +221,6 @@ public class ChikitsPlayerController : MonoBehaviour
         float cosLimit = Mathf.Cos(grabMaxAngle * Mathf.Deg2Rad);
 
         float bestScore = float.MinValue;
-        IGrabbable bestGrab = null;
         Collider bestCol = null;
 
         foreach (Collider c in hits)
@@ -254,15 +255,26 @@ public class ChikitsPlayerController : MonoBehaviour
             if (score > bestScore)
             {
                 bestScore = score;
-                bestGrab = grab;
                 bestCol = c;
             }
         }
 
-        if (bestGrab == null || bestCol == null || holdPoint == null) return;
+        if (bestCol == null || holdPoint == null)
+        {
+            if (debugGrab) Debug.Log("[GRAB] No valid best collider found (angle/LOS filters).");
+            return;
+        }
 
-        grabbedObject = bestGrab;
-        grabbedMover = bestGrab as IGrabMoveable;
+        grabbedObject = bestCol.GetComponentInParent<IGrabbable>();
+        grabbedMover = bestCol.GetComponentInParent<IGrabMoveable>();
+
+        if (debugGrab)
+        {
+            string objName = bestCol.transform.root.name;
+            Debug.Log($"[GRAB] Selected: {objName} | has IGrabbable: {(grabbedObject != null)} | has IGrabMoveable: {(grabbedMover != null)}");
+        }
+
+        if (grabbedObject == null) return;
 
         Vector3 offsetWorld = facing * Vector3.Distance(transform.position, holdPoint.position);
         grabOffsetLocal = Quaternion.Inverse(transform.rotation) * offsetWorld;
@@ -282,14 +294,22 @@ public class ChikitsPlayerController : MonoBehaviour
 
     void MoveGrabbedObject()
     {
+        if (grabbedObject == null) return;
+
         if (grabbedMover == null)
+        {
+            if (debugGrab) Debug.Log("[GRAB] Holding something that can't move (IGrabMoveable is missing).");
             return;
+        }
 
         float moveAmount = Vector3.Dot(moveInput, grabDirection);
 
         Vector3 targetPos = transform.position
                             + grabDirection * grabDistance
                             + grabDirection * (moveAmount * grabMoveStrength);
+
+        if (debugGrab)
+            Debug.Log($"[GRAB] MoveTo called. moveAmount={moveAmount:0.00} target={targetPos}");
 
         grabbedMover.MoveTo(targetPos);
     }
@@ -305,10 +325,23 @@ public class ChikitsPlayerController : MonoBehaviour
         grabOffsetLocal = Vector3.zero;
         grabDirection = Vector3.zero;
         grabDistance = 0f;
+
+        if (debugGrab) Debug.Log("[GRAB] Released.");
     }
 
-    public void SetControlScheme(ControlScheme scheme)
+    void OnDrawGizmosSelected()
     {
-        controlScheme = scheme;
+        Vector3 origin = grabOrigin ? grabOrigin.position : transform.position;
+
+        Gizmos.matrix = Matrix4x4.identity;
+        Gizmos.DrawWireSphere(origin, grabRange);
+
+        Vector3 facing = lastMoveDirection.sqrMagnitude > 0.01f ? lastMoveDirection : transform.forward;
+        facing.y = 0f;
+        if (facing.sqrMagnitude > 0.001f)
+        {
+            facing.Normalize();
+            Gizmos.DrawLine(origin, origin + facing * grabRange);
+        }
     }
 }

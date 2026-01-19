@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\sokoban\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\rx660\\desktop\\fall 2025 tfs game jam\\placeholder\\main\\assets\\scripts\\igrabmoveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\igrabmoveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\assets\\phillips scripts\\chikitsplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\chikitsplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|c:\\users\\rx660\\desktop\\fall 2025 tfs game jam\\placeholder\\main\\assets\\phillips scripts\\chikitsplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\phillips scripts\\chikitsplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\assets\\scripts\\igrabmoveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\igrabmoveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD8BB905-17D1-AAA6-C8A2-213488C298D6}|Assembly-CSharp.csproj|C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\assets\\ethanscripts\\tutorial\\igrabbable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,14 +62,14 @@
               "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\Sokoban\\Box.cs",
               "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\Sokoban\\Box.cs",
               "RelativeToolTip": "Assets\\Phillips Scripts\\Sokoban\\Box.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAkwIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-31T22:57:00.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IGrabMoveable.cs",
               "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Scripts\\IGrabMoveable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IGrabMoveable.cs",
@@ -77,8 +77,7 @@
               "RelativeToolTip": "Assets\\Scripts\\IGrabMoveable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T22:56:22.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T22:56:22.202Z"
             },
             {
               "$type": "Document",
@@ -106,13 +105,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ChikitsPlayerController.cs",
               "DocumentMoniker": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\ChikitsPlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Phillips Scripts\\ChikitsPlayerController.cs",
               "ToolTip": "C:\\Users\\RX660\\Desktop\\Fall 2025 TFS Game Jam\\placeholder\\Main\\Assets\\Phillips Scripts\\ChikitsPlayerController.cs",
               "RelativeToolTip": "Assets\\Phillips Scripts\\ChikitsPlayerController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAjwDUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-31T22:30:50.72Z",
               "EditorCaption": ""
