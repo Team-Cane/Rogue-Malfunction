@@ -4,9 +4,15 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
+<<<<<<< HEAD
   m_CurrentQuality: 2
   m_QualitySettings:
   - serializedVersion: 5
+=======
+  m_CurrentQuality: 1
+  m_QualitySettings:
+  - serializedVersion: 4
+>>>>>>> Chikit-New
     name: Mobile
     pixelLightCount: 2
     shadows: 2
@@ -34,7 +40,10 @@ QualitySettings:
     adaptiveVsyncExtraA: 0
     adaptiveVsyncExtraB: 0
     lodBias: 1
+<<<<<<< HEAD
     meshLodThreshold: 1
+=======
+>>>>>>> Chikit-New
     maximumLODLevel: 0
     enableLODCrossFade: 1
     streamingMipmapsActive: 0
@@ -48,7 +57,12 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+<<<<<<< HEAD
     customRenderPipeline: {fileID: 11400000, guid: 5e6cbd92db86f4b18aec3ed561671858, type: 2}
+=======
+    customRenderPipeline: {fileID: 11400000, guid: 5e6cbd92db86f4b18aec3ed561671858,
+      type: 2}
+>>>>>>> Chikit-New
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -60,7 +74,11 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - Standalone
+<<<<<<< HEAD
   - serializedVersion: 5
+=======
+  - serializedVersion: 4
+>>>>>>> Chikit-New
     name: PC
     pixelLightCount: 2
     shadows: 2
@@ -88,7 +106,10 @@ QualitySettings:
     adaptiveVsyncExtraA: 0
     adaptiveVsyncExtraB: 0
     lodBias: 2
+<<<<<<< HEAD
     meshLodThreshold: 1
+=======
+>>>>>>> Chikit-New
     maximumLODLevel: 0
     enableLODCrossFade: 1
     streamingMipmapsActive: 0
@@ -102,6 +123,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+<<<<<<< HEAD
     customRenderPipeline: {fileID: 11400000, guid: 4b83569d67af61e458304325a23e5dfd, type: 2}
     terrainQualityOverrides: 0
     terrainPixelError: 1
@@ -158,6 +180,10 @@ QualitySettings:
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
     customRenderPipeline: {fileID: 11400000, guid: 4b83569d67af61e458304325a23e5dfd, type: 2}
+=======
+    customRenderPipeline: {fileID: 11400000, guid: 4b83569d67af61e458304325a23e5dfd,
+      type: 2}
+>>>>>>> Chikit-New
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
