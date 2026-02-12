@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class IsometricPlayerController : MonoBehaviour
+public class ChikitsPlayerController : MonoBehaviour
 {
     public enum ControlScheme
     {

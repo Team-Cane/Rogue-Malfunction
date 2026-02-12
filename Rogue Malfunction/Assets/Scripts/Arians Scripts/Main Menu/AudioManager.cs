@@ -18,7 +18,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioMixerGroup sfxGroup;
 
     [Header("Music")]
-    [SerializeField] private string mainMenuSceneName = "MainMenu";
+    [SerializeField] private string mainMenuSceneName = "Main Menu";
 
     [SerializeField] private AudioClip mainMenuMusic;
     [SerializeField, Range(0f, 1f)] private float mainMenuMusicVolume = 0.8f;
@@ -31,10 +31,23 @@ public class AudioManager : MonoBehaviour
     [Header("Scene Audio Library (Random Loop Clips Per Scene)")]
     [SerializeField] private SceneAudioBank[] scenes;
 
-    [Header("Universal Death SFX")]
+    [Header("Universal Death SFX / VO")]
     [SerializeField] private AudioClip[] deathClips;
     [SerializeField, Range(0f, 1f)] private float deathVolume = 1f;
     [SerializeField] private Vector2 deathPitchRange = new Vector2(1f, 1f);
+
+    [Header("Global Volumes (for Settings UI)")]
+    [SerializeField, Range(0f, 1f)] private float masterVolume = 1f;
+    [SerializeField, Range(0f, 1f)] private float musicVolume = 1f;
+    [SerializeField, Range(0f, 1f)] private float sfxVolume = 1f;
+
+    private const string MasterKey = "Audio_Master";
+    private const string MusicKey = "Audio_Music";
+    private const string SfxKey = "Audio_SFX";
+
+    public float MasterVolume => masterVolume;
+    public float MusicVolume => musicVolume;
+    public float SfxVolume => sfxVolume;
 
     Coroutine sceneLoopRoutine;
 
@@ -43,7 +56,7 @@ public class AudioManager : MonoBehaviour
     {
         public string sceneName;
 
-        [Header("Random Scene Loop Clips")]
+        [Header("Random Scene Loop Clips (VO / ambience)")]
         public AudioClip[] loopClips;
         [Range(0f, 1f)] public float loopVolume = 1f;
         public Vector2 loopPitchRange = new Vector2(1f, 1f);
@@ -54,6 +67,8 @@ public class AudioManager : MonoBehaviour
         [Tooltip("If true, waits one gap before the first clip plays.")]
         public bool delayFirst = false;
     }
+
+    // ---------------- LIFECYCLE ----------------
 
     void Awake()
     {
@@ -66,6 +81,7 @@ public class AudioManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
+        // Ensure sources exist
         if (!musicSource) musicSource = gameObject.AddComponent<AudioSource>();
         if (!sceneLoopSource) sceneLoopSource = gameObject.AddComponent<AudioSource>();
         if (!sfxSource) sfxSource = gameObject.AddComponent<AudioSource>();
@@ -83,8 +99,12 @@ public class AudioManager : MonoBehaviour
         if (sceneLoopGroup) sceneLoopSource.outputAudioMixerGroup = sceneLoopGroup;
         if (sfxGroup) sfxSource.outputAudioMixerGroup = sfxGroup;
 
+        LoadVolumes();
+        ApplyGlobalVolumes();
+
         SceneManager.sceneLoaded += OnSceneLoaded;
 
+        // Apply for current scene (in case you start directly in a game scene)
         ApplyForScene(SceneManager.GetActiveScene().name);
     }
 
@@ -98,6 +118,70 @@ public class AudioManager : MonoBehaviour
     {
         ApplyForScene(scene.name);
     }
+
+    // ---------------- VOLUME PERSISTENCE ----------------
+
+    void LoadVolumes()
+    {
+        masterVolume = PlayerPrefs.GetFloat(MasterKey, 1f);
+        musicVolume = PlayerPrefs.GetFloat(MusicKey, 1f);
+        sfxVolume = PlayerPrefs.GetFloat(SfxKey, 1f);
+    }
+
+    void SaveVolumes()
+    {
+        PlayerPrefs.SetFloat(MasterKey, masterVolume);
+        PlayerPrefs.SetFloat(MusicKey, musicVolume);
+        PlayerPrefs.SetFloat(SfxKey, sfxVolume);
+        PlayerPrefs.Save();
+    }
+
+    void ApplyGlobalVolumes()
+    {
+        AudioListener.volume = masterVolume;
+
+        if (musicSource != null)
+            musicSource.volume = masterVolume * musicVolume * GetBaseMusicVolumeForCurrentClip();
+
+        if (sceneLoopSource != null)
+            sceneLoopSource.volume = masterVolume * sfxVolume * sceneLoopSource.volume; // gets overridden when loops start
+
+        if (sfxSource != null)
+            sfxSource.volume = masterVolume * sfxVolume;
+    }
+
+    float GetBaseMusicVolumeForCurrentClip()
+    {
+        if (musicSource.clip == mainMenuMusic)
+            return mainMenuMusicVolume;
+        if (musicSource.clip == globalGameMusic)
+            return globalGameMusicVolume;
+        return 1f;
+    }
+
+    // Public setters used by your Settings UI
+    public void SetMasterVolume(float value)
+    {
+        masterVolume = Mathf.Clamp01(value);
+        ApplyGlobalVolumes();
+        SaveVolumes();
+    }
+
+    public void SetMusicVolume(float value)
+    {
+        musicVolume = Mathf.Clamp01(value);
+        ApplyGlobalVolumes();
+        SaveVolumes();
+    }
+
+    public void SetSfxVolume(float value)
+    {
+        sfxVolume = Mathf.Clamp01(value);
+        ApplyGlobalVolumes();
+        SaveVolumes();
+    }
+
+    // ---------------- SCENE AUDIO ----------------
 
     void ApplyForScene(string sceneName)
     {
@@ -116,7 +200,7 @@ public class AudioManager : MonoBehaviour
         ApplyMusicNoRestart(globalGameMusic, globalGameMusicVolume, globalGameMusicPitch);
     }
 
-    void ApplyMusicNoRestart(AudioClip clip, float volume, float pitch)
+    void ApplyMusicNoRestart(AudioClip clip, float baseVolume, float pitch)
     {
         if (!clip)
         {
@@ -126,9 +210,11 @@ public class AudioManager : MonoBehaviour
 
         bool needsClipSwap = musicSource.clip != clip;
 
-        musicSource.volume = Mathf.Clamp01(volume);
         musicSource.pitch = Mathf.Clamp(pitch, -3f, 3f);
         musicSource.loop = true;
+
+        // effective volume = baseVolume * master * music bus
+        musicSource.volume = Mathf.Clamp01(baseVolume) * masterVolume * musicVolume;
 
         if (needsClipSwap)
         {
@@ -163,11 +249,15 @@ public class AudioManager : MonoBehaviour
             if (clip)
             {
                 sceneLoopSource.pitch = Mathf.Clamp(Random.Range(bank.loopPitchRange.x, bank.loopPitchRange.y), -3f, 3f);
-                sceneLoopSource.volume = Mathf.Clamp01(bank.loopVolume);
+
+                // effective volume = loopVolume * master * sfx
+                sceneLoopSource.volume = Mathf.Clamp01(bank.loopVolume) * masterVolume * sfxVolume;
+
                 sceneLoopSource.clip = clip;
                 sceneLoopSource.Play();
 
-                yield return new WaitForSeconds(clip.length / Mathf.Max(0.01f, Mathf.Abs(sceneLoopSource.pitch)));
+                float length = clip.length / Mathf.Max(0.01f, Mathf.Abs(sceneLoopSource.pitch));
+                yield return new WaitForSeconds(length);
             }
             else
             {
@@ -204,10 +294,25 @@ public class AudioManager : MonoBehaviour
         return null;
     }
 
+    // ---------------- PUBLIC API ----------------
+
     public void StopMusic()
     {
         musicSource.Stop();
         musicSource.clip = null;
+    }
+
+    // Keep these so your MainMenuUI code still compiles,
+    // even though music already follows scenes automatically.
+    public void PlayMainMenuMusic()
+    {
+        ApplyMusic(mainMenuSceneName);
+    }
+
+    public void PlayGameMusic()
+    {
+        // Any scene name that isn't the main menu will select game music
+        ApplyMusic("GameScene");
     }
 
     public void PlayDeathSfx()
@@ -216,8 +321,20 @@ public class AudioManager : MonoBehaviour
         if (!clip) return;
 
         sfxSource.pitch = Mathf.Clamp(Random.Range(deathPitchRange.x, deathPitchRange.y), -3f, 3f);
-        sfxSource.PlayOneShot(clip, Mathf.Clamp01(deathVolume));
+
+        float effectiveVolume = Mathf.Clamp01(deathVolume) * masterVolume * sfxVolume;
+        sfxSource.PlayOneShot(clip, effectiveVolume);
     }
+
+    public void PlaySfx(AudioClip clip, float volumeMultiplier = 1f)
+    {
+        if (!clip) return;
+
+        float effectiveVolume = Mathf.Clamp01(volumeMultiplier) * masterVolume * sfxVolume;
+        sfxSource.PlayOneShot(clip, effectiveVolume);
+    }
+
+    // ---------------- UTIL ----------------
 
     static AudioClip PickRandom(AudioClip[] clips)
     {
