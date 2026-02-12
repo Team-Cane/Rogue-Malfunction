@@ -8,13 +8,11 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
 
     private Rigidbody rb;
     private bool isGrabbed;
-    private Vector3 grabOffset;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
 
-        // ✅ Kinematic by default so player collisions don't move it
         rb.isKinematic = true;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
@@ -24,24 +22,16 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
     {
         isGrabbed = true;
 
-        // Compute grab offset
-        grabOffset = transform.position - holder.position;
-
-        // Freeze rotation while grabbed
         rb.constraints = RigidbodyConstraints.FreezeRotation;
-
-        // Make kinematic false only for MovePosition-based collision
         rb.isKinematic = false;
     }
 
     public void MoveTo(Vector3 targetPosition)
     {
-        if (!isGrabbed)
-            return;
+        if (!isGrabbed) return;
 
         targetPosition.y = rb.position.y;
 
-        // Move the object with collisions respected
         Vector3 newPos = Vector3.Lerp(
             rb.position,
             targetPosition,
@@ -55,10 +45,7 @@ public class GrabbableObject : MonoBehaviour, IGrabbable
     {
         isGrabbed = false;
 
-        // Make kinematic again to prevent physics pushing
         rb.isKinematic = true;
-
-        // Unlock rotation
         rb.constraints = RigidbodyConstraints.None;
     }
 }

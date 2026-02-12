@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6553849214126308534}
   - component: {fileID: 2903975540403186050}
   - component: {fileID: 9189637954245470540}
-  - component: {fileID: 1895456595352146633}
+  - component: {fileID: 8565043034768951632}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -144,7 +144,7 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &1895456595352146633
+--- !u!114 &8565043034768951632
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,12 +153,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1595686393249158490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51c3b5b545a9ec94786bed3f62baf651, type: 3}
+  m_Script: {fileID: 11500000, guid: 1bd5dc39cb7c6f84ca44e6124a19075f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IsometricPlayerController
-  moveSpeed: 9.5
-  acceleration: 25
+  moveSpeed: 6
+  acceleration: 15
   rotationSpeed: 12
+  airControlPercent: 0.35
+  airAccelerationMultiplier: 0.5
   jumpForce: 6
   groundCheck: {fileID: 7009940351082790369}
   groundCheckRadius: 0.25
@@ -166,10 +168,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   holdPoint: {fileID: 918577385307508032}
-  grabRange: 2
+  grabRange: 1.2
   interactLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 192
+  inputSmoothing: 10
 --- !u!1 &2534539733618513557
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,7 +229,7 @@ Transform:
   m_GameObject: {fileID: 3091836713961052074}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2.09}
+  m_LocalPosition: {x: 0, y: 0, z: 1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

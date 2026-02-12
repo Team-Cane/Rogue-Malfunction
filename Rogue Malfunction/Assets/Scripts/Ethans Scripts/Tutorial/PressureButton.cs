@@ -10,8 +10,8 @@ public class PressureButton : MonoBehaviour
     public float pressedHeight = 0.05f;
     public float pressSpeed = 8f;
 
-    [Header("Connected Door")]
-    public Door connectedDoor;
+    [Header("Connected Doors")]
+    public Door[] connectedDoors;   // <-- CHANGED
 
     private int boxCount;
     private Vector3 initialButtonPos;
@@ -44,12 +44,18 @@ public class PressureButton : MonoBehaviour
     {
         bool pressed = boxCount > 0;
 
-        if (connectedDoor != null)
+        if (connectedDoors == null)
+            return;
+
+        foreach (Door door in connectedDoors)
         {
+            if (door == null)
+                continue;
+
             if (pressed)
-                connectedDoor.Open();
+                door.Open();
             else
-                connectedDoor.Close();
+                door.Close();
         }
     }
 

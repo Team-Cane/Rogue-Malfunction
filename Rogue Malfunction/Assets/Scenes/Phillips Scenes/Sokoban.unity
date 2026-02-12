@@ -1283,6 +1283,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 849960783}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &304138717 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3907679614406300944, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
+  m_PrefabInstance: {fileID: 515742188}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &306596444
 GameObject:
   m_ObjectHideFlags: 0
@@ -3414,6 +3419,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.7
       objectReference: {fileID: 0}
+    - target: {fileID: 4663315764824749517, guid: c93b2b5f8e27e484a8a6ff070b873306, type: 3}
+      propertyPath: startingCheckpoint
+      value: 
+      objectReference: {fileID: 304138717}
     - target: {fileID: 8483532982029621276, guid: c93b2b5f8e27e484a8a6ff070b873306, type: 3}
       propertyPath: grabRange
       value: 0.25
@@ -3859,7 +3868,6 @@ MonoBehaviour:
   enableLookAhead: 1
   lookAheadStrength: 2
   obstacleLayers:
-    serializedVersion: 2
     m_Bits: 256
   collisionPushAmount: 0.5
   minCameraHeight: 2

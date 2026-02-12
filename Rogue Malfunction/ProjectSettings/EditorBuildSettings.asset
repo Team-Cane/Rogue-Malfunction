@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Arian/Main Menu.unity
+    guid: 125235b50dc46474395da3ac9019b3ed
+  - enabled: 1
     path: Assets/Scenes/Ethan/Tutorial.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Phillips Scenes/TilePuzzleScene.unity
+    path: Assets/Scenes/Phillips Scenes/Tiles.unity
     guid: f190b30b96e07aa41b7ad9871b823ac2
   - enabled: 1
-    path: Assets/Scenes/Phillips Scenes/SokobanPuzzleScene.unity
+    path: Assets/Scenes/Phillips Scenes/Sokoban.unity
     guid: 71fddff673ce6d649a39c8348d736aee
+  - enabled: 1
+    path: Assets/Scenes/Arian/Sequencer Puzzle.unity
+    guid: ccb7c7c7197e14942ba889f61d8e6e04
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
