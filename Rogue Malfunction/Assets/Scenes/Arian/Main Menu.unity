@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -470, y: -350}
+  m_AnchoredPosition: {x: -470, y: -200}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7602311
@@ -617,7 +617,7 @@ MonoBehaviour:
     loopPitchRange: {x: 1, y: 1}
     gapBetweenClipsSeconds: 30
     delayFirst: 0
-  - sceneName: TilePuzzleScene
+  - sceneName: Tiles
     loopClips:
     - {fileID: 8300000, guid: 066b01cd25d5a2041a092279a12432c1, type: 3}
     - {fileID: 8300000, guid: 81629115ce2642245a563ca43b6e7844, type: 3}
@@ -626,7 +626,7 @@ MonoBehaviour:
     loopPitchRange: {x: 1, y: 1}
     gapBetweenClipsSeconds: 30
     delayFirst: 0
-  - sceneName: SokobanPuzzleScene
+  - sceneName: Sokoban
     loopClips:
     - {fileID: 8300000, guid: e8545594a5e1f4942b7625cf1ca69b77, type: 3}
     - {fileID: 8300000, guid: 02ae990000d31974e8fc65c61a1f3fbd, type: 3}
@@ -635,7 +635,7 @@ MonoBehaviour:
     loopPitchRange: {x: 1, y: 1}
     gapBetweenClipsSeconds: 30
     delayFirst: 0
-  - sceneName: Sequencer Puzzle
+  - sceneName: Sequencer
     loopClips:
     - {fileID: 8300000, guid: f3ff2cc4844ff1243afdc4130d83402d, type: 3}
     - {fileID: 8300000, guid: aae33092a267b9b4d9a0b2350587f434, type: 3}
@@ -1394,7 +1394,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &587729023
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1681,7 +1681,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &772791987
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2820,7 +2820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8753699524493468770, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8900671683736538497, guid: 2aab01420ff14784c8d8a1bd31a73d65, type: 3}
       propertyPath: m_Pivot.x
@@ -3018,7 +3018,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -470, y: -200}
+  m_AnchoredPosition: {x: -470, y: -350}
   m_SizeDelta: {x: 250, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1741548410
