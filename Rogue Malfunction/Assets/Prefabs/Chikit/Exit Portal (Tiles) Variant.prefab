@@ -76,16 +76,16 @@ PrefabInstance:
       propertyPath: sceneName
       value: Sokoban
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6627961710165026247, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
+    - {fileID: 8920814548879954493, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
+    - {fileID: 5664928802152534815, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3992058561654064293, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5510801633741011281}
-    - targetCorrespondingSourceObject: {fileID: 3992058561654064293, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1787428709636494891}
   m_SourcePrefab: {fileID: 100100000, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
 --- !u!1 &6293527895499508666 stripped
 GameObject:
@@ -113,20 +113,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.0591893, y: 2.4618464, z: 0.6516072}
   m_Center: {x: 0.0098518785, y: 0.015516772, z: -0.02916013}
---- !u!114 &1787428709636494891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6293527895499508666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 705da0c770e00a341878f953c3c3b9b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScenePortal
-  sceneName: Sokoban
-  triggerGateSeconds: 0.75
-  validLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295

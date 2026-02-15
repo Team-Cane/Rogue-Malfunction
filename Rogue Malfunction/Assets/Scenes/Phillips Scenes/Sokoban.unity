@@ -9197,7 +9197,7 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3147464148611794425, guid: 1920365c390b61a45b09cd7d594ac45c, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -9246,8 +9246,8 @@ PrefabInstance:
       value: Entry Portal (Sokoban)
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 3147464148611794425, guid: 1920365c390b61a45b09cd7d594ac45c, type: 3}
-    - {fileID: 835506146456252931, guid: 1920365c390b61a45b09cd7d594ac45c, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9303,10 +9303,6 @@ PrefabInstance:
     - target: {fileID: 5736234907293500730, guid: ee2c1d2bd2a994547be68e4cb0c0e012, type: 3}
       propertyPath: m_Name
       value: Exit Portal (Sokoban)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5736234907293500730, guid: ee2c1d2bd2a994547be68e4cb0c0e012, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
